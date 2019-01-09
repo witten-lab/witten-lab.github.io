@@ -1,0 +1,69 @@
+---
+layout: page
+title: Contact
+categories: Support
+sub-nav: sub-nav-support.html
+ads: true
+---
+<div id="thanks" style="display: none">
+    <h4>Thank you for contacting us.</h4>
+    <p>If necessary, we will get in touch with you within 48 hours.<!--We cannot respond to every one of the requests we receive, but it doesn't mean we're not thinking about you.--></p>
+</div>
+<form id="form" action="https://script.google.com/macros/s/AKfycbyVn1VP9vGMX_rps49FDDF2mmLcQhvNMb-UBBBkJwemJ0CIR1TZ/exec" method="POST">
+    <p>If you have a question, please check the <a href="/superstring/faq">Superstring FAQ</a> and <a href="/superstring/faq">Membrane FAQ</a> for an answer before you contact us.</p>
+    <hr>
+    <div class="form-group">
+        <label>Email address*</label>
+        <input type="email" class="form-control" name="emailAddress" id="emailAddress" required>
+    </div>
+    <div class="form-group">
+        <label>Subject *</label>
+        <input type="text" class="form-control" name="subject" id="subject" required>
+    </div>
+    <div class="form-group">
+        <label>Message *</label>
+        <textarea class="form-control" rows="5" name="message" id="message" required></textarea>
+    </div>
+    <div class="row" id="options">
+        <div class="col-lg-6">
+            <div class="form-group">
+                <label>Which app are you using?</label>
+                <div class="row margin-top-sm">
+                    <label class="radio">
+                        <input type="radio" name="product" value="Superstring" id="Superstring">
+                        <span class="radiomark"></span>Superstring
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="product" value="Membrane" id="Membrane">
+                        <span class="radiomark"></span><label for="Membrane">Membrane</label>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group">
+                <label>Which platform are you using?</label>
+                <div class="row margin-top-sm">
+                    <label class="radio">
+                        <input type="radio" name="platform" value="Mac" id="Mac">
+                        <span class="radiomark"></span><label for="Mac">Mac</label>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="platform" value="Windows" id="Windows">
+                        <span class="radiomark"></span><label for="Windows">Windows</label>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="checkbox">
+            <input type="checkbox" name="subscription" id="subscription" checked> 
+            <span class="checkmark"></span>Send me news and updates.
+        </label>
+    </div>
+    <hr>
+    <button type="submit" class="btn" onclick="submitForm()" id="submitButton">Submit</button>
+</form>
+<iframe name="hiddenFrame" id="hiddenFrame" style="display:none"></iframe>
+<script src="/assets/js/contact.js"></script>

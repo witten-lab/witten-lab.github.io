@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="sub-header">
+    <div class="container">
+        <div class="sub-page-title">
+            {% if page.lang %}<h4><a href="/{{page.lang}}/{% if page.parent %}{{page.parent | downcase}}{% else %}{{page.categories | downcase}}{% endif %}">{{page.categories}}</a></h4>
+        </div>
+        {% if page.sub-nav %}{% include {{page.lang}}/{{page.sub-nav}} %}{% endif %}{% else %}<h4><a href="/{% if page.parent %}{{page.parent | downcase}}{% else %}{{page.categories | downcase}}{% endif %}">{{page.categories}}</a></h4>
+    </div>
+    {% if page.sub-nav %}{% include {{page.sub-nav}} %}{% endif %}{% endif %}
+</div>
+<div class="container content">
+    <hr class="hr-none-md"> {{content}}
+</div>
+<div class="spacing-double"></div>
+{% if page.ads %}
+<div class="bottom-area">
+    <div class="container">
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7515886179474322" data-ad-slot="6479388898" data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+
+        </script>
+    </div>
+</div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+{% endif %}

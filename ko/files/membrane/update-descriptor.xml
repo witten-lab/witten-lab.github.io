@@ -1,0 +1,14 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8" ?>
+<update>
+    <versionNumber>{{site.membrane[0].version}}</versionNumber>
+    <mac>{{site.membrane[0].mac}}</mac>
+    <windows>{{site.membrane[0].windows}}</windows>
+    <updates>
+        {% for content in site.membrane[0].contents_ko %}
+        <item>{{content.content}}</item>
+        {% endfor %}
+    </updates>
+</update>

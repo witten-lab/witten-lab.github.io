@@ -1,0 +1,17 @@
+---
+lang: ko
+layout: page
+title: Blog
+categories: 지원
+parent: Support
+sub-nav: sub-nav-support.html
+ads: true
+---
+{% for post in site.posts %}{% if post.lang == page.lang %}
+{% if forloop.first == false %}<hr>{% endif %}
+<a href="{{post.url | prepend: site.url}}"><h4>{{post.post-title}}</h4></a>
+<small name="locale-date">{{post.date | date: "%b %-d, %Y"}}</small>
+<div class="spacing-sm"></div>
+{{post.excerpt}}
+{% endif %}{% endfor %}
+<script src="/assets/js/locale-date.js"></script>

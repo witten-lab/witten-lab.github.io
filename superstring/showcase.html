@@ -1,0 +1,30 @@
+---
+layout: page
+title: Showcase
+categories: Superstring
+sub-nav: sub-nav-superstring.html
+ads: true
+---
+<a href="/support/contact?subject=Submit a lyric video.&messageplaceholder=Please leave your YouTube video url.&options=no">Submit your lyric video</a>
+<hr class="hr">
+{% for video in site.superstring_showcase %}
+{% assign loopindex = forloop.index %}
+  {% if loopindex != 1 %}<hr>
+{% endif %}
+<div class="row">
+    <div class="col-lg-7">
+        <iframe width="560" height="315" src="http://www.youtube.com/embed/{{video.youtube}}?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+    </div>
+    <div class="col-lg-5">
+        <h4>{{video.song}}</h4>
+        <p>by {{video.artist}}</p>
+    </div>
+</div>
+{% endfor %}
+<script src="/assets/js/jquery.fitvids.js"></script>
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".container").fitVids();
+  });
+</script>

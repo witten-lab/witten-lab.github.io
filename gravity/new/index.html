@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+    <title>Graviton</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,700">
+    <style>
+        body {
+            margin: 0;
+            height: 100%;
+            font-family: "Google Sans", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        input:-webkit-autofill:active {
+            transition: background-color 5000s ease-in-out 0s;
+        }
+
+        input {
+            width: 50%;
+            height: 48px;
+            padding: 0px 24px;
+            margin: 48px 0 24px 0;
+            font-size: 16px;
+            color: rgba(0, 0, 0, .87);
+            background-color: #f5f5f5;
+            border: none;
+            border-radius: 48px;
+            outline: none;
+        }
+
+        img {
+            width: 50%;
+        }
+
+        .products {
+            text-align: center;
+        }
+
+        .products .product-icon-list {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin: 0 .875rem;
+            padding: 4px 0 20px;
+        }
+
+        .products .product-icon-list:after {
+            clear: both;
+            content: '';
+            display: table;
+        }
+
+        @media (min-width:600px) {
+            .products .product-icon-list {
+                margin: 0 1.25rem;
+                margin: 0 48px;
+            }
+        }
+
+        .products .product-icon-list h4 {
+            padding: 16px 4%;
+        }
+
+        .products .product-icon-list li {
+            float: left;
+            margin: 2%;
+            text-align: center;
+            width: 46%;
+            list-style-type: none;
+        }
+
+        @media (min-width:600px) {
+            .products .product-icon-list li {
+                width: 21%;
+            }
+        }
+
+        @media (min-width:1024px) {
+            .products .product-icon-list li {
+                width: 12.66667%;
+            }
+        }
+
+        .products .product-icon-list li a {
+            display: block;
+            text-decoration: none;
+            -webkit-transition: transform .25s ease-in-out;
+            -moz-transition: transform .25s ease-in-out;
+            -o-transition: transform .25s ease-in-out;
+            -ms-transition: transform .25s ease-in-out;
+            transition: transform .25s ease-in-out;
+        }
+
+        .products .product-icon-list li a:hover {
+            transform: translateY(-4px);
+        }
+
+        .products .product-icon-list li a p {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            color: rgba(0, 0, 0, .6);
+            margin: 0;
+        }
+
+        #ad {
+            margin: 48px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="products">
+        <script>
+            function onsubm(form) {
+                var pattern = /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/;
+                var value = form.elements["q"].value;
+                if (pattern.test(value)) {
+                    if (value.indexOf("http") != 0) document.location = "http://" + value;
+                    else document.location = value;
+                    return false;
+                }
+            }
+
+        </script>
+        <form onsubmit="return onsubm(this)" action="https://www.google.com/search">
+            <input name="q" placeholder="Search Google or type a URL">
+        </form>
+        <ul class="product-icon-list">
+            <li>
+                <a href="https://mail.google.com/mail/u/0/#inbox">
+                    <img src="./img/mail.png">
+                    <p>Mail</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://keep.google.com/">
+                    <img src="./img/keep.png">
+                    <p>Keep</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://calendar.google.com/">
+                    <img src="./img/calendar.png">
+                    <p>Calendar</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://translate.google.com/">
+                    <img src="./img/translate.png">
+                    <p>Translate</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://contacts.google.com/">
+                    <img src="./img/contacts.png">
+                    <p>Contacts</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://messages.android.com/">
+                    <img src="./img/messages.png">
+                    <p>Messages</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://maps.google.com/">
+                    <img src="./img/maps.png">
+                    <p>Maps</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://photos.google.com/">
+                    <img src="./img/photos.png">
+                    <p>Photos</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://youtube.com/">
+                    <img src="./img/youtube.png">
+                    <p>YouTube</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://drive.google.com/">
+                    <img src="./img/drive.png">
+                    <p>Drive</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/document/">
+                    <img src="./img/docs.png">
+                    <p>Docs</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/spreadsheets/">
+                    <img src="./img/sheets.png">
+                    <p>Sheets</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/presentation/">
+                    <img src="./img/slides.png">
+                    <p>Slides</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/forms/">
+                    <img src="./img/forms.png">
+                    <p>Forms</p>
+                </a>
+            </li>
+        </ul>
+        <div id="ad">
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7515886179474322" data-ad-slot="6479388898" data-ad-format="auto"></ins>
+            <script>
+                var parameters = {};
+                var query = window.location.search.substring(1);
+                var vars = query.split("&");
+                for (var i = 0; i < vars.length; i++) {
+                    var pair = vars[i].split("=");
+                    if (typeof parameters[pair[0]] === "undefined") {
+                        parameters[pair[0]] = pair[1];
+                    } else if (typeof parameters[pair[0]] === "string") {
+                        var arr = [parameters[pair[0]], pair[1]];
+                        parameters[pair[0]] = arr;
+                    } else {
+                        parameters[pair[0]].push(pair[1]);
+                    }
+                }
+
+                if (parameters.ad) {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                }
+
+            </script>
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

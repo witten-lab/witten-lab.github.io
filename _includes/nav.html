@@ -1,0 +1,48 @@
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Witten <span style="font-weight:400">Lab</span></a>
+            <div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+            <ul class="nav">
+                <li {% if page.categories=="Superstring" %}class="active" {% endif %}><a href="/superstring" data-hover="dropdown"><img src="/assets/img/superstring/icon_256x256.png" alt="Superstring">Superstring</a>
+                    <ul class="dropdown-menu list-group">
+                        <li><a href="/superstring">Overview</a></li>
+                        <!--<li role="separator" class="divider"></li>-->
+                        <li><a href="/superstring/download">Download</a></li>
+                        <li><a href="/superstring/pricing">Pricing</a></li>
+                        <li><a href="/superstring/get-started">Get started</a></li>
+                        <li><a href="/superstring/faq">FAQ</a></li>
+                        <!--<li><a href="/superstring/shortcuts">Shortcuts</a></li>-->
+                    </ul>
+                </li>
+                <li {% if page.categories=="Membrane" %}class="active" {% endif %}><a href="/membrane" data-hover="dropdown"><img src="/assets/img/membrane/icon_256x256.png" alt="Membrane">Membrane</a>
+                    <ul class="dropdown-menu list-group">
+                        <li><a href="/membrane">Overview</a></li>
+                        <!--<li role="separator" class="divider"></li>-->
+                        <li><a href="/membrane/download">Download</a></li>
+                        <li><a href="/membrane/pricing">Pricing</a></li>
+                        <li><a href="/membrane/get-started">Get started</a></li>
+                        <li><a href="/membrane/faq">FAQ</a></li>
+                        <!--<li><a href="/membrane/shortcuts">Shortcuts</a></li>-->
+                    </ul>
+                </li>
+                <li {% if page.categories=="Support" %}class="active" {% endif %}><a href="/support" data-hover="dropdown">Support</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/support">About</a></li>
+                        <li><a href="/support/contact">Contact</a></li>
+                        <li><a href="/support/affiliates">Affiliates</a></li>
+                        <li><a href="/support/blog">Blog</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

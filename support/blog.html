@@ -1,0 +1,14 @@
+---
+layout: page
+title: Blog
+categories: Support
+sub-nav: sub-nav-support.html
+ads: true
+---
+{% for post in site.posts %}{% if post.lang == null %}
+<a href="{{post.url | prepend: site.url}}"><h4>{{post.post-title}}</h4></a>
+<small>{{post.date | date: "%b %-d, %Y"}}</small>
+<div class="spacing-sm"></div>
+{{post.excerpt}}
+{% if forloop.last == false %}<hr>{% endif %}
+{% endif %}{% endfor %}

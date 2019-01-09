@@ -1,0 +1,39 @@
+---
+layout: page
+title: Updates
+categories: Superstring
+sub-nav: sub-nav-superstring.html
+ads: true
+---
+<div id="expired" style="display: none">
+    <div class="row">
+        <div class="col-lg-9">
+            <p>Your license has expired on <strong id="date"></strong>, so you won't receive updates after <strong id="version"></strong>.
+                <br>Renew your license to receive updates for another 1 year.</p>
+        </div>
+        <div class="col-lg-3 righted">
+            <a href="/superstring/pricing" class="btn" style="margin-left:8px"><i class="material-icons">credit_card</i> Buy $39.99</a>
+        </div>
+    </div>
+    <hr>
+</div>
+{% for update in site.superstring %}
+{% if forloop.first == false %}<hr>{% endif %}
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/assets/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-4">
+        <h4 name="version">Version {{update.version}}</h4>
+        <small name="locale-date">{{update.release_date}}</small>
+        <br>
+        <small><a href="{{update.mac}}">Mac</a>, <a href="{{update.windows}}">Windows</a></small>
+    </div>
+    <div class="col-lg-7">
+        {% for content in update.contents %}
+        <li>{{content.content}}</li>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+<script src="/assets/js/updates.js"></script>

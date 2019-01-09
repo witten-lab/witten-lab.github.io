@@ -1,0 +1,33 @@
+---
+layout: page
+title: Download
+categories: Membrane
+sub-nav: sub-nav-membrane.html
+ads: true
+---
+<iframe id="download" src="" height="0" width="0" style="display:none"></iframe>
+<div class="centered">
+    <div class="spacing-double"></div>
+    <img src="/assets/img/membrane/icon_256x256.png" width="128px">
+    <div class="visible-lg">
+        <h3>Downloading…</h3>
+        <div class="spacing"></div>
+        <p>If download doesn't start automatically,<br>You can download Membrane for <a href="{{site.membrane[0].mac}}"><i class="fab fa-apple"></i> Mac</a> or <a href="{{site.membrane[0].windows}}"><i class="fab fa-windows"></i> Windows</a>.</p>
+        <div class="spacing"></div>
+    </div>
+    <div class="hidden-lg spacing-padding-bottom">
+        <div class="spacing"></div>
+        <p><i class="material-icons">info_outline</i> Membrane is a Mac & Windows app.<br>To download Membrane, please visit this URL on your Mac or Windows PC.</p>
+    </div>
+    <!--
+    <div style="width:40px;margin:auto"><hr></div>
+    <small>Also available on the <a href="https://itunes.apple.com/app/membrane-pro/id1086132558?ls=1&mt=12" target="_blank">Mac App Store</a>.</small>
+    -->
+</div>
+<script>
+    fbq('track', 'Lead');
+    $(document).ready(function() {
+        if (0 === navigator.platform.toUpperCase().indexOf("MAC")) document.getElementById('download').src = "{{site.membrane[0].mac}}"
+        else if (0 === navigator.platform.toUpperCase().indexOf("WIN")) document.getElementById('download').src = "{{site.membrane[0].windows}}";
+    });
+</script>

@@ -1,0 +1,21 @@
+---
+layout: page
+title: Unsubscribe
+categories: Support
+sub-nav: sub-nav-support.html
+ads: true
+---
+<div id="thanks" style="display:none">
+    <h4>Unsubscribe Successful.</h4>
+    <p>You have been removed from Witten Lab newsletter.</p>
+</div>
+<div id="unsubscribe">
+    <p>Enter your email to unsubscribe from Witten Lab newsletter.</p>
+</div>
+<div class="spacing"></div>
+<form id="form" action="https://script.google.com/macros/s/AKfycbwZ9EGv8HmjkYwnbr8hthoWQNSQ54TnmS5AD_uueAByej6di_Xb/exec" method="POST">
+    <input type="email" class="form-control subscribe" name="emailAddress" id="emailAddress" placeholder="Email address" required>
+    <button type="submit" class="btn" onclick="submitForm()">Unsubscribe</button>
+</form>
+<iframe name="hiddenFrame" id="hiddenFrame" style="display:none"></iframe>
+<script src="/assets/js/unsubscribe.js"></script>

@@ -1,0 +1,44 @@
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/ko">Witten <span style="font-weight:400">Lab</span></a>
+            <div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+            <ul class="nav">
+                <li {% if page.categories=="Superstring" %}class="active" {% endif %}><a href="/ko/superstring" data-hover="dropdown"><img src="/assets/img/superstring/icon_256x256.png" alt="Superstring">Superstring</a>
+                    <ul class="dropdown-menu list-group">
+                        <li><a href="/ko/superstring">개요</a></li>
+                        <li><a href="/ko/superstring/download">다운로드</a></li>
+                        <li><a href="/ko/superstring/pricing">가격</a></li>
+                        <li><a href="/ko/superstring/get-started">시작하기</a></li>
+                        <li><a href="/ko/superstring/faq">자주하는 질문</a></li>
+                    </ul>
+                </li>
+                <li {% if page.categories=="Membrane" %}class="active" {% endif %}><a href="/ko/membrane" data-hover="dropdown"><img src="/assets/img/membrane/icon_256x256.png" alt="Membrane">Membrane</a>
+                    <ul class="dropdown-menu list-group">
+                        <li><a href="/ko/membrane">개요</a></li>
+                        <li><a href="/ko/membrane/download">다운로드</a></li>
+                        <li><a href="/ko/membrane/pricing">가격</a></li>
+                        <li><a href="/ko/membrane/get-started">시작하기</a></li>
+                        <li><a href="/ko/membrane/faq">자주하는 질문</a></li>
+                    </ul>
+                </li>
+                <li {% if page.categories=="지원" %}class="active" {% endif %}><a href="/ko/support" data-hover="dropdown">지원</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/ko/support">소개</a></li>
+                        <li><a href="/ko/support/contact">문의</a></li>
+                        <li><a href="/ko/support/affiliates">제휴</a></li>
+                        <li><a href="/ko/support/blog">블로그</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

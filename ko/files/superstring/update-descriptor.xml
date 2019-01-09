@@ -1,0 +1,14 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8" ?>
+<update>
+    <versionNumber>{{site.superstring[0].version}}</versionNumber>
+    <mac>{{site.superstring[0].mac}}</mac>
+    <windows>{{site.superstring[0].windows}}</windows>
+    <updates>
+        {% for content in site.superstring[0].contents_ko %}
+        <item>{{content.content}}</item>
+        {% endfor %}
+    </updates>
+</update>

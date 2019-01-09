@@ -1,0 +1,26 @@
+---
+layout: page
+title: Showcase
+categories: Membrane
+sub-nav: sub-nav-membrane.html
+ads: true
+---
+<a href="/support/contact.html?subject=Submit a album artwork.&messageplaceholder=Please upload your album artwork to shared google drive, dropbox or other file sharing service and provide the link.&options=no">Submit your album artwork</a>
+<hr class="hr">
+Coming soon...
+<!--
+{% for image in site.membrane_showcase %}
+{% assign loopindex = forloop.index %}
+  {% if loopindex != 1 %}<hr>
+{% endif %}
+<div class="row">
+    <div class="col-lg-7">
+        <img maxWidth="560" maxHeight="315" src="{{site.url}}/{{image.url}}">
+    </div>
+    <div class="col-lg-5">
+        <h4>{{image.title}}</h4>
+        <p>by {{image.artist}}</p>
+    </div>
+</div>
+{% endfor %}
+-->
