@@ -14,27 +14,18 @@ superstring_description: Superstring is a Mac & Windows app that lets you create
 ko_superstring_meta_title: Superstring - 리릭 비디오 에디터
 ko_superstring_description: Superstring은 멋진 리릭 비디오를 쉽게 만들 수 있는 Mac, Windows 앱입니다.
 
-#Release notes
-#https://support.apple.com/en-us/HT201237
-#https://support.apple.com/en-us/HT202203
-#https://support.apple.com/en-us/HT200269
-#https://support.apple.com/en-us/HT203718
 superstring:
-#    - updates:
-#      version: 3.2.0
-#      release_date: Sep 4, 2018
-#      mac: https://wittenlab.com/files/superstring/Superstring3.2.0.app.zip
-#      windows: https://wittenlab.com/files/superstring/Superstring3.2.0.exe.zip
-#      contents:
-#      - content: Adds a new "Direction Sign" text style
-#      - content: Removes the background color to increase performance
-#      - content: Improves stability
-#      - content: Fixes minor issues
-#      contents_ko:
-#      - content: 새로운 텍스트 스타일 "방향 표지판" 추가
-#      - content: 성능 향상을 위해 배경 색 제거
-#      - content: 안정성 개선
-#      - content: 사소한 오류 수정
+    - updates:
+      version: 3.2.6
+      release_date: Jan 10, 2019
+      mac: https://wittenlab.com/files/superstring/Superstring3.2.6.app.zip
+      windows: https://wittenlab.com/files/superstring/Superstring3.2.6.exe.zip
+      contents:
+      - content: Improves stability
+      - content: Fixes minor issues
+      contents_ko:
+      - content: 안정성 개선
+      - content: 사소한 오류 수정
     - updates:
       version: 3.2.4
       release_date: Nov 8, 2018
