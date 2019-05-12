@@ -15,6 +15,8 @@ $(function () {
     }
 
     if (query_string.expiration_date) {
+        var lang = "en-US";
+        if (window.location.pathname.indexOf("/ko") > -1) lang = "ko-KR";
         var expiration_date = Number(query_string.expiration_date);
         var versionArray = document.getElementsByName('version');
         var releaseDateArray = document.getElementsByName('locale-date');
