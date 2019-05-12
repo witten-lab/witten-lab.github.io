@@ -17,7 +17,7 @@ $(function () {
     if (query_string.expiration_date) {
         var expiration_date = Number(query_string.expiration_date);
         var versionArray = document.getElementsByName('version');
-        
+        var releaseDateArray = document.getElementsByName('locale-date');
         var i = releaseDateArray.length;
         while (i--) {
             if (new Date(releaseDateArray[i].innerHTML).getTime() > expiration_date) {
