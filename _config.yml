@@ -16,6 +16,19 @@ ko_superstring_description: Superstring은 멋진 리릭 비디오를 쉽게 만
 
 superstring:
     - updates:
+      version: 3.3.4
+      release_date: Jul 1, 2019
+      mac: https://wittenlab.com/files/superstring/Superstring3.3.4.app.zip
+      windows: https://wittenlab.com/files/superstring/Superstring3.3.4.exe.zip
+      contents:
+      - content: Adds a zoom feature to the editor
+      - content: Improves video quality
+      - content: Fixes minor issues
+      contents_ko:
+      - content: 에디터 줌 기능 추가
+      - content: 비디오 화질 개선
+      - content: 사소한 오류 수정
+    - updates:
       version: 3.3.0
       release_date: May 12, 2019
       mac: https://wittenlab.com/files/superstring/Superstring3.3.0.app.zip
