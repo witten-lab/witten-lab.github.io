@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Membrane is a Mac & Windows app that lets you create your cover images easily.">
+    <meta name="keywords" content="Artwork, Album, Facebook, Instagram, Twitter, Social, Blog, Infographic, Cover, Image, Picture, Graphic, Design, membrane" />
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Membrane - 커버 이미지 에디터">
+    <meta property="og:site_name" content="Membrane">
+    <meta property="og:url" content="http://localhost:4000/ko/membrane">
+    <meta property="og:description" content="Membrane은 커버 이미지를 쉽게 만들 수 있는 Mac, Windows 앱입니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:4000/assets/img/membrane/facebook.jpg">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@wittenlab">
+    <meta name="twitter:title" content="Membrane - 커버 이미지 에디터">
+    <meta name="twitter:description" content="Membrane은 커버 이미지를 쉽게 만들 수 있는 Mac, Windows 앱입니다.">
+    <meta name="twitter:image" content="http://localhost:4000/assets/img/membrane/facebook.jpg">
+
+    <title>Membrane - Cover image editor</title>
+
+    <link rel="canonical" href="http://localhost:4000/ko/membrane/" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,700">
+    <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#46bdd6">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.0/js/brands.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.0/js/fontawesome.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap-hover-dropdown.min.js"></script>
+    <script src="/assets/js/custom.js"></script>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NWPD66P');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '982637085230189');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=982637085230189&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "https://wittenlab.com",
+            "name": "Witten Lab",
+            "sameAs": [
+                "https://www.facebook.com/wittenlab",
+                "https://www.instagram.com/wittenlab",
+                "https://twitter.com/wittenlab",
+                "https://plus.google.com/+WittenLab",
+                "https://www.youtube.com/channel/UCISdz6Hc2mK06lF13-dYfGg",
+                "https://www.linkedin.com/company/wittenlab"
+            ]
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWPD66P"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/ko">Witten <span style="font-weight:400">Lab</span></a>
+            <div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+            <ul class="nav">
+                <li ><a href="/ko/superstring" data-hover="dropdown"><img src="/assets/img/superstring/icon_256x256.png" alt="Superstring">Superstring</a>
+                    <ul class="dropdown-menu list-group">
+                        <li><a href="/ko/superstring">개요</a></li>
+                        <li><a href="/ko/superstring/download">다운로드</a></li>
+                        <li><a href="/ko/superstring/pricing">가격</a></li>
+                        <li><a href="/ko/superstring/get-started">시작하기</a></li>
+                        <li><a href="/ko/superstring/faq">자주하는 질문</a></li>
+                    </ul>
+                </li>
+                <li class="active" ><a href="/ko/membrane" data-hover="dropdown"><img src="/assets/img/membrane/icon_256x256.png" alt="Membrane">Membrane</a>
+                    <ul class="dropdown-menu list-group">
+                        <li><a href="/ko/membrane">개요</a></li>
+                        <li><a href="/ko/membrane/download">다운로드</a></li>
+                        <li><a href="/ko/membrane/pricing">가격</a></li>
+                        <li><a href="/ko/membrane/get-started">시작하기</a></li>
+                        <li><a href="/ko/membrane/faq">자주하는 질문</a></li>
+                    </ul>
+                </li>
+                <li ><a href="/ko/support" data-hover="dropdown">지원</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/ko/support">소개</a></li>
+                        <li><a href="/ko/support/contact">문의</a></li>
+                        <li><a href="/ko/support/affiliates">제휴</a></li>
+                        <li><a href="/ko/support/blog">블로그</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="headerwrap" id="slide0">
+    <div class="container centered">
+        <div class="spacing-double"></div>
+        <h1 class="slideInUp">Membrane</h1>
+        <h3 class="slideInUp slideInUp1">커버 이미지 에디터</h3>
+        <div class="slideInUp slideInUp2">
+            <a href="/membrane/download" class="btn btn-offset btn-icon-first"><i class="material-icons">file_download</i> 무료 다운로드</a>
+            <!--
+            <a href="/membrane/pricing" class="btn btn-icon-first"><i class="material-icons">credit_card</i> 라이센스 구매</a>
+            -->
+        </div>
+        <div class="col-lg-12 hero slideInUp slideInUp3">
+            <img class="spacing-padding" src="/assets/img/membrane/membrane-hero.jpg">
+        </div>
+        <div class="col-lg-10 col-lg-offset-1 lefted slideInUp slideInUp4">
+            <p>Membrane은 커버 이미지를 쉽게 만들 수 있는 Mac, Windows 앱입니다.</p>
+        </div>
+    </div>
+</div>
+<div class="container centered" id="slide1">
+    <hr class="hr-lg slideInUp">
+    <h2 class="slideInUp slideInUp1">이렇게 간단합니다.</h2>
+    <div class="col-lg-4 spacing-padding-sm slideInUp slideInUp2">
+        <h4><i class="material-icons">crop_original</i></h4>
+        <h4>1. 템플릿을 선택하세요.</h4>
+        <p>훌륭한 커버 이미지를 위해 미리 디자인 된 다양한 템플릿으로 바로 시작할 수 있습니다.</p>
+    </div>
+    <div class="col-lg-4 spacing-padding-sm slideInUp slideInUp3">
+        <h4><i class="material-icons">edit</i></h4>
+        <h4>2. 텍스트와 그래픽을 편집하세요.</h4>
+        <p>사용하기 쉬운 도구들로 텍스트와 그래픽을 편집하세요. 클릭과 드래그만으로 누구나 쉽게 사용할 수 있습니다.</p>
+    </div>
+    <div class="col-lg-4 spacing-padding-sm slideInUp slideInUp4">
+        <h4><i class="material-icons">public</i></h4>
+        <h4>3. 세계에 보여주세요.</h4>
+        <p>커버 이미지를 앨범 아트워크, Facebook 커버, YouTube 채널 아트에 사용하세요.</p>
+    </div>
+</div>
+<div class="container" id="slide2">
+    <hr class="hr-lg slideInUp">
+    <div class="col-lg-10 col-md-offset-1 slideInUp slideInUp1">
+        <h3>이제 여러분도 훌륭한 디자이너입니다.</h3>
+        <p>아름다운 템플릿, 무료 고해상도 사진, 멋진 글꼴 등. 디자인에 필요한 모든 것이 있습니다.</p>
+        <div class="spacing-sm"></div>
+        <img class="shadow" src="/assets/img/membrane/choose-a-template.png">
+    </div>
+    <div class="col-lg-10 col-md-offset-1 slideInUp slideInUp2">
+        <div class="spacing-double"></div>
+        <h3>모든 것이 편리하게.</h3>
+        <p>간단하고 직관적인 인터페이스, 필요한 도구가 적절한 위치에 배치되어 있습니다. 오브젝트를 선택하고 텍스트, 이미지 및 도형를 편집해보세요.</p>
+        <div class="spacing-sm"></div>
+        <img class="shadow" src="/assets/img/membrane/the-membrane-editor.png">
+    </div>
+    <div class="col-lg-10 col-md-offset-1 slideInUp slideInU3">
+        <div class="spacing-double"></div>
+        <h3>모든 작업물을 한곳에서 관리하세요.</h3>
+        <p>모든 작업물을 편집하고 저장하고 삭제하는 가장 효율적입 방법. 이전 디자인을 찾고 편집하는데 단 몇 초면 충분합니다.</p>
+        <div class="spacing-sm"></div>
+        <img class="shadow" src="/assets/img/membrane/library.png">
+    </div>
+</div>
+<div class="container">
+    <hr class="hr-lg">
+    <div class="outro">
+        <div class="col-lg-2 righted">
+            <img src="/assets/img/membrane/icon_256x256.png" width="96px" alt="Membrane">
+        </div>
+        <div class="col-lg-5 border-right">
+                <h1>Membrane</h1>
+            <p>Mac과 Windows에서 사용할 수 있습니다.</p>
+        </div>
+        <div class="col-lg-5 righted height-96">
+            <a href="/membrane/download" class="btn btn-icon-first"><i class="material-icons">file_download</i> 무료 다운로드</a>
+            <!--
+            <a href="/membrane/pricing" class="btn btn-icon-first"><i class="material-icons">credit_card</i> 라이센스 구매</a>
+            -->
+        </div>
+    </div>
+</div>
+<div class="spacing-double"></div>
+<script>
+    ! function(e) {
+        var scrollMagic = new ScrollMagic.Controller,
+            headers = ["#slide0", "#slide1", "#slide2"];
+
+        headers.forEach(function(item, index) {
+            new ScrollMagic.Scene({
+                triggerElement: item,
+                offset: -200,
+            }).setClassToggle(item, "is-active").addTo(scrollMagic);
+        });
+    }(jQuery);
+
+</script>
+
+    <div class="footer-area">
+    <div class="footer container">
+        <div class="row hidden-xs">
+            <div class="col-sm-3">
+                <h6><a href="/superstring">Superstring</a></h6>
+                <ul class="nav list-group">
+                    <li><a href="/ko/superstring">개요</a></li>
+                    <li><a href="/ko/superstring/download">다운로드</a></li>
+                    <li><a href="/ko/superstring/pricing">가격</a></li>
+                    <li><a href="/ko/superstring/get-started">시작하기</a></li>
+                    <li><a href="/ko/superstring/faq">자주하는 질문</a></li>
+                    <li><a href="/ko/superstring/shortcuts">단축키</a></li>
+                    <li><a href="/ko/superstring/updates">업데이트</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h6><a href="/membrane">Membrane</a></h6>
+                <ul class="nav list-group">
+                    <li><a href="/ko/membrane">개요</a></li>
+                    <li><a href="/ko/membrane/download">다운로드</a></li>
+                    <li><a href="/ko/membrane/pricing">가격</a></li>
+                    <li><a href="/ko/membrane/get-started">시작하기</a></li>
+                    <li><a href="/ko/membrane/faq">자주하는 질문</a></li>
+                    <li><a href="/ko/membrane/shortcuts">단축키</a></li>
+                    <li><a href="/ko/membrane/updates">업데이트</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h6><a href="/support">지원</a></h6>
+                <ul class="nav list-group">
+                    <li><a href="/ko/support">소개</a></li>
+                    <li><a href="/ko/support/contact">문의</a></li>
+                    <li><a href="/ko/support/affiliates">제휴</a></li>
+                    <li><a href="/ko/support/blog">블로그</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h6>Connect</h6>
+                <ul class="nav list-group">
+                    <li><a href="https://www.facebook.com/wittenlab" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://www.instagram.com/wittenlab" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://twitter.com/wittenlab" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <!--<li><a href="https://plus.google.com/+WittenLab" target="_blank"><i class="fab fa-google"></i> Google+</a></li>-->
+                    <li><a href="https://www.youtube.com/channel/UCISdz6Hc2mK06lF13-dYfGg" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
+                    <!--
+                    <li><a href="https://vimeo.com/wittenlab" target="_blank"><i class="fab fa-vimeo"></i> Vimeo</a></li>
+                    <li><a href="https://www.behance.net/wittenlab" target="_blank"><i class="fab fa-behance"></i> Behance</a></li>
+                    -->
+                </ul>
+            </div>
+        </div>
+        <hr class="hidden-xs">
+        <div class="spacing-double visible-xs"></div>
+        <div class="row">
+            <div class="col-xs-6">
+                © Witten Lab
+            </div>
+            <div class="col-xs-6 righted">
+                    <a id="en" href="/">English</a><span style="margin:0 5px"> | </span>
+                    <a id="ko" href="/ko">한국어</a>
+                    <!--
+                    <a href="/support/eula">EULA</a><span style="margin:0 5px"> | </span>       
+                    <a href="/superstring/faq#how-do-i-uninstall-superstring">Uninstallation</a>
+                    -->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/assets/js/footer.js"></script>
+</body>
+</html>

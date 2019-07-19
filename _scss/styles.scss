@@ -178,7 +178,6 @@ textarea {
 
 a {
     color: $text-high-emphasis-color;
-    font-weight: 300;
     text-decoration: none;
     background: transparent;
     @include transition();
@@ -236,7 +235,6 @@ h4,
 h5,
 h6 {
     font-family: inherit;
-    font-weight: 300;
     line-height: 1.4;
     color: $text-high-emphasis-color;
     margin-top: 24px;
@@ -246,13 +244,12 @@ h6 {
 h1 {
     font-size: 44px;
     font-family: 'Product Sans', sans-serif;
-    font-weight: 700;
     letter-spacing: -1px;
     margin-bottom: 0px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 h3 {
@@ -1520,10 +1517,6 @@ select[multiple].input-lg {
 .sub-page-title {
     float: left;
     margin-bottom: 8px;
-}
-
-.sub-page-title h4 {
-    font-weight: 400;
 }
 
 .sub-navbar-right {

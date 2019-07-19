@@ -4,13 +4,13 @@
     <!-- Open Graph data -->
     {% if page.post-title %}<meta property="og:title" content="{{page.post-title}}">
     <meta property="og:site_name" content="{{site.membrane_title}}">
-    <meta property="og:url" content="{{site.url}}/{{page.url}}">
+    <meta property="og:url" content="{{site.url}}{{page.url}}">
     <meta property="og:description" content="{{page.excerpt}}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{site.url}}/{{page.image}}">
     {% else %}<meta property="og:title" content="{{site.ko_membrane_meta_title}}">
     <meta property="og:site_name" content="{{site.membrane_title}}">
-    <meta property="og:url" content="{{site.url}}/membrane">
+    <meta property="og:url" content="{{site.url}}/ko/membrane">
     <meta property="og:description" content="{{site.ko_membrane_description}}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{site.url}}/assets/img/membrane/facebook.jpg">{% endif %}

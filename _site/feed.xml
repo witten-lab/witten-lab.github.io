@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Superstring</title>
+    <description>Superstring is a Mac &amp; Windows app that lets you create lyric videos easily.</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 20 Jul 2019 08:45:04 +0900</pubDate>
+    <lastBuildDate>Sat, 20 Jul 2019 08:45:04 +0900</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Superstring 및 Membrane에 대한 라이센스</title>
+        <description>&lt;p&gt;Witten Lab은 최근에 Superstring 3과 Membrane 2를 발표했습니다. 그리고 이제 업데이트 정책에 관한 더 나은 생각을 공유하고자 합니다.&lt;/p&gt;
+
+&lt;p&gt;지금까지 유료 업데이트로 몇년마다 1, 2 버전 등의 메이저 버전을 출시했으며 마이너 업데이트(1.1, 1.2 등)를 무료로 제공했습니다. 이것은 앱 판매에서 매우 일반적인 모델이지만 공정하지는 않습니다. 다음 메이저 업데이트 출시일이 가까워 졌을 때 앱을 구매한 사용자는 이전에 동일한 제품을 구매한 사용자보다 더 짧은 무료 업데이트 기간을 갖게됩니다. 더 공정한 방법은 모든 사용자들이 앱을 구입한 시기와 관계없이 동일한 무료 업데이트 기간을 얻는 것이라고 생각합니다.&lt;/p&gt;
+
+&lt;p&gt;Witten Lab은 다음 메이저 버전 출시를 위해 새로운 기능을 추가하는 것을 미루고 싶지 않습니다. 결과적으로 메이저 업데이트와 마이너 업데이트의 차이를 없애고 새로운 기능이 준비되면 바로 제공하는 것이 Witten Lab이 선호하는 가장 좋은 방법입니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;구독-요금제가-되는-건가요&quot;&gt;구독 요금제가 되는 건가요?&lt;/h4&gt;
+&lt;p&gt;아니요. 라이센스가 만료되어도 사용중이던 Superstring 또는 Membrane을 계속 사용할 수 있습니다. 따라서 원하지 않으면 라이센스를 갱신할 필요가 없습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;라이센스를-갱신하지-않으면-어떻게-되나요&quot;&gt;라이센스를 갱신하지 않으면 어떻게 되나요?&lt;/h4&gt;
+&lt;p&gt;라이센스 만료 후에 갱신하지 않아도 사용중이던 Superstring 또는 Membrane을 계속 사용할 수는 있지만 더 이상 업데이트를 받을 수는 없습니다. 하지만 언제든지 다시 갱신한다면 새로운 업데이트를 받을 수 있습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;라이센스를-언제-갱신해야-하나요&quot;&gt;라이센스를 언제 갱신해야 하나요?&lt;/h4&gt;
+&lt;p&gt;라이센스는 구입일로부터 1년 동안 유효하므로 &lt;span name=&quot;locale-date&quot;&gt;Jul 20, 2019&lt;/span&gt; 오늘 라이센스를 구매 한 경우, &lt;span name=&quot;locale-date&quot;&gt;Jul 20, 2020&lt;/span&gt;까지 출시되는 모든 업데이트를 받게됩니다. 이 날짜 이후에 업데이트를 받으려면 라이센스를 갱신해야합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;이전-버전의-라이센스를-가지고-있습니다-새-버전의-라이센스를-받을-수-있나요&quot;&gt;이전 버전의 라이센스를 가지고 있습니다. 새 버전의 라이센스를 받을 수 있나요?&lt;/h4&gt;
+&lt;p&gt;2018년 1월 1일부터 2018년 6월 30일까지 이전 버전의 Superstring 또는 Membrane을 구입 한 경우 새 버전의 무료 업데이트를 1년간 계속 제공합니다. 이 혜택을 받으려면 다음 단계를 따르세요.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Mac 및 Windows 사용자: 새 버전의 Superstring 또는 Membrane의 라이센스 키가 포함된 이메일을 이미 발송했습니다. 만약 받지 못한 경우 스팸 폴더를 확인하거나 저희에게 &lt;a href=&quot;/support/contact?subject=라이센스 키 요청&amp;amp;message=라이센스 키를 받지 못했습니다.&quot;&gt;연락&lt;/a&gt;하세요.&lt;/li&gt;
+    &lt;li&gt;Mac App Store 사용자: 다음 &lt;a href=&quot;https://support.apple.com/en-us/HT204088&quot; target=&quot;_blank&quot;&gt;지침&lt;/a&gt;에 따라 iTunes에서 Superstring 2 Pro 또는 Membrane Pro 구입 기록을 찾으세요. 영수증 날짜, 주문 ID 등을 확인할 수 있습니다. 구입 기록의 영수증 날짜와 주문 ID를 &lt;a href=&quot;/support/contact?subject=라이센스 키 요청&amp;amp;messageplaceholder=영수증 날짜와 주문 ID를 남겨주세요.&quot;&gt;여기&lt;/a&gt;로 보내주시면 확인 후 버전에 대한 라이센스 키를 제공해 드리겠습니다.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 01 Jul 2018 10:00:00 +0900</pubDate>
+        <link>http://localhost:4000/ko/support/licensing-for-superstring-and-membrane</link>
+        <guid isPermaLink="true">http://localhost:4000/ko/support/licensing-for-superstring-and-membrane</guid>
+        
+        
+        <category>ko/support/</category>
+        
+      </item>
+    
+      <item>
+        <title>Licensing for Superstring and Membrane</title>
+        <description>&lt;p&gt;We’ve recently released Superstring 3 and Membrane 2.
+So it’s time to share what we think is a better idea regarding updates.&lt;/p&gt;
+
+&lt;p&gt;Until now, it has been our custom to release a major version of 1, 2 every couple of years as a paid upgrade, with minor updates(1.1, 1.2, etc) for free in between. While this is a very common model for apps, we don’t think it is fair: customers who have purchased an app closer to the original release date get free updates for longer than someone who bought the same product halfway through its release cycle. We think a fairer approach is for everybody to get the same period of free updates, no matter when they purchased the app.&lt;/p&gt;
+
+&lt;p&gt;We would also prefer to ship big updates and improvements frequently, when they’re ready, rather than waiting for the next major version to come around in order to entice people to upgrade. As a consequence, we intend to remove the distinction between major and minor releases altogether.&lt;/p&gt;
+
+&lt;h4 id=&quot;is-this-a-subscription&quot;&gt;Is this a subscription?&lt;/h4&gt;
+&lt;p&gt;No. Once your license has expired, you can still use Superstring or Membrane for as long as you want. We’ll not force you to pay again to use it. You don’t have to renew your license if you don’t want to.&lt;/p&gt;
+
+&lt;h4 id=&quot;when-will-i-have-to-renew-my-license&quot;&gt;When will I have to renew my license?&lt;/h4&gt;
+&lt;p&gt;You’ll not have to renew if you don’t want to. Your license is valid for 1 year after the date of purchase so if you bought your license today Jul 20, 2019, you’ll get all the regular updates that are released up to Jul 20, 2020. To receive updates after that date, you’ll need to renew your license.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-happens-if-i-dont-renew-my-license&quot;&gt;What happens if I don’t renew my license?&lt;/h4&gt;
+&lt;p&gt;If you don’t want to renew your license after it expires, you can continue to use the version of Superstring or Membrane that you have, for as long as you want, but you won’t be able to receive any further updates. If you decide you want to renew at a later date, you’re welcome back at any time.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-will-this-affect-my-license&quot;&gt;How will this affect my license?&lt;/h4&gt;
+&lt;p&gt;If you purchased Superstring 2 Pro or Membrane Pro after Jan 1, 2018, we guarantee you’ll continue to receive free updates for until 1 year each product .&lt;!--After then, if you want to continue to upgrade to new releases, just renew your license. If you don't want to renew your license after your current one expires, that's completely fine. you'll be able to continue using that version of Superstring or Membrane for as long as you want.--&gt;To take advantage of this offer, please follow these steps:&lt;/p&gt;
+
+&lt;p&gt;Mac and Windows users:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;We have sent you an email with license key for new version of Superstring or Membrane. If you didn’t receive it, please check your spam folder or &lt;a href=&quot;/support/contact?subject=Request a license key.&amp;amp;message=I didn't receive a license key&quot;&gt;contact&lt;/a&gt; us.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mac App Store users:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Find your purchase history of Superstring 2 Pro or Membrane Pro in iTunes by following &lt;a href=&quot;https://support.apple.com/en-us/HT204088&quot; target=&quot;_blank&quot;&gt;these instructions&lt;/a&gt;. It will have a receipt date, order ID, etc. Please &lt;a href=&quot;/support/contact?subject=Request a license key&amp;amp;messageplaceholder=Please leave your receipt date and order ID.&quot;&gt;contact&lt;/a&gt; us and leave your receipt date and order ID of Superstring 2 Pro or Membrane Pro. We’ll provide you a license key for new version of Superstring or Membrane.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 01 Jul 2018 10:00:00 +0900</pubDate>
+        <link>http://localhost:4000/support/licensing-for-superstring-and-membrane</link>
+        <guid isPermaLink="true">http://localhost:4000/support/licensing-for-superstring-and-membrane</guid>
+        
+        
+        <category>support</category>
+        
+      </item>
+    
+      <item>
+        <title>Sways가 이제 Witten Lab이 됩니다.</title>
+        <description>&lt;p&gt;Mac, Windows 앱을 개발하는 소규모 팀으로 4년 전 Sways(Simplest Ways)가 시작되었습니다. 2014년 초 Sways는 첫 번째 앱 Superstring - 리릭 비디오 에디터를 출시했습니다. 그리고 2016년에 두 번째 앱인 Membrane - 커버 이미지 에디터를 출시했습니다.&lt;/p&gt;
+
+&lt;p&gt;그 이후로 저희 제품은 점점 좋아지고 성장했습니다. 저희는 사람들을 돕고, 짧은 시간에 놀라운 것을 만들어 내도록 돕겠다는 생각에 이끌려 왔습니다.&lt;/p&gt;
+
+&lt;p&gt;올해 저희는 Superstring과 Membrane의 가장 진보된 버전을 출시했습니다. 또, 올해 사용자들이 지난 3년보다 더 큰 수준으로 성장한 것을 보았습니다.&lt;/p&gt;
+
+&lt;p&gt;이제, Sways의 성장 방향과 사명을 반영하기 위해 Sways의 이름을 Witten Lab으로 변경합니다.&lt;/p&gt;
+
+&lt;p&gt;더 이상 소규모 팀으로 머물고 싶지 않기에 이 새로운 이름이 더 적합하다고 생각합니다. 이름 변경은 점진적으로 진행될 것입니다. 올해까지는 Sways(Simplest Ways)를 일부 영역에서 계속 사용하지만 2019년 초에 Witten Lab으로 완전히 전환할 것입니다.&lt;/p&gt;
+
+&lt;p&gt;Witten Lab은 여전히 사용자를 우선으로 생각하며 계속 성장하기 위해 노력할 것입니다. 새로운 앱과 업데이트로 사용자를 행복하게 만들어 드리겠습니다. 저희는 사용자들이 짧은 시간에 믿을 수 없는 것들을 만들 수 있도록 도와 줄 것입니다. Witten Lab 앱에 오신 것을 환영합니다.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jul 2018 09:00:00 +0900</pubDate>
+        <link>http://localhost:4000/ko/support/sways-is-becoming-witten-lab</link>
+        <guid isPermaLink="true">http://localhost:4000/ko/support/sways-is-becoming-witten-lab</guid>
+        
+        
+        <category>ko/support/</category>
+        
+      </item>
+    
+      <item>
+        <title>Sways is becoming Witten Lab</title>
+        <description>&lt;p&gt;We started Sways(Simplest Ways) more than 4 years ago as the small team who built apps for Mac and Windows. Early in 2014, we launched our first app Superstring - Lyric video editor. in 2016, we launched our second app Membrane - cover image editor.&lt;/p&gt;
+
+&lt;p&gt;Since then, our products have been getting better and we grew. We were driven by the idea of helping people, to make stunning things in less time.&lt;/p&gt;
+
+&lt;p&gt;This year we have released the most advanced versions of Superstring and Membrane for both Mac and Windows. We’ve seen our audience grow this year to a level that is larger than the past three years combined.&lt;/p&gt;
+
+&lt;p&gt;We are changing our name to Witten Lab to reflect our growth, changes and a mission.&lt;/p&gt;
+
+&lt;p&gt;We think that this name is a better fit, since we’re no longer a only app developer. It’s also closer to where we want to go in the near future. The name change will be happening gradually. We will continue to use Sways(Simplest Ways) this year, and early in 2019 we’ll completely switch to Witten Lab.&lt;/p&gt;
+
+&lt;p&gt;Witten Lab is still small, and we will try much harder to continue our growth by putting our users first. We will work hard to make it better.&lt;/p&gt;
+
+&lt;p&gt;If you give jeky;;s a chance, we’ll surprise you. We’ll make you happy with new apps and updates. We’ll help you make incredible things in less time. Let’s stay in touch as we grow together and welcome to Witten Lab apps.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jul 2018 09:00:00 +0900</pubDate>
+        <link>http://localhost:4000/support/sways-is-becoming-witten-lab</link>
+        <guid isPermaLink="true">http://localhost:4000/support/sways-is-becoming-witten-lab</guid>
+        
+        
+        <category>support</category>
+        
+      </item>
+    
+  </channel>
+</rss>
