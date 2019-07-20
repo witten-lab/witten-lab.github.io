@@ -15,7 +15,7 @@ body {
     margin: 0;
     height: 100%;
     font-family: 'Spoqa Han Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
     color: $text-medium-emphasis-color;
@@ -52,7 +52,7 @@ h4 .material-icons {
 
 b,
 strong {
-    font-weight: 300;
+    font-weight: 400;
     color: $text-high-emphasis-color;
 }
 
@@ -2429,6 +2429,10 @@ a.list-group-item-danger.active:focus {
 
 .centered {
     text-align: center;
+}
+
+.centered h3 {
+  font-weight: 400;
 }
 
 .righted {
