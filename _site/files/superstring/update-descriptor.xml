@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>3.3.4</versionNumber>
-    <mac>https://wittenlab.com/files/superstring/Superstring3.3.4.app.zip</mac>
-    <windows>https://wittenlab.com/files/superstring/Superstring3.3.4.exe.zip</windows>
+    <versionNumber>3.3.6</versionNumber>
+    <mac>https://wittenlab.com/files/superstring/Superstring3.3.6.app.zip</mac>
+    <windows>https://wittenlab.com/files/superstring/Superstring3.3.6.exe.zip</windows>
     <updates>
         
         <item>Adds a zoom feature to the editor</item>

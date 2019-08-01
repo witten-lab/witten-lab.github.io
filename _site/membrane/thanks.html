@@ -165,46 +165,49 @@
 <div class="container content">
     <hr class="hr-none-md"> <iframe id="download" src="" height="0" width="0" style="display:none"></iframe>
 <div class="centered">
-    <div class="spacing-double"></div>
-    <img src="/assets/img/membrane/icon_256x256.png" width="128px" alt="Membrane">
-    <div class="spacing">
-        <h3>Thanks for registering!</h3>
-        <div class="spacing"></div>
-        <div class="col-lg-8 col-lg-offset-3 lefted">
-            <ul>
-                <li>Like our <i class="fab fa-facebook" color="#4968ad"></i><a href="https://www.facebook.com/wittenlab" target="_blank">Facebook page</a> and get latest news!</li>
-                <li>Join our <a href="/support/affiliates">affiliates</a> and earn 30% on every sale you make!</li>
-            </ul>
-        </div>
-        <div class="spacing"></div>
+  <div class="spacing-double"></div>
+  <img src="/assets/img/membrane/icon_256x256.png" width="128px" alt="Membrane">
+  <div class="spacing">
+    <h3>Thanks for registering!</h3>
+    <div class="spacing"></div>
+    <div class="col-lg-8 col-lg-offset-3 lefted">
+      <ul>
+        <li>Subscribe our <i class="fab fa-youtube" color="#ff0000"></i><a href="https://www.youtube.com/channel/UCISdz6Hc2mK06lF13-dYfGg" target="_blank">YouTube channel</a> and get latest news!</li>
+        <!--<li>Like our <i class="fab fa-facebook" color="#4968ad"></i><a href="https://www.facebook.com/wittenlab" target="_blank">Facebook page</a> and get latest news!</li>-->
+        <li>Join our <i class="fab fa-paypal" color="#009cde"></i><a href="/support/affiliates">Affiliates</a> and earn 30% on every sale you make!</li>
+      </ul>
     </div>
+    <div class="spacing"></div>
+  </div>
 </div>
 <script>
-    $(function() {
-        var query_string = {};
-        var query = window.location.search.substring(1);
-        var vars = query.split("&");
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split("=");
-            if (typeof query_string[pair[0]] === "undefined") {
-                query_string[pair[0]] = pair[1];
-            } else if (typeof query_string[pair[0]] === "string") {
-                var arr = [query_string[pair[0]], pair[1]];
-                query_string[pair[0]] = arr;
-            } else {
-                query_string[pair[0]].push(pair[1]);
-            }
-        }
+  $(function() {
+    var query_string = {};
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+    for (var i = 0; i < vars.length; i++) {
+      var pair = vars[i].split("=");
+      if (typeof query_string[pair[0]] === "undefined") {
+        query_string[pair[0]] = pair[1];
+      } else if (typeof query_string[pair[0]] === "string") {
+        var arr = [query_string[pair[0]], pair[1]];
+        query_string[pair[0]] = arr;
+      } else {
+        query_string[pair[0]].push(pair[1]);
+      }
+    }
 
-        if (query_string.uses == 1) {
-            fbq('track', 'Purchase', {
-                value: 39.99,
-                currency: 'USD',
-                content_ids: 'Membrane'
-            });
-        }
-    });
+    if (query_string.uses == 1) {
+      fbq('track', 'Purchase', {
+        value: 39.99,
+        currency: 'USD',
+        content_ids: 'Membrane'
+      });
+    }
+  });
+
 </script>
+
 </div>
 <div class="spacing-double"></div>
 
@@ -221,74 +224,75 @@
 
 
     <div class="footer-area">
-    <div class="footer container">
-        <div class="row hidden-xs">
-            <div class="col-sm-3">
-                <h6><a href="/superstring">Superstring</a></h6>
-                <ul class="nav list-group">
-                    <li><a href="/superstring">Overview</a></li>
-                    <li><a href="/superstring/download">Download</a></li>
-                    <li><a href="/superstring/pricing">Pricing</a></li>
-                    <li><a href="/superstring/get-started">Get started</a></li>
-                    <li><a href="/superstring/faq">FAQ</a></li>
-                    <li><a href="/superstring/shortcuts">Shortcuts</a></li>
-                    <li><a href="/superstring/updates">Updates</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h6><a href="/membrane">Membrane</a></h6>
-                <ul class="nav list-group">
-                    <li><a href="/membrane">Overview</a></li>
-                    <li><a href="/membrane/download">Download</a></li>
-                    <li><a href="/membrane/pricing">Pricing</a></li>
-                    <li><a href="/membrane/get-started">Get started</a></li>
-                    <li><a href="/membrane/faq">FAQ</a></li>
-                    <li><a href="/membrane/shortcuts">Shortcuts</a></li>
-                    <li><a href="/membrane/updates">Updates</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h6><a href="/support">Support</a></h6>
-                <ul class="nav list-group">
-                    <li><a href="/support">About</a></li>
-                    <li><a href="/support/contact">Contact</a></li>
-                    <li><a href="/support/affiliates">Affiliates</a></li>
-                    <li><a href="/support/blog">Blog</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h6>Connect</h6>
-                <ul class="nav list-group">
-                    <li><a href="https://www.facebook.com/wittenlab" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
-                    <li><a href="https://www.instagram.com/wittenlab" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-                    <li><a href="https://twitter.com/wittenlab" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
-                    <!--<li><a href="https://plus.google.com/+WittenLab" target="_blank"><i class="fab fa-google"></i> Google+</a></li>-->
-                    <li><a href="https://www.youtube.com/channel/UCISdz6Hc2mK06lF13-dYfGg" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
-                    <li><a href="https://www.linkedin.com/company/wittenlab" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                    <!--
+  <div class="footer container">
+    <div class="row hidden-xs">
+      <div class="col-sm-3">
+        <h6><a href="/superstring">Superstring</a></h6>
+        <ul class="nav list-group">
+          <li><a href="/superstring">Overview</a></li>
+          <li><a href="/superstring/download">Download</a></li>
+          <li><a href="/superstring/pricing">Pricing</a></li>
+          <li><a href="/superstring/get-started">Get started</a></li>
+          <li><a href="/superstring/faq">FAQ</a></li>
+          <li><a href="/superstring/shortcuts">Shortcuts</a></li>
+          <li><a href="/superstring/updates">Updates</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h6><a href="/membrane">Membrane</a></h6>
+        <ul class="nav list-group">
+          <li><a href="/membrane">Overview</a></li>
+          <li><a href="/membrane/download">Download</a></li>
+          <li><a href="/membrane/pricing">Pricing</a></li>
+          <li><a href="/membrane/get-started">Get started</a></li>
+          <li><a href="/membrane/faq">FAQ</a></li>
+          <li><a href="/membrane/shortcuts">Shortcuts</a></li>
+          <li><a href="/membrane/updates">Updates</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h6><a href="/support">Support</a></h6>
+        <ul class="nav list-group">
+          <li><a href="/support">About</a></li>
+          <li><a href="/support/contact">Contact</a></li>
+          <li><a href="/support/affiliates">Affiliates</a></li>
+          <li><a href="/support/blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h6>Connect</h6>
+        <ul class="nav list-group">
+          <li><a href="https://www.youtube.com/channel/UCISdz6Hc2mK06lF13-dYfGg" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
+          <li><a href="https://www.facebook.com/wittenlab" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+          <li><a href="https://www.instagram.com/wittenlab" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href="https://twitter.com/wittenlab" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <!--<li><a href="https://plus.google.com/+WittenLab" target="_blank"><i class="fab fa-google"></i> Google+</a></li>-->
+          <li><a href="https://www.linkedin.com/company/wittenlab" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <!--
                     <li><a href="https://vimeo.com/wittenlab" target="_blank"><i class="fab fa-vimeo"></i> Vimeo</a></li>
                     <li><a href="https://www.behance.net/wittenlab" target="_blank"><i class="fab fa-behance"></i> Behance</a></li>
                     -->
-                </ul>
-            </div>
-        </div>
-        <hr class="hidden-xs">
-        <div class="spacing-double visible-xs"></div>
-        <div class="row">
-            <div class="col-xs-6">
-                © Witten Lab
-            </div>
-            <div class="col-xs-6 righted">
-                    <a id="en" href="/">English</a><span style="margin:0 5px"> | </span>
-                    <a id="ko" href="/ko">한국어</a>
-                    <!--
+        </ul>
+      </div>
+    </div>
+    <hr class="hidden-xs">
+    <div class="spacing-double visible-xs"></div>
+    <div class="row">
+      <div class="col-xs-6">
+        © Witten Lab
+      </div>
+      <div class="col-xs-6 righted">
+        <a id="en" href="/">English</a><span style="margin:0 5px"> | </span>
+        <a id="ko" href="/ko">한국어</a>
+        <!--
                     <a href="/support/eula">EULA</a><span style="margin:0 5px"> | </span>       
                     <a href="/superstring/faq#how-do-i-uninstall-superstring">Uninstallation</a>
                     -->
-            </div>
-        </div>
+      </div>
     </div>
+  </div>
 </div>
 <script src="/assets/js/footer.js"></script>
+
 </body>
 </html>
