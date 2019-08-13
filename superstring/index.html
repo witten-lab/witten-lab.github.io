@@ -18,7 +18,6 @@ categories: Superstring
     </div>
     <div class="col-lg-10 col-lg-offset-1 slideInUp slideInUp4">
       <p>{{site.superstring_description}}</p>
-      <div id="video"></div>
     </div>
   </div>
 </div>
@@ -72,6 +71,17 @@ categories: Superstring
   </div>
   <img src="/assets/img/superstring/export-your-lyric-video.png">
 </div>
+<div class="container centered" id="slide3">
+  <hr class="hr-lg slideInUp">
+  <h2 class="slideInUp slideInUp1 spacing-padding-bottom">Made with Superstring</h2>
+  <div class="col-lg-12">
+    <iframe width="720" height="452" src="https://www.youtube.com/embed/1KHxxRBfm-4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="spacing-double"></div>
+    <iframe width="720" height="452" src="https://www.youtube.com/embed/qwosgOlCGbA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="spacing-double"></div>
+    <iframe width="720" height="452" src="https://www.youtube.com/embed/5anAxF5V6vw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
 <!--
 <div class="spacing-double"></div>
 <div class="container">
@@ -122,12 +132,12 @@ categories: Superstring
 <script>
   ! function(e) {
     var scrollMagic = new ScrollMagic.Controller,
-      headers = ["#slide0", "#slide1", "#slide2"];
+      headers = ["#slide0", "#slide1", "#slide2", "#slide3"];
 
     headers.forEach(function(item, index) {
       new ScrollMagic.Scene({
         triggerElement: item,
-        offset: -200,
+        offset: -320,
       }).setClassToggle(item, "is-active").addTo(scrollMagic);
     });
   }(jQuery);
