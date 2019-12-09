@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>3.3.6</versionNumber>
-    <mac>https://wittenlab.com/files/superstring/Superstring3.3.6.app.zip</mac>
-    <windows>https://wittenlab.com/files/superstring/Superstring3.3.6.exe.zip</windows>
+    <versionNumber>3.6.6</versionNumber>
+    <mac>https://wittenlab.com/files/superstring/Superstring3.6.6.app.zip</mac>
+    <windows>https://wittenlab.com/files/superstring/Superstring3.6.6.exe.zip</windows>
     <updates>
         
-        <item>Adds a zoom feature to the editor</item>
+        <item>Adds new "Gmarket Sans" font</item>
         
-        <item>Improves video quality</item>
+        <item>Adds new "Acceleration", "Rotation" features</item>
         
-        <item>Fixes minor issues</item>
+        <item>Improves the editor usability</item>
+        
+        <item>Improves stability</item>
         
     </updates>
 </update>

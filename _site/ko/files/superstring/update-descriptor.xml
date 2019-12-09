@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>3.3.6</versionNumber>
-    <mac>https://wittenlab.com/files/superstring/Superstring3.3.6.app.zip</mac>
-    <windows>https://wittenlab.com/files/superstring/Superstring3.3.6.exe.zip</windows>
+    <versionNumber>3.6.6</versionNumber>
+    <mac>https://wittenlab.com/files/superstring/Superstring3.6.6.app.zip</mac>
+    <windows>https://wittenlab.com/files/superstring/Superstring3.6.6.exe.zip</windows>
     <updates>
         
-        <item>에디터 줌 기능 추가</item>
+        <item>새로운 폰트 "지마켓 산스" 추가</item>
         
-        <item>비디오 화질 개선</item>
+        <item>새로운 기능 "가속", "회전" 추가</item>
         
-        <item>사소한 오류 수정</item>
+        <item>에디터 사용성 개선</item>
+        
+        <item>안정성 개선</item>
         
     </updates>
 </update>

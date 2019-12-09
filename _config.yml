@@ -16,6 +16,21 @@ ko_superstring_description: Superstring은 멋진 리릭 비디오를 쉽게 만
 
 superstring:
     - updates:
+      version: 3.6.6
+      release_date: Oct 8, 2019
+      mac: https://wittenlab.com/files/superstring/Superstring3.6.6.app.zip
+      windows: https://wittenlab.com/files/superstring/Superstring3.6.6.exe.zip
+      contents:
+      - content: Adds new "Gmarket Sans" font
+      - content: Adds new "Acceleration", "Rotation" features
+      - content: Improves the editor usability
+      - content: Improves stability
+      contents_ko:
+      - content: 새로운 폰트 "지마켓 산스" 추가
+      - content: 새로운 기능 "가속", "회전" 추가
+      - content: 에디터 사용성 개선
+      - content: 안정성 개선
+    - updates:
       version: 3.3.6
       release_date: Jul 1, 2019
       mac: https://wittenlab.com/files/superstring/Superstring3.3.6.app.zip
@@ -54,17 +69,6 @@ superstring:
       - content: Fixes minor issues
       contents_ko:
       - content: 새로운 폰트 "GFS Neohellenic" 추가
-      - content: 안정성 개선
-      - content: 사소한 오류 수정
-    - updates:
-      version: 3.2.6
-      release_date: Jan 10, 2019
-      mac: https://wittenlab.com/files/superstring/Superstring3.2.6.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.2.6.exe.zip
-      contents:
-      - content: Improves stability
-      - content: Fixes minor issues
-      contents_ko:
       - content: 안정성 개선
       - content: 사소한 오류 수정
     - updates:
@@ -149,7 +153,7 @@ superstring:
       - content: Adds beautiful, free photos
       - content: Adds more effects
       - content: Adds new fonts
-      - content: Support .wav format
+      - content: Supports .wav format
       - content: Improves performance
       - content: Improves stability
       - content: Fixes minor issues
