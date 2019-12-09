@@ -16,10 +16,10 @@ ko_superstring_description: Superstring은 멋진 리릭 비디오를 쉽게 만
 
 superstring:
     - updates:
-      version: 3.6.6
+      version: 3.6.8
       release_date: Oct 8, 2019
-      mac: https://wittenlab.com/files/superstring/Superstring3.6.6.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.6.6.exe.zip
+      mac: https://wittenlab.com/files/superstring/Superstring3.6.8.app.zip
+      windows: https://wittenlab.com/files/superstring/Superstring3.6.8.exe.zip
       contents:
       - content: Adds new "Gmarket Sans" font
       - content: Adds new "Acceleration", "Rotation" features

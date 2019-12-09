@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>3.6.6</versionNumber>
-    <mac>https://wittenlab.com/files/superstring/Superstring3.6.6.app.zip</mac>
-    <windows>https://wittenlab.com/files/superstring/Superstring3.6.6.exe.zip</windows>
+    <versionNumber>3.6.8</versionNumber>
+    <mac>https://wittenlab.com/files/superstring/Superstring3.6.8.app.zip</mac>
+    <windows>https://wittenlab.com/files/superstring/Superstring3.6.8.exe.zip</windows>
     <updates>
         
         <item>Adds new "Gmarket Sans" font</item>
