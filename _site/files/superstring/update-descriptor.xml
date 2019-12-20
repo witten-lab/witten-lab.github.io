@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>3.6.8</versionNumber>
-    <mac>https://wittenlab.com/files/superstring/Superstring3.6.8.app.zip</mac>
-    <windows>https://wittenlab.com/files/superstring/Superstring3.6.8.exe.zip</windows>
+    <versionNumber>3.7.3</versionNumber>
+    <mac>https://wittenlab.com/files/superstring/Superstring3.7.3.app.zip</mac>
+    <windows>https://wittenlab.com/files/superstring/Superstring3.7.3.exe.zip</windows>
     <updates>
         
-        <item>Adds new "Gmarket Sans" font</item>
+        <item>Adds a new "Blur" text & background style</item>
         
-        <item>Adds new "Acceleration", "Rotation" features</item>
-        
-        <item>Improves the editor usability</item>
+        <item>Wide text area</item>
         
         <item>Improves stability</item>
+        
+        <item>Fixes minor issues</item>
         
     </updates>
 </update>

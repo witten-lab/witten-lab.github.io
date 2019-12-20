@@ -16,12 +16,27 @@ ko_superstring_description: Superstring은 멋진 리릭 비디오를 쉽게 만
 
 superstring:
     - updates:
+      version: 3.7.3
+      release_date: Dec 14, 2019
+      mac: https://wittenlab.com/files/superstring/Superstring3.7.3.app.zip
+      windows: https://wittenlab.com/files/superstring/Superstring3.7.3.exe.zip
+      contents:
+        - content: Adds a new "Blur" text & background style
+        - content: Wide text area
+        - content: Improves stability
+        - content: Fixes minor issues
+      contents_ko:
+        - content: 새로운 텍스트 & 백그라운드 스타일 "블러" 추가
+        - content: 넓어진 텍스트 영역
+        - content: 안정성 개선
+        - content: 사소한 오류 수정
+    - updates:
       version: 3.6.8
       release_date: Oct 8, 2019
       mac: https://wittenlab.com/files/superstring/Superstring3.6.8.app.zip
       windows: https://wittenlab.com/files/superstring/Superstring3.6.8.exe.zip
       contents:
-      - content: Adds new "Gmarket Sans" font
+      - content: Adds a new "Gmarket Sans" font
       - content: Adds new "Acceleration", "Rotation" features
       - content: Improves the editor usability
       - content: Improves stability
@@ -64,7 +79,7 @@ superstring:
       mac: https://wittenlab.com/files/superstring/Superstring3.2.8.app.zip
       windows: https://wittenlab.com/files/superstring/Superstring3.2.8.exe.zip
       contents:
-      - content: Adds new "GFS Neohellenic" font
+      - content: Adds a new "GFS Neohellenic" font
       - content: Improves stability
       - content: Fixes minor issues
       contents_ko:
