@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>3.7.3</versionNumber>
-    <mac>https://wittenlab.com/files/superstring/Superstring3.7.3.app.zip</mac>
-    <windows>https://wittenlab.com/files/superstring/Superstring3.7.3.exe.zip</windows>
+    <versionNumber>3.7.4</versionNumber>
+    <mac>https://wittenlab.com/files/superstring/Superstring3.7.4.app.zip</mac>
+    <windows>https://wittenlab.com/files/superstring/Superstring3.7.4.exe.zip</windows>
     <updates>
         
         <item>Adds a new "Blur" text & background style</item>
