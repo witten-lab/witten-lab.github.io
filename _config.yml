@@ -24,11 +24,13 @@ superstring:
         - content: Adds a new "Blur" text & background style
         - content: Wide text area
         - content: Improves stability
+        - content: Performance increase
         - content: Fixes minor issues
       contents_ko:
         - content: 새로운 텍스트 & 백그라운드 스타일 "블러" 추가
         - content: 넓어진 텍스트 영역
         - content: 안정성 개선
+        - content: 작업 성능 향상
         - content: 사소한 오류 수정
     - updates:
       version: 3.6.8
