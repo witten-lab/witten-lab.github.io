@@ -17,7 +17,7 @@ ko_superstring_description: Superstring은 멋진 리릭 비디오를 쉽게 만
 superstring:
     - updates:
       version: 3.8.0
-      release_date: Jan 12, 2020
+      release_date: Jan 15, 2020
       mac: https://wittenlab.com/files/superstring/Superstring3.8.0.app.zip
       windows: https://wittenlab.com/files/superstring/Superstring3.8.0.exe.zip
       contents:
