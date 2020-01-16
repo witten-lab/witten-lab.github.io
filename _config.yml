@@ -9,12 +9,27 @@ title: Witten Lab
 description: We make things as simple as possible.
 
 superstring_title: Superstring
-superstring_meta_title: Superstring - Lyric video editor
+superstring_meta_title: Superstring - Lyric video maker
 superstring_description: Superstring is a Mac & Windows app that lets you create lyric videos easily.
 ko_superstring_meta_title: Superstring - 리릭 비디오 에디터
 ko_superstring_description: Superstring은 멋진 리릭 비디오를 쉽게 만들 수 있는 Mac, Windows 앱입니다.
 
 superstring:
+    - updates:
+      version: 3.8.0
+      release_date: Jan 12, 2020
+      mac: https://wittenlab.com/files/superstring/Superstring3.8.0.app.zip
+      windows: https://wittenlab.com/files/superstring/Superstring3.8.0.exe.zip
+      contents:
+        - content: Adds a new "Girassol" font
+        - content: Adds a "Pin sidebar" option in the settings
+        - content: Improves stability
+        - content: Performance increase
+      contents_ko:
+        - content: 새로운 폰트 "Girassol" 추가
+        - content: 셋팅에 "사이드바 고정" 옵션 추가
+        - content: 안정성 개선
+        - content: 작업 성능 향상
     - updates:
       version: 3.7.4
       release_date: Dec 20, 2019
@@ -213,7 +228,7 @@ superstring_showcase:
       artist: Nation In Blue
 
 membrane_title: Membrane
-membrane_meta_title: Membrane - Cover image editor
+membrane_meta_title: Membrane - Cover image maker
 membrane_description: Membrane is a Mac & Windows app that lets you create your cover images easily.
 ko_membrane_meta_title: Membrane - 커버 이미지 에디터
 ko_membrane_description: Membrane은 커버 이미지를 쉽게 만들 수 있는 Mac, Windows 앱입니다.
