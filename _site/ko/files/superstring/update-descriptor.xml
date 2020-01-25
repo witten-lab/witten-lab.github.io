@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>3.8.0</versionNumber>
-    <mac>https://wittenlab.com/files/superstring/Superstring3.8.0.app.zip</mac>
-    <windows>https://wittenlab.com/files/superstring/Superstring3.8.0.exe.zip</windows>
+    <versionNumber>3.8.5</versionNumber>
+    <mac>https://wittenlab.com/files/superstring/Superstring3.8.5.app.zip</mac>
+    <windows>https://wittenlab.com/files/superstring/Superstring3.8.5.exe.zip</windows>
     <updates>
         
-        <item>새로운 폰트 "Girassol" 추가</item>
+        <item>새로운 폰트 "Girassol", "Underwood Champion" 추가</item>
         
         <item>셋팅에 "사이드바 고정" 옵션 추가</item>
+        
+        <item>메뉴 바 개선</item>
         
         <item>안정성 개선</item>
         

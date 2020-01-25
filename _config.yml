@@ -16,18 +16,20 @@ ko_superstring_description: Superstring은 멋진 리릭 비디오를 쉽게 만
 
 superstring:
     - updates:
-      version: 3.8.0
+      version: 3.8.5
       release_date: Jan 15, 2020
-      mac: https://wittenlab.com/files/superstring/Superstring3.8.0.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.8.0.exe.zip
+      mac: https://wittenlab.com/files/superstring/Superstring3.8.5.app.zip
+      windows: https://wittenlab.com/files/superstring/Superstring3.8.5.exe.zip
       contents:
-        - content: Adds a new "Girassol" font
+        - content: Adds new "Girassol", "Underwood Champion" fonts
         - content: Adds a "Pin sidebar" option in the settings
+        - content: Improves the menu bar
         - content: Improves stability
         - content: Performance increase
       contents_ko:
-        - content: 새로운 폰트 "Girassol" 추가
+        - content: 새로운 폰트 "Girassol", "Underwood Champion" 추가
         - content: 셋팅에 "사이드바 고정" 옵션 추가
+        - content: 메뉴 바 개선
         - content: 안정성 개선
         - content: 작업 성능 향상
     - updates:
