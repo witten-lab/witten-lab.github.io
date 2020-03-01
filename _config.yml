@@ -16,10 +16,10 @@ ko_superstring_description: Superstring은 멋진 리릭 비디오를 쉽게 만
 
 superstring:
   - updates:
-    version: 3.9.2
+    version: 3.9.3
     release_date: Mar 1, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring3.9.2.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.9.2.exe.zip
+    mac: https://wittenlab.com/files/superstring/Superstring3.9.3.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.9.3.exe.zip
     contents:
       - content: Adds a new "Canvas" feature
       - content: Adds a new "Frame" background style
