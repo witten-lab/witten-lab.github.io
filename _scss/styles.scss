@@ -40,14 +40,13 @@ summary {
     display: block;
 }
 
-.material-icons {
-    font-size: 18px;
+i {
+    font-size: 16px;
     vertical-align: middle;
 }
 
-h4 .material-icons {
-    font-size: 48px;
-    margin-bottom: 8px;
+h4 i {
+    font-size: 32px;
 }
 
 b,
@@ -318,6 +317,10 @@ abbr[data-original-title] {
 
 .spacing-double {
     height: 32px;
+}
+
+.spacing-lg {
+    height: 64px;
 }
 
 .spacing-padding {
@@ -1055,7 +1058,7 @@ output {
 .form-control {
     display: block;
     width: 100%;
-    height: 44px;
+    height: 40px;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
@@ -1196,11 +1199,11 @@ select[multiple].input-lg {
 .btn {
     min-width: 88px;
     display: inline-block;
-    padding: 2px 16px;
+    padding: 0 16px;
     margin: 0 4px 4px 0;
     font-size: 14px;
     line-height: 36px;
-    height: 44px;
+    height: 40px;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -1238,11 +1241,11 @@ select[multiple].input-lg {
 }
 
 .btn-icon-first {
-    padding: 2px 18px 2px 14px;
+    padding: 0 18px 0 14px;
 }
 
 .btn-icon-last {
-    padding: 2px 6px 2px 14px;
+    padding: 0 6px 0 14px;
 }
 
 .collapse {
@@ -1773,84 +1776,6 @@ select[multiple].input-lg {
         height: calc(100vh - 50px);
         overflow-x: hidden;
     }
-}
-
-.label {
-    display: inline;
-    padding: .2em .6em .3em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    color: $text-high-emphasis-variant-color;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .225em;
-}
-
-.label[href]:hover,
-.label[href]:focus {
-    color: $text-high-emphasis-variant-color;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.label:empty {
-    display: none;
-}
-
-.label-default {
-    background-color: #999;
-}
-
-.label-default[href]:hover,
-.label-default[href]:focus {
-    background-color: #808080;
-}
-
-.label-primary {
-    background-color: $primary-color;
-}
-
-.label-primary[href]:hover,
-.label-primary[href]:focus {
-    background-color: #3071a9;
-}
-
-.label-success {
-    background-color: #5cb85c;
-}
-
-.label-success[href]:hover,
-.label-success[href]:focus {
-    background-color: #449d44;
-}
-
-.label-info {
-    background-color: #5bc0de;
-}
-
-.label-info[href]:hover,
-.label-info[href]:focus {
-    background-color: #31b0d5;
-}
-
-.label-warning {
-    background-color: #f0ad4e;
-}
-
-.label-warning[href]:hover,
-.label-warning[href]:focus {
-    background-color: #ec971f;
-}
-
-.label-danger {
-    background-color: #d9534f;
-}
-
-.label-danger[href]:hover,
-.label-danger[href]:focus {
-    background-color: #c9302c;
 }
 
 .updates h4 {
@@ -2436,23 +2361,6 @@ a.list-group-item-danger.active:focus {
     text-align: right;
 }
 
-.pricing {
-    text-align: center;
-}
-
-.podcast-ad {
-    margin: 0;
-}
-
-.podcast-content {
-    padding: 8px;
-}
-
-.podcast td {
-    border: 0;
-    padding: 0;
-}
-
 .headerwrap {
     padding-top: 40px;
     font-size: 20px;
@@ -2511,11 +2419,6 @@ hr {
 
 .subscribe {
     margin-right: 8px;
-}
-
-.share i {
-    padding-right: 15px;
-    font-size: 18px;
 }
 
 .footer {

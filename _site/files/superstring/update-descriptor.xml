@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>3.8.5</versionNumber>
-    <mac>https://wittenlab.com/files/superstring/Superstring3.8.5.app.zip</mac>
-    <windows>https://wittenlab.com/files/superstring/Superstring3.8.5.exe.zip</windows>
+    <versionNumber>3.9.2</versionNumber>
+    <mac>https://wittenlab.com/files/superstring/Superstring3.9.2.app.zip</mac>
+    <windows>https://wittenlab.com/files/superstring/Superstring3.9.2.exe.zip</windows>
     <updates>
         
-        <item>Adds new "Girassol", "Righteous", "Underwood Champion" fonts</item>
+        <item>Adds a new "Canvas" feature</item>
         
-        <item>Adds a "Pin sidebar" option in the settings</item>
+        <item>Adds a new "Frame" background style</item>
         
-        <item>Improves the menu bar</item>
+        <item>Adds new "Blur", "Pulse" background options</item>
         
-        <item>Improves stability</item>
+        <item>Adds a new "Damion" font</item>
         
-        <item>Performance increase</item>
+        <item>Improves the editor usability</item>
+        
+        <item>Fixes minor issues</item>
         
     </updates>
 </update>

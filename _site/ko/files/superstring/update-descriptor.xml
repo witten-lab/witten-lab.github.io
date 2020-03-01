@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>3.8.5</versionNumber>
-    <mac>https://wittenlab.com/files/superstring/Superstring3.8.5.app.zip</mac>
-    <windows>https://wittenlab.com/files/superstring/Superstring3.8.5.exe.zip</windows>
+    <versionNumber>3.9.2</versionNumber>
+    <mac>https://wittenlab.com/files/superstring/Superstring3.9.2.app.zip</mac>
+    <windows>https://wittenlab.com/files/superstring/Superstring3.9.2.exe.zip</windows>
     <updates>
         
-        <item>새로운 폰트 "Girassol", "Righteous", "Underwood Champion" 추가</item>
+        <item>새로운 기능 "캔버스" 추가</item>
         
-        <item>셋팅에 "사이드바 고정" 옵션 추가</item>
+        <item>새로운 백그라운드 스타일 "프레임" 추가</item>
         
-        <item>메뉴 바 개선</item>
+        <item>새로운 백그라운드 옵션 "블러", "펄스" 추가</item>
         
-        <item>안정성 개선</item>
+        <item>새로운 폰트 "Damion" 추가</item>
         
-        <item>작업 성능 향상</item>
+        <item>에디터 사용성 개선</item>
+        
+        <item>사소한 오류 수정</item>
         
     </updates>
 </update>

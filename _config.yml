@@ -2,188 +2,207 @@ url: https://wittenlab.com
 enforce_ssl: wittenlab.com
 permalink: /:categories/:title
 sass:
-    sass_dir: _scss
-    style: compressed
-    
+  sass_dir: _scss
+  style: compressed
+
 title: Witten Lab
 description: We make things as simple as possible.
 
 superstring_title: Superstring
 superstring_meta_title: Superstring - Lyric video maker
 superstring_description: Superstring is a Mac & Windows app that lets you create lyric videos easily.
-ko_superstring_meta_title: Superstring - 리릭 비디오 에디터
+ko_superstring_meta_title: Superstring - 리릭 비디오 제작 툴
 ko_superstring_description: Superstring은 멋진 리릭 비디오를 쉽게 만들 수 있는 Mac, Windows 앱입니다.
 
 superstring:
-    - updates:
-      version: 3.8.5
-      release_date: Jan 15, 2020
-      mac: https://wittenlab.com/files/superstring/Superstring3.8.5.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.8.5.exe.zip
-      contents:
-        - content: Adds new "Girassol", "Righteous", "Underwood Champion" fonts
-        - content: Adds a "Pin sidebar" option in the settings
-        - content: Improves the menu bar
-        - content: Improves stability
-        - content: Performance increase
-      contents_ko:
-        - content: 새로운 폰트 "Girassol", "Righteous", "Underwood Champion" 추가
-        - content: 셋팅에 "사이드바 고정" 옵션 추가
-        - content: 메뉴 바 개선
-        - content: 안정성 개선
-        - content: 작업 성능 향상
-    - updates:
-      version: 3.7.4
-      release_date: Dec 20, 2019
-      mac: https://wittenlab.com/files/superstring/Superstring3.7.4.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.7.4.exe.zip
-      contents:
-        - content: Adds a new "Blur" text & background style
-        - content: Wide text area
-        - content: Improves stability
-        - content: Performance increase
-        - content: Fixes minor issues
-      contents_ko:
-        - content: 새로운 텍스트 & 백그라운드 스타일 "블러" 추가
-        - content: 넓어진 텍스트 영역
-        - content: 안정성 개선
-        - content: 작업 성능 향상
-        - content: 사소한 오류 수정
-    - updates:
-      version: 3.6.8
-      release_date: Oct 8, 2019
-      mac: https://wittenlab.com/files/superstring/Superstring3.6.8.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.6.8.exe.zip
-      contents:
+  - updates:
+    version: 3.9.2
+    release_date: Mar 1, 2020
+    mac: https://wittenlab.com/files/superstring/Superstring3.9.2.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.9.2.exe.zip
+    contents:
+      - content: Adds a new "Canvas" feature
+      - content: Adds a new "Frame" background style
+      - content: Adds new "Blur", "Pulse" background options
+      - content: Adds a new "Damion" font
+      - content: Improves the editor usability
+      - content: Fixes minor issues
+    contents_ko:
+      - content: 새로운 기능 "캔버스" 추가
+      - content: 새로운 백그라운드 스타일 "프레임" 추가
+      - content: 새로운 백그라운드 옵션 "블러", "펄스" 추가
+      - content: 새로운 폰트 "Damion" 추가
+      - content: 에디터 사용성 개선
+      - content: 사소한 오류 수정
+  - updates:
+    version: 3.8.5
+    release_date: Jan 15, 2020
+    mac: https://wittenlab.com/files/superstring/Superstring3.8.5.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.8.5.exe.zip
+    contents:
+      - content: Adds new "Girassol", "Righteous", "Underwood Champion" fonts
+      - content: Adds a "Pin sidebar" option in the settings
+      - content: Improves the menu bar
+      - content: Improves stability
+      - content: Performance increase
+    contents_ko:
+      - content: 새로운 폰트 "Girassol", "Righteous", "Underwood Champion" 추가
+      - content: 셋팅에 "사이드바 고정" 옵션 추가
+      - content: 메뉴 바 사용성 개선
+      - content: 안정성 개선
+      - content: 작업 성능 향상
+  - updates:
+    version: 3.7.4
+    release_date: Dec 20, 2019
+    mac: https://wittenlab.com/files/superstring/Superstring3.7.4.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.7.4.exe.zip
+    contents:
+      - content: Adds a new "Blur" text & background style
+      - content: Wide text area
+      - content: Improves stability
+      - content: Performance increase
+      - content: Fixes minor issues
+    contents_ko:
+      - content: 새로운 텍스트 & 백그라운드 스타일 "블러" 추가
+      - content: 넓어진 텍스트 영역
+      - content: 안정성 개선
+      - content: 작업 성능 향상
+      - content: 사소한 오류 수정
+  - updates:
+    version: 3.6.8
+    release_date: Oct 8, 2019
+    mac: https://wittenlab.com/files/superstring/Superstring3.6.8.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.6.8.exe.zip
+    contents:
       - content: Adds a new "Gmarket Sans" font
-      - content: Adds new "Acceleration", "Rotation" features
+      - content: Adds new "Acceleration", "Rotation" options
       - content: Improves the editor usability
       - content: Improves stability
-      contents_ko:
+    contents_ko:
       - content: 새로운 폰트 "지마켓 산스" 추가
-      - content: 새로운 기능 "가속", "회전" 추가
+      - content: 새로운 옵션 "가속", "회전" 추가
       - content: 에디터 사용성 개선
       - content: 안정성 개선
-    - updates:
-      version: 3.3.6
-      release_date: Jul 1, 2019
-      mac: https://wittenlab.com/files/superstring/Superstring3.3.6.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.3.6.exe.zip
-      contents:
+  - updates:
+    version: 3.3.6
+    release_date: Jul 1, 2019
+    mac: https://wittenlab.com/files/superstring/Superstring3.3.6.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.3.6.exe.zip
+    contents:
       - content: Adds a zoom feature to the editor
       - content: Improves video quality
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 에디터 줌 기능 추가
       - content: 비디오 화질 개선
       - content: 사소한 오류 수정
-    - updates:
-      version: 3.3.0
-      release_date: May 12, 2019
-      mac: https://wittenlab.com/files/superstring/Superstring3.3.0.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.3.0.exe.zip
-      contents:
+  - updates:
+    version: 3.3.0
+    release_date: May 12, 2019
+    mac: https://wittenlab.com/files/superstring/Superstring3.3.0.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.3.0.exe.zip
+    contents:
       - content: Adds new "Abyssinica", "Fondamento", "Uncial Antiqua" fonts
       - content: Removes "Seoul Hangang", "Seoul Namsan" fonts due to memory problems
       - content: Improves stability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 새로운 폰트 "Abyssinica", "Fondamento", "Uncial Antiqua" 추가
       - content: 메모리 문제로 인해 "Seoul Hangang", "Seoul Namsan" 폰트 삭제
       - content: 안정성 개선
       - content: 사소한 오류 수정
-    - updates:
-      version: 3.2.8
-      release_date: Mar 1, 2019
-      mac: https://wittenlab.com/files/superstring/Superstring3.2.8.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.2.8.exe.zip
-      contents:
+  - updates:
+    version: 3.2.8
+    release_date: Mar 1, 2019
+    mac: https://wittenlab.com/files/superstring/Superstring3.2.8.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.2.8.exe.zip
+    contents:
       - content: Adds a new "GFS Neohellenic" font
       - content: Improves stability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 새로운 폰트 "GFS Neohellenic" 추가
       - content: 안정성 개선
       - content: 사소한 오류 수정
-    - updates:
-      version: 3.2.4
-      release_date: Nov 8, 2018
-      mac: https://wittenlab.com/files/superstring/Superstring3.2.4.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.2.4.exe.zip
-      contents:
+  - updates:
+    version: 3.2.4
+    release_date: Nov 8, 2018
+    mac: https://wittenlab.com/files/superstring/Superstring3.2.4.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.2.4.exe.zip
+    contents:
       - content: Adds new "Teko", "Rasa" fonts
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 새로운 폰트 "Teko", "Rasa" 추가
       - content: 사소한 오류 수정
-    - updates:
-      version: 3.2.2
-      release_date: Oct 1, 2018
-      mac: https://wittenlab.com/files/superstring/Superstring3.2.2.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.2.2.exe.zip
-      contents:
+  - updates:
+    version: 3.2.2
+    release_date: Oct 1, 2018
+    mac: https://wittenlab.com/files/superstring/Superstring3.2.2.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.2.2.exe.zip
+    contents:
       - content: Adds "Appearance" in settings
       - content: Improves stability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 화면 모드 설정 추가
       - content: 안정성 개선
       - content: 사소한 오류 수정
-    - updates:
-      version: 3.2.0
-      release_date: Sep 4, 2018
-      mac: https://wittenlab.com/files/superstring/Superstring3.2.0.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.2.0.exe.zip
-      contents:
+  - updates:
+    version: 3.2.0
+    release_date: Sep 4, 2018
+    mac: https://wittenlab.com/files/superstring/Superstring3.2.0.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.2.0.exe.zip
+    contents:
       - content: Adds a new "Direction Sign" text style
       - content: Removes the preview when exporting to increase performance
       - content: Removes the background color to increase performance
       - content: Improves stability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 새로운 텍스트 스타일 "방향 표지판" 추가
       - content: 성능 향상을 위해 내보내기 시 미리보기 제거
       - content: 성능 향상을 위해 배경 색 제거
       - content: 안정성 개선
       - content: 사소한 오류 수정
-    - updates:
-      version: 3.1.6
-      release_date: Aug 4, 2018
-      mac: https://wittenlab.com/files/superstring/Superstring3.1.6.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.1.6.exe.zip
-      contents:
+  - updates:
+    version: 3.1.6
+    release_date: Aug 4, 2018
+    mac: https://wittenlab.com/files/superstring/Superstring3.1.6.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.1.6.exe.zip
+    contents:
       - content: Adds new "Bebas Neue" font
       - content: Adds a new "Ken Burns" text style
       - content: Improves usability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 새로운 폰트 "Bebas Neue" 추가
       - content: 새로운 텍스트 스타일 "켄 번즈" 추가
       - content: 사용성 개선
       - content: 사소한 오류 수정
-    - updates:
-      version: 3.1.0
-      release_date: Jul 20, 2018
-      mac: https://wittenlab.com/files/superstring/Superstring3.1.0.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.1.0.exe.zip
-      contents:
+  - updates:
+    version: 3.1.0
+    release_date: Jul 20, 2018
+    mac: https://wittenlab.com/files/superstring/Superstring3.1.0.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.1.0.exe.zip
+    contents:
       - content: Adds a new "Dissolve & Scale" text style
       - content: Wide preview screen
       - content: Improves performance
       - content: Improves stability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 텍스트 스타일 "Dissolve & Scale" 추가
       - content: 넓어진 미리보기 화면
       - content: 작업 성능 개선
       - content: 안정성 개선
       - content: 사소한 오류 수정
-    - updates:
-      version: 3.0.0
-      release_date: Jul 1, 2018
-      mac: https://wittenlab.com/files/superstring/Superstring3.0.0.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring3.0.0.exe.zip
-      contents:
+  - updates:
+    version: 3.0.0
+    release_date: Jul 1, 2018
+    mac: https://wittenlab.com/files/superstring/Superstring3.0.0.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring3.0.0.exe.zip
+    contents:
       - content: Adds beautiful, free photos
       - content: Adds more effects
       - content: Adds new fonts
@@ -191,7 +210,7 @@ superstring:
       - content: Improves performance
       - content: Improves stability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 무료 이미지 라이브러리 추가
       - content: 새로운 효과 추가
       - content: 새로운 글꼴 추가
@@ -201,119 +220,132 @@ superstring:
       - content: 사소한 오류 수정
 
 superstring_showcase:
-    - youtube: gzI2GOkR9E0
-      song: Revolution ting
-      artist: Black The Ripper
-    - youtube: DtiB-L9EVlY
-      song: Ultraspell
-      artist: Strange Fiction
-    - youtube: 5anAxF5V6vw
-      song: Trust Alone
-      artist: Shane Lother
-    - youtube: kY11hwuI8Zc
-      song: The purge in pallet town
-      artist: Robotface
-    - youtube: C-zWqiQx06g
-      song: Bottle of Whiskey & A Razor Blade
-      artist: Liminal Music
-    - youtube: hwcci1Ysxiw
-      song: All Hope Is Gone
-      artist: Paul Miro
-    - youtube: 1KHxxRBfm-4
-      song: New
-      artist: The Brothers Cole
-    - youtube: UjIrASHfU-8
-      song: Aku Bunuh Kamu Berkali
-      artist: Scarlet Lady
-    - youtube: FTOt23saVPM
-      song: Better Than The Best
-      artist: Nation In Blue
+  - youtube: gzI2GOkR9E0
+    song: Revolution ting
+    artist: Black The Ripper
+  - youtube: DtiB-L9EVlY
+    song: Ultraspell
+    artist: Strange Fiction
+  - youtube: 5anAxF5V6vw
+    song: Trust Alone
+    artist: Shane Lother
+  - youtube: kY11hwuI8Zc
+    song: The purge in pallet town
+    artist: Robotface
+  - youtube: C-zWqiQx06g
+    song: Bottle of Whiskey & A Razor Blade
+    artist: Liminal Music
+  - youtube: hwcci1Ysxiw
+    song: All Hope Is Gone
+    artist: Paul Miro
+  - youtube: 1KHxxRBfm-4
+    song: New
+    artist: The Brothers Cole
+  - youtube: UjIrASHfU-8
+    song: Aku Bunuh Kamu Berkali
+    artist: Scarlet Lady
+  - youtube: FTOt23saVPM
+    song: Better Than The Best
+    artist: Nation In Blue
 
 membrane_title: Membrane
 membrane_meta_title: Membrane - Cover image maker
 membrane_description: Membrane is a Mac & Windows app that lets you create your cover images easily.
-ko_membrane_meta_title: Membrane - 커버 이미지 에디터
+ko_membrane_meta_title: Membrane - 커버 이미지 제작 툴
 ko_membrane_description: Membrane은 커버 이미지를 쉽게 만들 수 있는 Mac, Windows 앱입니다.
 
 membrane:
-    - updates:
-      version: 2.3.0
-      release_date: May 12, 2019
-      mac: https://wittenlab.com/files/membrane/Membrane2.3.0.app.zip
-      windows: https://wittenlab.com/files/membrane/Membrane2.3.0.exe.zip
-      contents:
+  - updates:
+    version: 2.4.0
+    release_date: Mar 1, 2020
+    mac: https://wittenlab.com/files/membrane/Membrane2.4.0.app.zip
+    windows: https://wittenlab.com/files/membrane/Membrane2.4.0.exe.zip
+    contents:
+      - content: Adds new "Damion", "Girassol", "Gmarket Sans", "Righteous", "Underwood Champion" fonts
+      - content: Improves the editor usability
+      - content: Fixes minor issues
+    contents_ko:
+      - content: 새로운 폰트 "Damion", "Girassol", "지마켓 산스", "Righteous", "Underwood Champion" 추가
+      - content: 에디터 사용성 개선
+      - content: 사소한 오류 수정
+  - updates:
+    version: 2.3.0
+    release_date: May 12, 2019
+    mac: https://wittenlab.com/files/membrane/Membrane2.3.0.app.zip
+    windows: https://wittenlab.com/files/membrane/Membrane2.3.0.exe.zip
+    contents:
       - content: Adds new "Abyssinica", "Fondamento", "Uncial Antiqua" fonts
       - content: Removes "Seoul Hangang", "Seoul Namsan" fonts due to memory problems
       - content: Improves stability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 새로운 폰트 "Abyssinica", "Fondamento", "Uncial Antiqua" 추가
       - content: 메모리 문제로 인해 "Seoul Hangang", "Seoul Namsan" 폰트 삭제
       - content: 안정성 개선
       - content: 사소한 오류 수정
-    - updates:
-      version: 2.2.3
-      release_date: Mar 1, 2019
-      mac: https://wittenlab.com/files/membrane/Membrane2.2.3.app.zip
-      windows: https://wittenlab.com/files/membrane/Membrane2.2.3.exe.zip
-      contents:
+  - updates:
+    version: 2.2.3
+    release_date: Mar 1, 2019
+    mac: https://wittenlab.com/files/membrane/Membrane2.2.3.app.zip
+    windows: https://wittenlab.com/files/membrane/Membrane2.2.3.exe.zip
+    contents:
       - content: Adds new "GFS Neohellenic" font
       - content: Improves stability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 새로운 폰트 "GFS Neohellenic" 추가
       - content: 안정성 개선
       - content: 사소한 오류 수정
-    - updates:
-      version: 2.2.0
-      release_date: Nov 8, 2018
-      mac: https://wittenlab.com/files/membrane/Membrane2.2.0.app.zip
-      windows: https://wittenlab.com/files/membrane/Membrane2.2.0.exe.zip
-      contents: 
+  - updates:
+    version: 2.2.0
+    release_date: Nov 8, 2018
+    mac: https://wittenlab.com/files/membrane/Membrane2.2.0.app.zip
+    windows: https://wittenlab.com/files/membrane/Membrane2.2.0.exe.zip
+    contents:
       - content: Adds new "Teko", "Rasa" fonts
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 새로운 폰트 "Teko", "Rasa" 추가
       - content: 사소한 오류 수정
-    - updates:
-      version: 2.1.8
-      release_date: Oct 1, 2018
-      mac: https://wittenlab.com/files/membrane/Membrane2.1.8.app.zip
-      windows: https://wittenlab.com/files/membrane/Membrane2.1.8.exe.zip
-      contents: 
+  - updates:
+    version: 2.1.8
+    release_date: Oct 1, 2018
+    mac: https://wittenlab.com/files/membrane/Membrane2.1.8.app.zip
+    windows: https://wittenlab.com/files/membrane/Membrane2.1.8.exe.zip
+    contents:
       - content: Adds "Appearance" in settings
       - content: Improves usability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 화면 모드 설정 추가
       - content: 사용성 개선
       - content: 사소한 오류 수정
-    - updates:
-      version: 2.1.5
-      release_date: Aug 4, 2018
-      mac: https://wittenlab.com/files/membrane/Membrane2.1.5.app.zip
-      windows: https://wittenlab.com/files/membrane/Membrane2.1.5.exe.zip
-      contents: 
+  - updates:
+    version: 2.1.5
+    release_date: Aug 4, 2018
+    mac: https://wittenlab.com/files/membrane/Membrane2.1.5.app.zip
+    windows: https://wittenlab.com/files/membrane/Membrane2.1.5.exe.zip
+    contents:
       - content: Adds new "Bebas Neue" font
       - content: Improves usability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 새로운 폰트 "Bebas Neue" 추가
       - content: 사용성 개선
       - content: 사소한 오류 수정
-    - updates:
-      version: 2.0.0
-      release_date: Jul 1, 2018
-      mac: https://wittenlab.com/files/membrane/Membrane2.0.0.app.zip
-      windows: https://wittenlab.com/files/membrane/Membrane2.0.0.exe.zip
-      contents: 
+  - updates:
+    version: 2.0.0
+    release_date: Jul 1, 2018
+    mac: https://wittenlab.com/files/membrane/Membrane2.0.0.app.zip
+    windows: https://wittenlab.com/files/membrane/Membrane2.0.0.exe.zip
+    contents:
       - content: Adds beautiful, free photos
       - content: Adds more templates
       - content: Adds new fonts
       - content: Improves performance
       - content: Improves stability
       - content: Fixes minor issues
-      contents_ko:
+    contents_ko:
       - content: 무료 이미지 라이브러리 추가
       - content: 새로운 템플릿 추가
       - content: 새로운 글꼴 추가
@@ -322,6 +354,6 @@ membrane:
       - content: 사소한 오류 수정
 
 membrane_showcase:
-    - url: assets/img/superstring/facebook.png
-      title: Facebook cover
-      artist: Witten Lab
+  - url: assets/img/superstring/facebook.png
+    title: Facebook cover
+    artist: Witten Lab
