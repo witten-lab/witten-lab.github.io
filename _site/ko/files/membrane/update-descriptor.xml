@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>2.4.0</versionNumber>
-    <mac>https://wittenlab.com/files/membrane/Membrane2.4.0.app.zip</mac>
-    <windows>https://wittenlab.com/files/membrane/Membrane2.4.0.exe.zip</windows>
+    <versionNumber>2.3.0</versionNumber>
+    <mac>https://wittenlab.com/files/membrane/Membrane2.3.0.app.zip</mac>
+    <windows>https://wittenlab.com/files/membrane/Membrane2.3.0.exe.zip</windows>
     <updates>
         
-        <item>새로운 폰트 "Damion", "Girassol", "지마켓 산스", "Righteous", "Underwood Champion" 추가</item>
+        <item>새로운 폰트 "Abyssinica", "Fondamento", "Uncial Antiqua" 추가</item>
         
-        <item>에디터 사용성 개선</item>
+        <item>메모리 문제로 인해 "Seoul Hangang", "Seoul Namsan" 폰트 삭제</item>
+        
+        <item>안정성 개선</item>
         
         <item>사소한 오류 수정</item>
         

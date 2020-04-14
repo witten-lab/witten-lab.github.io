@@ -256,19 +256,6 @@ ko_membrane_description: Membrane은 커버 이미지를 쉽게 만들 수 있�
 
 membrane:
   - updates:
-    version: 2.4.0
-    release_date: Mar 1, 2020
-    mac: https://wittenlab.com/files/membrane/Membrane2.4.0.app.zip
-    windows: https://wittenlab.com/files/membrane/Membrane2.4.0.exe.zip
-    contents:
-      - content: Adds new "Damion", "Girassol", "Gmarket Sans", "Righteous", "Underwood Champion" fonts
-      - content: Improves the editor usability
-      - content: Fixes minor issues
-    contents_ko:
-      - content: 새로운 폰트 "Damion", "Girassol", "지마켓 산스", "Righteous", "Underwood Champion" 추가
-      - content: 에디터 사용성 개선
-      - content: 사소한 오류 수정
-  - updates:
     version: 2.3.0
     release_date: May 12, 2019
     mac: https://wittenlab.com/files/membrane/Membrane2.3.0.app.zip
