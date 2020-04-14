@@ -31,9 +31,11 @@ ads: true
         <small><a href="{{update.mac}}">Mac</a>, <a href="{{update.windows}}">Windows</a></small>
     </div>
     <div class="col-lg-7">
-        {% for content in update.contents_ko %}
-        <li>{{content.content}}</li>
-        {% endfor %}
+        <ul>
+            {% for content in update.contents_ko %}
+            <li>{{content.content}}</li>
+            {% endfor %}
+        </ul>
     </div>
 </div>
 {% endfor %}
