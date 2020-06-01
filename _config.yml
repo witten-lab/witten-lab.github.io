@@ -29,17 +29,17 @@ superstring_updates:
     windows: https://wittenlab.com/files/superstring/Superstring2020.6.2.exe.zip
     updates:
       - item: You can add background videos.
-      - item: The “Round” font group has been added.
-      - item: The new text styles “Cover”, “Cube”, “Stamp”, “Uncover” have been added.
       - item: You can apply “3D rotation” to the text.
+      - item: New text styles “Cover”, “Cube”, “Stamp”, “Uncover” have been added.
+      - item: New font group “Rounded” has been added.
       - item: The rendering quality has been improved.
       - item: The usability of the editor has been improved.
       - item: Minor issues have been fixed.
     updates_ko:
       - item: 배경에 비디오를 추가할 수 있습니다.
-      - item: “라운드“ 폰트 그룹이 추가되었습니다.
-      - item: ”덮기”, “큐브”, “스탬프”, “당기기” 텍스트 스타일이 추가되었습니다.
       - item: 텍스트에 “3D 회전”을 적용할 수 있습니다.
+      - item: ”덮기”, “큐브”, “스탬프”, “당기기” 텍스트 스타일이 추가되었습니다.
+      - item: “라운드“ 폰트 그룹이 추가되었습니다.
       - item: 랜더링 품질이 향상되었습니다.
       - item: 에디터의 사용성이 개선되었습니다.
       - item: 사소한 오류들이 수정되었습니다.

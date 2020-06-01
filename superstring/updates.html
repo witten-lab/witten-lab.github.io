@@ -23,13 +23,13 @@ ads: true
     <div class="col-lg-1">
         <img src="/img/superstring/icon_256x256.png" alt="Superstring">
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-3">
         <h4 name="version">Version {{versions.version}}</h4>
         <small name="locale-date">{{versions.release_date}}</small>
         <br>
         <small><a href="{{versions.mac}}">Mac</a>, <a href="{{versions.windows}}">Windows</a></small>
     </div>
-    <div class="col-lg-7">
+    <div class="col-lg-8">
         <ul>{% for updates in versions.updates %}
             <li>{{updates.item}}</li>{% endfor %}
         </ul>
