@@ -2,34 +2,29 @@
 layout: default
 categories: Superstring
 ---
-<div class="headerwrap" id="slide0">
+<div class="headerwrap">
     <div class="container centered">
         <div class="spacing-double"></div>
-        <h1 class="slideInUp">Superstring</h1>
-        <h3 class="slideInUp slideInUp1">Lyric video maker</h3>
-        <div class="slideInUp slideInUp2">
+        <h1>Superstring</h1>
+        <h3>Lyric video maker</h3>
+        <div>
             <a href="/superstring/download" class="btn btn-offset btn-icon-first"><i class="ri-download-fill"></i>
                 Download</a>
             <a href="/superstring/pricing" class="btn btn-icon-first"><i class="ri-bank-card-2-line"></i> Buy
                 license</a>
         </div>
-        <div class="col-lg-12 hero slideInUp slideInUp3">
-            <img class="spacing-padding" src="/assets/img/superstring/superstring-hero.jpg">
+        <div class="spacing-double"></div>
+        <div class="col-lg-12">
+            <img class="img-shadow" class="margin-top-md" src="{{site.cloudinary}}/superstring/editor">
         </div>
-        <div class="col-lg-10 col-lg-offset-1 slideInUp slideInUp4">
-            <p>{{site.superstring_description}}</p>
+        <div class="col-lg-10 col-lg-offset-1">
+            <p>{{site.superstring.description}}</p>
         </div>
     </div>
 </div>
 <div class="container centered">
     <hr class="hr-lg">
     <h2 class="spacing-padding-bottom">How it works</h2>
-    <div class="col-lg-12">
-        <div class="video-container">
-        <iframe width="720" height="452" src="https://www.youtube.com/embed/ykim2n90DsA?rel=0" frameborder="0"
-                allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-    </div>
     <div class="col-lg-3 spacing-padding-sm">
         <h4><i class="ri-music-fill"></i></h4>
         <h4>1. Drag a song</h4>
@@ -43,12 +38,18 @@ categories: Superstring
     <div class="col-lg-3 spacing-padding-sm">
         <h4><i class="ri-image-line"></i></h4>
         <h4>3. Align the timing</h4>
-        <p>Align the timing of them by dragging. You can also customize background styles, colors, images and more.</p>
+        <p>Align the timing of them by dragging. You can also customize background styles, colors, media and more.</p>
     </div>
     <div class="col-lg-3 spacing-padding-sm">
         <h4><i class="ri-earth-line"></i></h4>
         <h4>4. Done!</h4>
         <p>Export your lyric video as a file and upload to YouTube. Share it with the world!</p>
+    </div>
+    <div class="col-lg-12">
+        <div class="video-container">
+            <iframe width="720" height="452" src="https://www.youtube.com/embed/ykim2n90DsA?rel=0" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
 <div class="container">
@@ -59,7 +60,7 @@ categories: Superstring
             easy as dragging and dropping.</p>
         <div class="spacing-sm"></div>
     </div>
-    <img src="/assets/img/superstring/preview-your-lyric-video.png">
+    <img class="img-shadow" src="{{site.cloudinary}}/superstring/player">
     <div class="col-lg-10 col-md-offset-1">
         <div class="spacing-double"></div>
         <h3>Everything in its place.</h3>
@@ -67,7 +68,7 @@ categories: Superstring
             a look and customize the texts, backgrounds, and effects.</p>
         <div class="spacing-sm"></div>
     </div>
-    <img src="/assets/img/superstring/the-superstring-editor.png">
+    <img class="img-shadow" src="{{site.cloudinary}}/superstring/editor-color">
     <div class="col-lg-10 col-md-offset-1">
         <div class="spacing-double"></div>
         <h3>Share your lyric video with the world!</h3>
@@ -75,25 +76,23 @@ categories: Superstring
             Superstring data as .superstring file that you can share with other users.</p>
         <div class="spacing-sm"></div>
     </div>
-    <img src="/assets/img/superstring/export-your-lyric-video.png">
+    <img class="img-shadow" src="{{site.cloudinary}}/superstring/export-dialog">
 </div>
 <div class="container centered">
     <hr class="hr-lg">
     <h2 class="spacing-padding-bottom">Made with Superstring</h2>
     <div class="col-lg-12">
         <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qaeQB8MbxG0?rel=0" frameborder="0"
-                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="720" height="452" src="https://www.youtube.com/embed/qaeQB8MbxG0?rel=0" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <div class="spacing-double"></div>
         <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/hx4VxL4-L6o?rel=0" frameborder="0"
-                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="720" height="452" src="https://www.youtube.com/embed/hx4VxL4-L6o?rel=0" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <div class="spacing-double"></div>
         <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qwosgOlCGbA?rel=0" frameborder="0"
-                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="720" height="452" src="https://www.youtube.com/embed/qwosgOlCGbA?rel=0" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -101,7 +100,7 @@ categories: Superstring
     <hr class="hr-lg">
     <div class="outro">
         <div class="col-lg-2 righted">
-            <img src="/assets/img/superstring/icon_256x256.png" width="96px" alt="Superstring">
+            <img src="/img/superstring/icon_256x256.png" width="96px" alt="Superstring">
         </div>
         <div class="col-lg-5 border-right">
             <h1>Superstring</h1>
@@ -115,16 +114,3 @@ categories: Superstring
         </div>
     </div>
 </div>
-<script>
-    !function (e) {
-        var scrollMagic = new ScrollMagic.Controller,
-            headers = ["#slide0"];
-
-        headers.forEach(function (item, index) {
-            new ScrollMagic.Scene({
-                triggerElement: item,
-                offset: -320,
-            }).setClassToggle(item, "is-active").addTo(scrollMagic);
-        });
-    }(jQuery);
-</script>

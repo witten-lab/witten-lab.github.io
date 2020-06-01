@@ -1,25 +1,26 @@
-    <meta name="description" content="{{site.membrane_description}}">
-    <meta name="keywords" content="Artwork, Album, Facebook, Instagram, Twitter, Social, Blog, Infographic, Cover, Image, Picture, Graphic, Design, membrane" />
+<meta name="description" content="{{site.membrane.description}}">
+<meta name="keywords" content="Artwork, Album, Facebook, Instagram, Social, Blog, Infographic, Cover, Image, Picture, Graphic, Design, Membrane"/>
 
-    <!-- Open Graph data -->
-    {% if page.post-title %}<meta property="og:title" content="{{page.post-title}}">
-    <meta property="og:site_name" content="{{site.membrane_title}}">
-    <meta property="og:url" content="{{site.url}}/{{page.url}}">
-    <meta property="og:description" content="{{page.excerpt}}">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="{{site.url}}/{{page.image}}">
-    {% else %}<meta property="og:title" content="{{site.membrane_meta_title}}">
-    <meta property="og:site_name" content="{{site.membrane_title}}">
-    <meta property="og:url" content="{{site.url}}/membrane">
-    <meta property="og:description" content="{{site.membrane_description}}">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="{{site.url}}/assets/img/membrane/facebook.jpg">{% endif %}
+{% if page.post-title %}
+<meta property="og:title" content="{{page.post-title}}">
+<meta property="og:site_name" content="{{site.membrane.title}}">
+<meta property="og:url" content="{{site.url}}/{{page.url}}">
+<meta property="og:description" content="{{page.excerpt}}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{site.url}}/{{page.image}}">
+{% else %}
+<meta property="og:title" content="{{site.membrane.meta_title}}">
+<meta property="og:site_name" content="{{site.membrane.title}}">
+<meta property="og:url" content="{{site.url}}/membrane">
+<meta property="og:description" content="{{site.membrane.description}}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://res.cloudinary.com/wittenlab/image/upload/membrane/opengraph.jpg">
+{% endif %}
 
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@wittenlab">
-    <meta name="twitter:title" content="{{site.membrane_meta_title}}">
-    <meta name="twitter:description" content="{{site.membrane_description}}">
-    <meta name="twitter:image" content="{{site.url}}/assets/img/membrane/facebook.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@wittenlab">
+<meta name="twitter:title" content="{{site.membrane.meta_title}}">
+<meta name="twitter:description" content="{{site.membrane.description}}">
+<meta name="twitter:image" content="https://res.cloudinary.com/wittenlab/image/upload/membrane/opengraph.jpg">
 
-    <title>{% if page.title %}{{page.title}} - {{site.membrane_title}}{% else %}{{site.membrane_meta_title}}{% endif %}</title>
+<title>{% if page.title %}{{page.title}} - {{site.membrane.title}}{% else %}{{site.membrane.meta_title}}{% endif %}</title>

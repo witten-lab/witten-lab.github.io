@@ -3,12 +3,13 @@ layout: null
 ---
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>{{site.membrane[0].version}}</versionNumber>
-    <mac>{{site.membrane[0].mac}}</mac>
-    <windows>{{site.membrane[0].windows}}</windows>
-    <updates>
-        {% for content in site.membrane[0].contents %}
-        <item>{{content.content}}</item>
-        {% endfor %}
+    <versionNumber>{{site.membrane_updates[0].version}}</versionNumber>
+    <mac>{{site.membrane_updates[0].mac}}</mac>
+    <windows>{{site.membrane_updates[0].windows}}</windows>
+    <updates>{% for updates in site.membrane_updates[0].updates %}
+        <item>{{updates.item}}</item>{% endfor %}
     </updates>
+    <updates_ko>{% for updates in site.membrane_updates[0].updates_ko %}
+        <item>{{updates.item}}</item>{% endfor %}
+    </updates_ko>
 </update>

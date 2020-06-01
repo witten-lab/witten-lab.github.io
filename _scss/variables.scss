@@ -18,24 +18,6 @@ $border-radius: 4px;
 $box-shadow: 0 0px 1px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .38);
 $box-shadow-variant: 0 1px 2px rgba(0, 0, 0, .12);
 
-/*
-//Dark theme
-$background-color: #212121;
-$background-variant-color: #323232;
-$background-variant2-color: rgba(33, 33, 33, .94);
-$divider-color: rgba(255, 255, 255, .12);
-
-$text-high-emphasis-color: rgba(255, 255, 255, .87);
-$text-high-emphasis-variant-color: #ffffff;
-$text-medium-emphasis-color: rgba(255, 255, 255, .6);
-$text-disabled-color: rgba(255, 255, 255, .38);
-
-$border: 1px solid $text-disabled-color;
-$border-radius: 2px;
-$box-shadow: 0 1px 2px rgba(0, 0, 0, .38), 0 2px 4px rgba(0, 0, 0, .38);
-$box-shadow-variant: 0 1px 0px rgba(0, 0, 0, .38);
-*/
-
 $translateY: translateY(-2px);
 
 @mixin transition() {

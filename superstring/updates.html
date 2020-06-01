@@ -17,25 +17,23 @@ ads: true
     </div>
     <hr>
 </div>
-{% for update in site.superstring %}
+{% for versions in site.superstring_updates %}
 {% if forloop.first == false %}<hr>{% endif %}
 <div class="row updates">
     <div class="col-lg-1">
-        <img src="/assets/img/superstring/icon_256x256.png" alt="Superstring">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
     </div>
     <div class="col-lg-4">
-        <h4 name="version">Version {{update.version}}</h4>
-        <small name="locale-date">{{update.release_date}}</small>
+        <h4 name="version">Version {{versions.version}}</h4>
+        <small name="locale-date">{{versions.release_date}}</small>
         <br>
-        <small><a href="{{update.mac}}">Mac</a>, <a href="{{update.windows}}">Windows</a></small>
+        <small><a href="{{versions.mac}}">Mac</a>, <a href="{{versions.windows}}">Windows</a></small>
     </div>
     <div class="col-lg-7">
-        <ul>
-            {% for content in update.contents %}
-            <li>{{content.content}}</li>
-            {% endfor %}
+        <ul>{% for updates in versions.updates %}
+            <li>{{updates.item}}</li>{% endfor %}
         </ul>
     </div>
 </div>
 {% endfor %}
-<script src="/assets/js/updates.js"></script>
+<script src="/js/updates.js"></script>

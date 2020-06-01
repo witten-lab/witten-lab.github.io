@@ -4,14 +4,15 @@
     <mac>https://wittenlab.com/files/membrane/Membrane2.3.0.app.zip</mac>
     <windows>https://wittenlab.com/files/membrane/Membrane2.3.0.exe.zip</windows>
     <updates>
-        
-        <item>Adds new "Abyssinica", "Fondamento", "Uncial Antiqua" fonts</item>
-        
-        <item>Removes "Seoul Hangang", "Seoul Namsan" fonts due to memory problems</item>
-        
+        <item>Adds new “Abyssinica”, “Fondamento”, “Uncial Antiqua” fonts</item>
+        <item>Removes “Seoul Hangang”, “Seoul Namsan” fonts due to memory problems</item>
         <item>Improves stability</item>
-        
         <item>Fixes minor issues</item>
-        
     </updates>
+    <updates_ko>
+        <item>새로운 폰트 “Abyssinica”, “Fondamento”, “Uncial Antiqua” 추가</item>
+        <item>메모리 문제로 인해 “Seoul Hangang”, “Seoul Namsan” 폰트 삭제</item>
+        <item>안정성 개선</item>
+        <item>사소한 오류 수정</item>
+    </updates_ko>
 </update>

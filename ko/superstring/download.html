@@ -12,11 +12,11 @@ ads: true
         <iframe width="640" height="360" src="https://www.youtube.com/embed/4LVlPExdQmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen> </iframe>
     </div>-->
     <div class="spacing-double"></div>
-    <img src="/assets/img/superstring/icon_256x256.png" width="128px" alt="Superstring">
+    <img src="/img/superstring/icon_256x256.png" width="128px" alt="Superstring">
     <div class="visible-lg">
         <h2>다운로드 중…</h2>
         <div class="spacing"></div>
-        <p>다운로드가 자동으로 시작되지 않으면,<br><a href="{{site.superstring[0].mac}}"><i class="ri-apple-fill"></i> Mac</a> 또는 <a href="{{site.superstring[0].windows}}"><i class="ri-windows-fill"></i> Windows</a>를 위한 Superstring을 직접 다운로드하세요.</p>
+        <p>다운로드가 자동으로 시작되지 않으면,<br><a href="{{site.superstring_updates[0].mac}}"><i class="ri-apple-fill"></i> Mac</a> 또는 <a href="{{site.superstring_updates[0].windows}}"><i class="ri-windows-fill"></i> Windows</a>를 위한 Superstring을 직접 다운로드 하세요.</p>
         <div class="spacing"></div>
     </div>
     <div class="hidden-lg spacing-padding-bottom">
@@ -27,7 +27,7 @@ ads: true
 <script>
     fbq('track', 'Lead');
     $(document).ready(function() {
-        if (0 === navigator.platform.toUpperCase().indexOf("MAC")) document.getElementById('download').src = "{{site.superstring[0].mac}}"
-        else if (0 === navigator.platform.toUpperCase().indexOf("WIN")) document.getElementById('download').src = "{{site.superstring[0].windows}}";
+        if (0 === navigator.platform.toUpperCase().indexOf("MAC")) document.getElementById('download').src = "{{site.superstring_updates[0].mac}}"
+        else if (0 === navigator.platform.toUpperCase().indexOf("WIN")) document.getElementById('download').src = "{{site.superstring_updates[0].windows}}";
     });
 </script>

@@ -3,7 +3,7 @@ layout: post
 title: Blog
 categories: support
 post-title: 4 steps to promote your song online for newbie 
-image: assets/img/superstring/facebook-thumb.png
+image: img/superstring/facebook-thumb.png
 date: 2018-08-01 09:00:00
 published: false
 ---
