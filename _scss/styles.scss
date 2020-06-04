@@ -283,8 +283,8 @@ abbr[data-original-title] {
 }
 
 .container {
-  padding-right: 16px;
-  padding-left: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -964,8 +964,8 @@ select[multiple].input-lg {
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
-  margin-right: -16px;
-  margin-left: -16px;
+  margin-right: -24px;
+  margin-left: -24px;
 }
 
 .navbar-static-top {
@@ -997,7 +997,7 @@ select[multiple].input-lg {
   color: $text-high-emphasis-color;
   float: left;
   height: 56px;
-  padding: 16px 16px;
+  padding: 16px 24px;
   font-size: 18px;
   line-height: 26px;
 }
@@ -1429,7 +1429,7 @@ a.list-group-item-danger.active:focus {
 }
 
 .headerwrap {
-  padding-top: 40px;
+  padding-top: 56px;
   font-size: 20px;
 }
 
@@ -1512,9 +1512,9 @@ hr {
 }
 
 #nav-icon {
-  margin: 20px 16px 0 0;
-  width: 24px;
-  height: 24px;
+  margin: 22px 24px 0 0;
+  width: 20px;
+  height: 20px;
   position: relative;
   cursor: pointer;
 }
@@ -1522,10 +1522,10 @@ hr {
 #nav-icon span {
   display: block;
   position: absolute;
-  height: 2px;
+  height: 1px;
   width: 100%;
   background: $text-medium-emphasis-color;
-  border-radius: 2px;
+  border-radius: 1px;
   opacity: 1;
   left: 0;
   @include rotate-transition(0deg);
@@ -1536,16 +1536,16 @@ hr {
 }
 
 #nav-icon span:nth-child(2) {
-  top: 8px;
+  top: 7px;
 }
 
 #nav-icon span:nth-child(3) {
-  top: 16px;
+  top: 14px;
 }
 
 #nav-icon.open span:nth-child(1) {
   @include rotate-transition(45deg);
-  top: 8px;
+  top: 7px;
 }
 
 #nav-icon.open span:nth-child(2) {
@@ -1555,7 +1555,7 @@ hr {
 
 #nav-icon.open span:nth-child(3) {
   @include rotate-transition(-45deg);
-  top: 8px;
+  top: 7px;
 }
 
 .card {

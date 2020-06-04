@@ -61,3 +61,9 @@ ga('send', 'pageview');
         e('[data-hover="dropdown"]').dropdownHover()
     })
 }(jQuery, window);
+
+window.onload = function () {
+    $('#nav-icon').click(function () {
+        $(this).toggleClass('open');
+    });
+}

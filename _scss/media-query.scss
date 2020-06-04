@@ -39,8 +39,9 @@
     margin-bottom: 0px;
   }
   .navbar-right .nav {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 72px);
     overflow-x: hidden;
+    margin-top: 16px;
   }
   .visible-xs {
     display: block !important;
@@ -75,6 +76,10 @@
   .outro .col-lg-2,
   .outro .col-lg-5 {
     text-align: center;
+  }
+
+  .sidebar {
+    margin-top: 24px;
   }
 }
 

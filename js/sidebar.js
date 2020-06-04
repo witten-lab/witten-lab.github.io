@@ -1,4 +1,6 @@
 window.onload = function () {
+    if (window.location.hash) animateTo($(window.location.hash));
+
     const sidebarItems = $(".sidebar a");
     sidebarItems.on("click", function (e) {
         $("html").animate({
@@ -59,11 +61,5 @@ $(function () {
             return false;
         }
     }
-
-    if (window.location.hash) animateTo($(window.location.hash));
-
-    $('#nav-icon').click(function () {
-        $(this).toggleClass('open');
-    });
 });
 */
