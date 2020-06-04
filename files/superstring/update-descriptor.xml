@@ -3,7 +3,8 @@ layout: null
 ---
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>{{site.superstring_updates[0].version}}</versionNumber>
+    <!--<versionNumber>{{site.superstring_updates[0].version}}</versionNumber>-->
+    <versionNumber>4.0.0</versionNumber>
     <mac>{{site.superstring_updates[0].mac}}</mac>
     <windows>{{site.superstring_updates[0].windows}}</windows>
     <updates>{% for updates in site.superstring_updates[0].updates %}

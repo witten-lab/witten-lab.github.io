@@ -23,10 +23,10 @@ superstring:
 
 superstring_updates:
   - versions:
-    version: 2020.6.2
-    release_date: Jun 2, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring2020.6.2.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring2020.6.2.exe.zip
+    version: 2020.6.4
+    release_date: Jun 4, 2020
+    mac: https://wittenlab.com/files/superstring/Superstring2020.6.4.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring2020.6.4.exe.zip
     updates:
       - item: You can add background videos.
       - item: You can apply “3D rotation” to the text.

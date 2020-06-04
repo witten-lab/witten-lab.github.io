@@ -9,7 +9,6 @@
     width: 100%;
     height: 100%;
   }
-
   .nav .dropdown-menu {
     position: static;
     display: block;
@@ -247,6 +246,13 @@
   }
   .col-sm-offset-0 {
     margin-left: 0;
+  }
+  .content {
+    margin-top: -24px;
+    padding-left: 24px;
+  }
+  .pin-spacer {
+    float: left;
   }
   .navbar-toggle {
     display: none;
@@ -554,11 +560,12 @@
   .container {
     max-width: 960px;
   }
-  .content {
-    min-height: 340px;
-  }
   .subscribe {
     display: inline !important;
     width: 24% !important;
+  }
+
+  .sidebar {
+    margin-top: 56px;
   }
 }

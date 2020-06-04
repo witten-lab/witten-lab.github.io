@@ -12,33 +12,6 @@
 ga('create', 'UA-42273251-3', 'auto');
 ga('send', 'pageview');
 
-$(function () {
-    //Animate with anchor
-    $('a[href*=\\#]:not([href=\\#])').click(function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            animateTo($(this.hash));
-        }
-    });
-
-    var offsetTop = $('.navbar').height() - 24;
-
-    function animateTo(target) {
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-            $('html,body').animate({
-                scrollTop: target.offset().top - offsetTop
-            }, 500);
-            return false;
-        }
-    }
-
-    if (window.location.hash) animateTo($(window.location.hash));
-
-    $('#nav-icon').click(function () {
-        $(this).toggleClass('open');
-    });
-});
-
 !function (e, n) {
     var o = e();
     e.fn.dropdownHover = function (t) {

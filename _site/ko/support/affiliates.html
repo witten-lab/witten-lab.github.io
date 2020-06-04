@@ -39,6 +39,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script src="/js/custom.js"></script>
   <script type="application/ld+json">
@@ -170,8 +171,9 @@
         
     </div>
 </div>
-<div class="container content">
-    <hr class="hr-none-md"> <div class="row">
+<div class="container">
+    <div class="spacing-md"></div>
+<div class="row">
     <div class="col-lg-6">
         <img src="/img/common/affiliate.png">
     </div>
@@ -179,7 +181,9 @@
         <div class="spacing"></div>
         <h2>제휴 프로그램에 참여하고 30%의 수수료 수익을 창출하세요!</h2>
         <div class="spacing"></div>
-        <a class="btn btn-pricing mac" href="/support/ko/contact.html?emailplaceholder=Gumroad 계정 이메일&subject=제휴 프로그램 가입&message=제휴 프로그램에 참여하겠습니다.&options=no" style="margin-bottom:16px">제휴 프로그램 참여</a>
+        <a class="btn btn-pricing mac"
+           href="/support/ko/contact?emailplaceholder=Gumroad 계정 이메일&subject=제휴 프로그램 가입&message=제휴 프로그램에 참여하겠습니다.&options=no"
+           style="margin-bottom:16px">제휴 프로그램 참여</a>
     </div>
 </div>
 <!--
@@ -190,45 +194,50 @@
 </ul>
 If you answered yes to either of these questions, then you should join our affiliates!
 -->
-<div class="affiliates">
-    <hr>
-    <h4>제휴 프로그램이란?</h4>
-    <p>위튼랩 제휴 프로그램을 통해 여러분의 웹 사이트, 블로그 또는 소셜 미디어에 <a href="/superstring/">Superstring</a>과 and <a href="/membrane/">Membrane</a>을 홍보하고 수익을 올릴 수 있습니다. 여러분의 홍보를 통해 구매가 발생되면 구매 금액의 30%를 수수료로 지급합니다.</p>
-    <hr>
-    <h4>제휴 프로그램 참여 방법</h4>
-    <ol>
-        <li>PayPal과 Gumroad 계정을 만드세요.</li>
-        <ul>
-            <li>위튼랩 제휴 프로그램은 결제 솔루션인 Gumroad를 통해 관리되고 PayPal을 통해 지급됩니다. PayPal 계정이 없다면 먼저 <a href="https://www.paypal.com" target="_blank">PayPal</a>을 방문해 계정을 만드세요.</li>
-            <li>Gumroad 계정은 <a href="https://gumroad.com" target="_blank">Gumroad</a>에서 우측 상단의 "Start selling" 버튼을 클릭해 만들 수 있습니다.</li>
-            <li>Gumroad의 <a href="https://gumroad.com/settings/payout">Payout</a> 설정에서 PayPal 계정을 연결하세요.</li>
-        </ul>
-        <li><a href="/support/ko/contact.html?emailplaceholder=Gumroad 계정 이메일&subject=제휴 프로그램 가입&message=제휴 프로그램에 참여하겠습니다.&options=no">여기</a>를 클릭해 제휴 프로그램에 참여하세요.
-            <ul>
-                <li>요청을 검토한 뒤 24시간 이내에 추천 링크가 포함된 이메일을 보내드립니다.</li>
-                <img src="/img/common/ko-affiliate-mail.jpg" width="50%">
-            </ul>
-        </li>
-        <li>홍보를 시작하세요.
-            <ul>
-                <li>블로그, 웹 사이트, 소셜 미디어 어디든 공유하고 싶은 곳에 추천 링크와 함께 Superstring과 Membrane을 홍보하세요.</li>
-                <li>추천 링크를 통해 구매가 발생되면 구매 금액의 30%를 수수료로 지급합니다.</li>
-            </ul>
-        </li>
-    </ol>
-</div>
 <hr>
+<h4>제휴 프로그램이란?</h4>
+<p>위튼랩 제휴 프로그램을 통해 여러분의 웹 사이트, 블로그 또는 소셜 미디어에 <a href="/superstring/">Superstring</a>과 and <a
+        href="/membrane/">Membrane</a>을
+    홍보하고 수익을 올릴 수 있습니다. 여러분의 홍보를 통해 구매가 발생되면 구매 금액의 30%를 수수료로 지급합니다.</p>
+<h4>제휴 프로그램 참여 방법</h4>
+<ol>
+    <li>PayPal과 Gumroad 계정을 만드세요.</li>
+    <ul>
+        <li>위튼랩 제휴 프로그램은 결제 솔루션인 Gumroad를 통해 관리되고 PayPal을 통해 지급됩니다. PayPal 계정이 없다면 먼저 <a
+                href="https://www.paypal.com" target="_blank">PayPal</a>을 방문해 계정을 만드세요.
+        </li>
+        <li>Gumroad 계정은 <a href="https://gumroad.com" target="_blank">Gumroad</a>에서 우측 상단의 "Start selling" 버튼을 클릭해
+            만들 수 있습니다.
+        </li>
+        <li>Gumroad의 <a href="https://gumroad.com/settings/payout">Payout</a> 설정에서 PayPal 계정을 연결하세요.</li>
+    </ul>
+    <li>
+        <a href="/support/ko/contact?emailplaceholder=Gumroad 계정 이메일&subject=제휴 프로그램 가입&message=제휴 프로그램에 참여하겠습니다.&options=no">여기</a>를
+        클릭해 제휴 프로그램에 참여하세요.
+        <ul>
+            <li>요청을 검토한 뒤 24시간 이내에 추천 링크가 포함된 이메일을 보내드립니다.</li>
+            <img src="/img/common/ko-affiliate-mail.jpg" width="50%">
+        </ul>
+    </li>
+    <li>홍보를 시작하세요.
+        <ul>
+            <li>블로그, 웹 사이트, 소셜 미디어 어디든 공유하고 싶은 곳에 추천 링크와 함께 Superstring과 Membrane을 홍보하세요.</li>
+            <li>추천 링크를 통해 구매가 발생되면 구매 금액의 30%를 수수료로 지급합니다.</li>
+        </ul>
+    </li>
+</ol>
 <h4>추가 정보</h4>
 <ul>
     <li>추천 링크를 통해 구매가 발생될 때 마다 알림 이메일을 받게됩니다.</li>
     <li>수수료는 Gumroad를 통해 매주 금요일마다 PayPal로 지급됩니다.</li>
-    <li>위튼랩 제휴 프로그램은 Gumroad를 통해 관리됩니다. 더 자세한 내용은 <a href="https://gumroad.com/terms/affiliates" target="_blank">여기</a>를 참고하세요.
+    <li>위튼랩 제휴 프로그램은 Gumroad를 통해 관리됩니다. 더 자세한 내용은 <a href="https://gumroad.com/terms/affiliates" target="_blank">여기</a>를
+        참고하세요.
     </li>
 </ul>
 
 </div>
 
-    <div class="spacing-double"></div>
+    <div class="spacing-md"></div>
     
     <div class="bottom-area">
         <div class="container">
@@ -240,7 +249,7 @@ If you answered yes to either of these questions, then you should join our affil
     </div>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     
-    <div class="spacing-double"></div>
+    <div class="spacing-md"></div>
     <div class="footer-area">
   <div class="footer container">
     <div class="row hidden-xs">
@@ -287,7 +296,7 @@ If you answered yes to either of these questions, then you should join our affil
       </div>
     </div>
     <hr class="hidden-xs">
-    <div class="spacing-double visible-xs"></div>
+    <div class="spacing-md visible-xs"></div>
     <div class="row">
       <div class="col-xs-6">
         © Witten Lab
