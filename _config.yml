@@ -21,6 +21,8 @@ superstring:
   meta_title_ko: Superstring - 리릭 비디오 제작 툴
   description_ko: Superstring은 멋진 리릭 비디오를 쉽게 만들 수 있는 Mac, Windows 앱입니다.
 
+#Added “Seoul Hangang”, “Seoul Namsan” fonts
+
 superstring_updates:
   - versions:
     version: 2020.6.8
@@ -187,30 +189,15 @@ superstring_updates:
     windows: https://wittenlab.com/files/superstring/Superstring3.1.6.exe.zip
     updates:
       - item: Adds new “Bebas Neue” font
-      - item: Adds a new “Ken Burns” text style
+      - item: Adds new “Dissolve” and “Ken Burns” text styles
+      - item: Improves performance
       - item: Improves usability
       - item: Fixes minor issues
     updates_ko:
       - item: 새로운 폰트 “Bebas Neue” 추가
-      - item: 새로운 텍스트 스타일 “켄 번즈” 추가
-      - item: 사용성 개선
-      - item: 사소한 오류 수정
-  - versions:
-    version: 3.1.0
-    release_date: Jul 20, 2018
-    mac: https://wittenlab.com/files/superstring/Superstring3.1.0.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.1.0.exe.zip
-    updates:
-      - item: Adds a new “Dissolve & Scale” text style
-      - item: Wide preview screen
-      - item: Improves performance
-      - item: Improves stability
-      - item: Fixes minor issues
-    updates_ko:
-      - item: 텍스트 스타일 “Dissolve & Scale” 추가
-      - item: 넓어진 미리보기 화면
+      - item: 새로운 텍스트 스타일 "디졸브", “켄 번즈” 추가
       - item: 작업 성능 개선
-      - item: 안정성 개선
+      - item: 사용성 개선
       - item: 사소한 오류 수정
   - versions:
     version: 3.0.0
