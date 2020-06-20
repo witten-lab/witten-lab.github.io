@@ -23,16 +23,16 @@ superstring:
 
 superstring_updates:
   - versions:
-      version: 2020.6.21
-      release_date: Jun 21, 2020
-      mac: https://wittenlab.com/files/superstring/Superstring2020.6.21.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring2020.6.21.exe.zip
-      updates:
-        - item: New fonts have been added.
-        - item: Minor issues have been fixed.
-      updates_ko:
-        - item: 새로운 폰트들이 추가되었습니다.
-        - item: 사소한 오류들이 수정되었습니다.
+    version: 2020.6.21
+    release_date: Jun 21, 2020
+    mac: https://wittenlab.com/files/superstring/Superstring2020.6.21.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring2020.6.21.exe.zip
+    updates:
+      - item: New fonts have been added.
+      - item: Minor issues have been fixed.
+    updates_ko:
+      - item: 새로운 폰트들이 추가되었습니다.
+      - item: 사소한 오류들이 수정되었습니다.
   - versions:
     version: 2020.6.8
     release_date: Jun 8, 2020
@@ -269,18 +269,18 @@ membrane:
 
 membrane_updates:
   - versions:
-      version: 2020.6.21
-      release_date: Jun 21, 2020
-      mac: https://wittenlab.com/files/superstring/Membrane22020.6.21.app.zip
-      windows: https://wittenlab.com/files/superstring/Membrane22020.6.21.exe.zip
-      updates:
-        - item: New fonts have been added.
-        - item: The usability of the editor has been improved.
-        - item: Minor issues have been fixed.
-      updates_ko:
-        - item: 새로운 폰트들이 추가되었습니다.
-        - item: 에디터의 사용성이 개선되었습니다.
-        - item: 사소한 오류들이 수정되었습니다.
+    version: 2020.6.21
+    release_date: Jun 21, 2020
+    mac: https://wittenlab.com/files/superstring/Membrane22020.6.21.app.zip
+    windows: https://wittenlab.com/files/superstring/Membrane22020.6.21.exe.zip
+    updates:
+      - item: New fonts have been added.
+      - item: The usability of the editor has been improved.
+      - item: Minor issues have been fixed.
+    updates_ko:
+      - item: 새로운 폰트들이 추가되었습니다.
+      - item: 에디터의 사용성이 개선되었습니다.
+      - item: 사소한 오류들이 수정되었습니다.
   - versions:
     version: 2.3.0
     release_date: May 12, 2019

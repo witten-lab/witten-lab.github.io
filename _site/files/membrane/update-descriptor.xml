@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber></versionNumber>
-    <mac></mac>
-    <windows></windows>
+    <versionNumber>2020.6.21</versionNumber>
+    <mac>https://wittenlab.com/files/superstring/Membrane22020.6.21.app.zip</mac>
+    <windows>https://wittenlab.com/files/superstring/Membrane22020.6.21.exe.zip</windows>
     <updates>
+        <item>New fonts have been added.</item>
+        <item>The usability of the editor has been improved.</item>
+        <item>Minor issues have been fixed.</item>
     </updates>
     <updates_ko>
+        <item>새로운 폰트들이 추가되었습니다.</item>
+        <item>에디터의 사용성이 개선되었습니다.</item>
+        <item>사소한 오류들이 수정되었습니다.</item>
     </updates_ko>
 </update>
