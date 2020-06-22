@@ -271,8 +271,8 @@ membrane_updates:
   - versions:
     version: 2020.6.21
     release_date: Jun 21, 2020
-    mac: https://wittenlab.com/files/superstring/Membrane22020.6.21.app.zip
-    windows: https://wittenlab.com/files/superstring/Membrane22020.6.21.exe.zip
+    mac: https://wittenlab.com/files/superstring/Membrane2020.6.21.app.zip
+    windows: https://wittenlab.com/files/superstring/Membrane2020.6.21.exe.zip
     updates:
       - item: New fonts have been added.
       - item: The usability of the editor has been improved.
