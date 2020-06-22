@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
     <versionNumber>2020.6.21</versionNumber>
-    <mac>https://wittenlab.com/files/superstring/Membrane22020.6.21.app.zip</mac>
-    <windows>https://wittenlab.com/files/superstring/Membrane22020.6.21.exe.zip</windows>
+    <mac>https://wittenlab.com/files/superstring/Membrane2020.6.21.app.zip</mac>
+    <windows>https://wittenlab.com/files/superstring/Membrane2020.6.21.exe.zip</windows>
     <updates>
         <item>New fonts have been added.</item>
         <item>The usability of the editor has been improved.</item>
