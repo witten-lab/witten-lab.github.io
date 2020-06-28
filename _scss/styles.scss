@@ -309,10 +309,6 @@ abbr[data-original-title] {
   height: 8px;
 }
 
-.spacing {
-  height: 16px;
-}
-
 .spacing-md {
   height: 24px;
 }
@@ -694,7 +690,6 @@ select[multiple].input-lg {
   display: inline-block;
   padding: 0 16px;
   font-size: 14px;
-  font-weight: bold;
   line-height: 36px;
   height: 40px;
   text-align: center;
@@ -1020,7 +1015,7 @@ select[multiple].input-lg {
 }
 
 .sub-header .nav > .active > a {
-  border-bottom: 2px solid $primary-color;
+  box-shadow: inset 0 -2px 0 $primary-color;
 }
 
 .sub-page-title {
@@ -1030,7 +1025,6 @@ select[multiple].input-lg {
 
 .sub-navbar-right {
   float: right;
-  margin-top: 16px;
 }
 
 .bottom-area {
@@ -1465,10 +1459,6 @@ hr {
   margin: 40px 0;
 }
 
-.hr-lg-md {
-  margin: 40px 0 24px 0;
-}
-
 .anchor {
   padding-top: 56px;
 }
@@ -1589,4 +1579,18 @@ li .svg-inline--fa {
 .product {
   width: 40px;
   margin-right: 8px;
+}
+
+.video-container {
+  margin-bottom: 48px;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

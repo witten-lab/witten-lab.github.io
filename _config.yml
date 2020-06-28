@@ -28,21 +28,10 @@ superstring_updates:
     mac: https://wittenlab.com/files/superstring/Superstring2020.6.21.app.zip
     windows: https://wittenlab.com/files/superstring/Superstring2020.6.21.exe.zip
     updates:
-      - item: New fonts have been added.
-      - item: Minor issues have been fixed.
-    updates_ko:
-      - item: 새로운 폰트들이 추가되었습니다.
-      - item: 사소한 오류들이 수정되었습니다.
-  - versions:
-    version: 2020.6.8
-    release_date: Jun 8, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring2020.6.8.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring2020.6.8.exe.zip
-    updates:
       - item: You can add background videos.
       - item: You can apply “3D rotation” to the text.
       - item: New text styles “Cover”, “Cube”, “Stamp”, “Uncover” have been added.
-      - item: New font group “Rounded” has been added.
+      - item: New fonts have been added.
       - item: The rendering quality has been improved.
       - item: The usability of the editor has been improved.
       - item: Minor issues have been fixed.
@@ -50,7 +39,7 @@ superstring_updates:
       - item: 배경에 비디오를 추가할 수 있습니다.
       - item: 텍스트에 “3D 회전”을 적용할 수 있습니다.
       - item: ”덮기”, “큐브”, “스탬프”, “당기기” 텍스트 스타일이 추가되었습니다.
-      - item: “라운드“ 폰트 그룹이 추가되었습니다.
+      - item: 새로운 폰트들이 추가되었습니다.
       - item: 랜더링 품질이 향상되었습니다.
       - item: 에디터의 사용성이 개선되었습니다.
       - item: 사소한 오류들이 수정되었습니다.
@@ -230,42 +219,13 @@ superstring_updates:
       - item: 안정성 개선
       - item: 사소한 오류 수정
 
-superstring_showcase:
-  - youtube: gzI2GOkR9E0
-    song: Revolution ting
-    artist: Black The Ripper
-  - youtube: DtiB-L9EVlY
-    song: Ultraspell
-    artist: Strange Fiction
-  - youtube: 5anAxF5V6vw
-    song: Trust Alone
-    artist: Shane Lother
-  - youtube: kY11hwuI8Zc
-    song: The purge in pallet town
-    artist: Robotface
-  - youtube: C-zWqiQx06g
-    song: Bottle of Whiskey & A Razor Blade
-    artist: Liminal Music
-  - youtube: hwcci1Ysxiw
-    song: All Hope Is Gone
-    artist: Paul Miro
-  - youtube: 1KHxxRBfm-4
-    song: New
-    artist: The Brothers Cole
-  - youtube: UjIrASHfU-8
-    song: Aku Bunuh Kamu Berkali
-    artist: Scarlet Lady
-  - youtube: FTOt23saVPM
-    song: Better Than The Best
-    artist: Nation In Blue
-
 membrane:
   title: Membrane
   price: $59.99
   meta_title: Membrane - Album artwork maker
-  description: Membrane is a Mac & Windows app that lets you create your album artworks easily.
-  meta_title_ko: Membrane - 커버 이미지 제작 툴
-  description_ko: Membrane은 커버 이미지를 쉽게 만들 수 있는 Mac, Windows 앱입니다.
+  description: Membrane is a Mac & Windows app that lets you create album artworks easily.
+  meta_title_ko: Membrane - 앨범 아트웍 제작 툴
+  description_ko: Membrane은 앨범 아트웍을 쉽게 만들 수 있는 Mac, Windows 앱입니다.
 
 membrane_updates:
   - versions:
@@ -365,8 +325,3 @@ membrane_updates:
       - item: 작업 성능 개선
       - item: 안정성 개선
       - item: 사소한 오류 수정
-
-membrane_showcase:
-  - url: img/superstring/facebook.png
-    title: Facebook cover
-    artist: Witten Lab
