@@ -15,7 +15,7 @@ ads: true
     <div class="visible-lg spacing">
         <h2>Downloading…</h2>
         <div class="spacing-md"></div>
-        <p>If your download doesn’t start automatically,<br>You can manually download Superstring for <a href="{{site.superstring_updates[0].mac}}"><i class="ri-apple-fill"></i> Mac</a> or <a href="{{site.superstring_updates[0].windows}}"><i class="ri-windows-fill"></i> Windows</a>.</p>
+        <p>If your download doesn’t start automatically,<br>You can manually download Superstring for <a href="{{site.superstring.latest_version.mac}}"><i class="ri-apple-fill"></i> Mac</a> or <a href="{{site.superstring.latest_version.windows}}"><i class="ri-windows-fill"></i> Windows</a>.</p>
         <div class="spacing-md"></div>
     </div>
     <div class="hidden-lg spacing-padding-bottom">
@@ -30,7 +30,7 @@ ads: true
 <script>
     fbq('track', 'Lead');
     $(document).ready(function() {
-        if (0 === navigator.platform.toUpperCase().indexOf("MAC")) document.getElementById('download').src = "{{site.superstring_updates[0].mac}}"
-        else if (0 === navigator.platform.toUpperCase().indexOf("WIN")) document.getElementById('download').src = "{{site.superstring_updates[0].windows}}";
+        if (0 === navigator.platform.toUpperCase().indexOf("MAC")) document.getElementById('download').src = "{{site.superstring.latest_version.mac}}"
+        else if (0 === navigator.platform.toUpperCase().indexOf("WIN")) document.getElementById('download').src = "{{site.superstring.latest_version.windows}}";
     });
 </script>
