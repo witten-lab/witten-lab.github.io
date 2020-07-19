@@ -14,29 +14,289 @@ ads: true
                 <br>다시 1년 동안 업데이트를 받으려면 라이센스를 갱신하세요.</p>
         </div>
         <div class="col-lg-3 righted">
-            <a href="/superstring/pricing" class="btn" style="margin-left:8px"><i class="ri-bank-card-2-line"></i> 라이센스 구매</a>
+            <a href="/superstring/pricing" class="btn" style="margin-left:8px"><i class="ri-bank-card-2-line"></i> 라이센스
+                구매</a>
         </div>
     </div>
     <hr>
 </div>
-{% for versions in site.superstring_updates %}
-{% if forloop.first == false %}<hr>{% endif %}
 <div class="row updates">
     <div class="col-lg-1">
         <img src="/img/superstring/icon_256x256.png" alt="Superstring">
     </div>
     <div class="col-lg-3">
-        <h4 name="version">버전 {{versions.version}}</h4>
-        <small name="locale-date">{{versions.release_date}}</small>
+        <h4 name="version">버전 {{site.superstring.latest_version.version}}</h4>
+        <small name="locale-date">{{site.superstring.latest_version.release_date}}</small>
         <br>
-        <small><a href="{{versions.mac}}">Mac</a>, <a href="{{versions.windows}}">Windows</a></small>
+        <small><a href="{{superstring.latest_version.mac}}">Mac</a>, <a
+                href="{{site.superstring.latest_version.windows}}">Windows</a></small>
     </div>
     <div class="col-lg-8">
-        <ul>{% for updates in versions.updates_ko %}
-            <li>{{updates.item}}</li>{% endfor %}
+        <ul>{% for updates in site.superstring.latest_version.updates_ko %}
+            <li>{{updates.item}}</li>
+            {% endfor %}
         </ul>
     </div>
 </div>
-{% endfor %}
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 2020.6.21</h4>
+        <small name="locale-date">Jun 21, 2020</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring2020.6.21.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring2020.6.21.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>배경에 비디오를 추가할 수 있습니다.</li>
+            <li>텍스트에 “3D 회전”을 적용할 수 있습니다.</li>
+            <li>”덮기”, “큐브”, “스탬프”, “당기기” 텍스트 스타일이 추가되었습니다.</li>
+            <li>새로운 폰트들이 추가되었습니다.</li>
+            <li>랜더링 품질이 향상되었습니다.</li>
+            <li>에디터의 사용성이 개선되었습니다.</li>
+            <li>사소한 오류들이 수정되었습니다.</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 3.9.3</h4>
+        <small name="locale-date">Mar 1, 2020</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring3.9.3.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring3.9.3.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>새로운 기능 “캔버스” 추가</li>
+            <li>새로운 백그라운드 스타일 “프레임” 추가</li>
+            <li>새로운 백그라운드 옵션 “블러”, “펄스” 추가</li>
+            <li>새로운 폰트 “Damion” 추가</li>
+            <li>에디터 사용성 개선</li>
+            <li>사소한 오류 수정</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 3.8.5</h4>
+        <small name="locale-date">Jan 15, 2020</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring3.8.5.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring3.8.5.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>새로운 폰트 “Girassol”, “Righteous”, “Underwood Champion” 추가</li>
+            <li>셋팅에 “사이드바 고정” 옵션 추가</li>
+            <li>메뉴 바 사용성 개선</li>
+            <li>안정성 개선</li>
+            <li>작업 성능 향상</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 3.7.4</h4>
+        <small name="locale-date">Dec 20, 2019</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring3.7.4.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring3.7.4.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>새로운 텍스트 & 백그라운드 스타일 “블러” 추가</li>
+            <li>넓어진 텍스트 영역</li>
+            <li>안정성 개선</li>
+            <li>작업 성능 향상</li>
+            <li>사소한 오류 수정</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 3.6.8</h4>
+        <small name="locale-date">Oct 8, 2019</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring3.6.8.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring3.6.8.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>새로운 폰트 “지마켓 산스” 추가</li>
+            <li>새로운 옵션 “가속”, “회전” 추가</li>
+            <li>에디터 사용성 개선</li>
+            <li>안정성 개선</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 3.3.6</h4>
+        <small name="locale-date">Jul 1, 2019</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring3.3.6.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring3.3.6.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>에디터 줌 기능 추가</li>
+            <li>비디오 화질 개선</li>
+            <li>사소한 오류 수정</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 3.3.0</h4>
+        <small name="locale-date">May 12, 2019</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring3.3.0.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring3.3.0.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>새로운 폰트 “Abyssinica”, “Fondamento”, “Uncial Antiqua” 추가</li>
+            <li>메모리 문제로 인해 “Seoul Hangang”, “Seoul Namsan” 폰트 삭제</li>
+            <li>안정성 개선</li>
+            <li>사소한 오류 수정</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 3.2.8</h4>
+        <small name="locale-date">Mar 1, 2019</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring3.2.8.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring3.2.8.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>새로운 폰트 “GFS Neohellenic” 추가</li>
+            <li>안정성 개선</li>
+            <li>사소한 오류 수정</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 3.2.4</h4>
+        <small name="locale-date">Nov 8, 2018</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring3.2.4.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring3.2.4.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>새로운 폰트 “Teko”, “Rasa” 추가</li>
+            <li>사소한 오류 수정</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 3.2.0</h4>
+        <small name="locale-date">Sep 4, 2018</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring3.2.0.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring3.2.0.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>새로운 텍스트 스타일 “방향 표지판” 추가</li>
+            <li>성능 향상을 위해 내보내기 시 미리보기 제거</li>
+            <li>성능 향상을 위해 배경 색 제거</li>
+            <li>안정성 개선</li>
+            <li>사소한 오류 수정</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 3.1.6</h4>
+        <small name="locale-date">Aug 4, 2018</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring3.1.6.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring3.1.6.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>새로운 폰트 “Bebas Neue” 추가</li>
+            <li>새로운 텍스트 스타일 "디졸브", “켄 번즈” 추가</li>
+            <li>작업 성능 개선</li>
+            <li>사용성 개선</li>
+            <li>사소한 오류 수정</li>
+        </ul>
+    </div>
+</div>
+<hr>
+<div class="row updates">
+    <div class="col-lg-1">
+        <img src="/img/superstring/icon_256x256.png" alt="Superstring">
+    </div>
+    <div class="col-lg-3">
+        <h4 name="version">버전 3.0.0</h4>
+        <small name="locale-date">Jul 1, 2018</small>
+        <br>
+        <small><a href="https://wittenlab.com/files/superstring/Superstring3.0.0.app.zip">Mac</a>, <a
+                href="https://wittenlab.com/files/superstring/Superstring3.0.0.exe.zip">Windows</a></small>
+    </div>
+    <div class="col-lg-8">
+        <ul>
+            <li>무료 이미지 라이브러리 추가</li>
+            <li>새로운 효과 추가</li>
+            <li>새로운 글꼴 추가</li>
+            <li>.wav 형식 지원</li>
+            <li>작업 성능 개선</li>
+            <li>안정성 개선</li>
+            <li>사소한 오류 수정</li>
+        </ul>
+    </div>
+</div>
 <script src="/js/locale-date.js"></script>
 <script src="/js/updates.js"></script>

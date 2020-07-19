@@ -10,218 +10,36 @@ description: We make things as simple as possible.
 youtube: https://www.youtube.com/c/wittenlab
 facebook: https://www.facebook.com/wittenlab
 instagram: https://www.instagram.com/wittenlab
-
 cloudinary: https://res.cloudinary.com/wittenlab/image/upload/q_auto,f_auto,dpr_auto
 
 superstring:
   title: Superstring
-  price: $59.99
+  price: $69.99
   meta_title: Superstring - Lyric video maker
   description: Superstring is a Mac & Windows app that lets you create lyric videos easily.
   meta_title_ko: Superstring - 리릭 비디오 제작 툴
   description_ko: Superstring은 멋진 리릭 비디오를 쉽게 만들 수 있는 Mac, Windows 앱입니다.
-
-superstring_updates:
-  - versions:
-    version: 2020.6.21
-    release_date: Jun 21, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring2020.6.21.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring2020.6.21.exe.zip
+  latest_version:
+    version: 2020.7.19
+    release_date: Jul 19, 2020
+    mac: https://wittenlab.com/files/superstring/Superstring2020.7.19.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring2020.7.19.exe.zip
     updates:
-      - item: You can add background videos.
-      - item: You can apply “3D rotation” to the text.
-      - item: New text styles “Cover”, “Cube”, “Stamp”, “Uncover” have been added.
-      - item: New fonts have been added.
-      - item: The rendering quality has been improved.
+      - item: You can align the timing of clips easily with the timestamp button.
+      - item: You can add a border and a shadow to the text.
+      - item: New font “Baloo”, “Jaldi” and “Lab Digital” has been added.
       - item: The usability of the editor has been improved.
       - item: Minor issues have been fixed.
     updates_ko:
-      - item: 배경에 비디오를 추가할 수 있습니다.
-      - item: 텍스트에 “3D 회전”을 적용할 수 있습니다.
-      - item: ”덮기”, “큐브”, “스탬프”, “당기기” 텍스트 스타일이 추가되었습니다.
-      - item: 새로운 폰트들이 추가되었습니다.
-      - item: 랜더링 품질이 향상되었습니다.
+      - item: 타임스탬프 버튼으로 클립의 타이밍을 쉽게 맞출 수 있습니다.
+      - item: 텍스트에 테두리와 그림자를 적용할 수 있습니다.
+      - item: 새로운 폰트 “Baloo”, “Jaldi”, “LAB디지털”이 추가되었습니다.
       - item: 에디터의 사용성이 개선되었습니다.
       - item: 사소한 오류들이 수정되었습니다.
-  - versions:
-    version: 3.9.3
-    release_date: Mar 1, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring3.9.3.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.9.3.exe.zip
-    updates:
-      - item: Adds a new “Canvas” feature
-      - item: Adds a new “Frame” background style
-      - item: Adds new “Blur”, “Pulse” background options
-      - item: Adds a new “Damion” font
-      - item: Improves the editor usability
-      - item: Fixes minor issues
-    updates_ko:
-      - item: 새로운 기능 “캔버스” 추가
-      - item: 새로운 백그라운드 스타일 “프레임” 추가
-      - item: 새로운 백그라운드 옵션 “블러”, “펄스” 추가
-      - item: 새로운 폰트 “Damion” 추가
-      - item: 에디터 사용성 개선
-      - item: 사소한 오류 수정
-  - versions:
-    version: 3.8.5
-    release_date: Jan 15, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring3.8.5.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.8.5.exe.zip
-    updates:
-      - item: Adds new “Girassol”, “Righteous”, “Underwood Champion” fonts
-      - item: Adds a “Pin sidebar” option in the settings
-      - item: Improves the menu bar
-      - item: Improves stability
-      - item: Performance increase
-    updates_ko:
-      - item: 새로운 폰트 “Girassol”, “Righteous”, “Underwood Champion” 추가
-      - item: 셋팅에 “사이드바 고정” 옵션 추가
-      - item: 메뉴 바 사용성 개선
-      - item: 안정성 개선
-      - item: 작업 성능 향상
-  - versions:
-    version: 3.7.4
-    release_date: Dec 20, 2019
-    mac: https://wittenlab.com/files/superstring/Superstring3.7.4.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.7.4.exe.zip
-    updates:
-      - item: Adds a new “Blur” text & background style
-      - item: Wide text area
-      - item: Improves stability
-      - item: Performance increase
-      - item: Fixes minor issues
-    updates_ko:
-      - item: 새로운 텍스트 & 백그라운드 스타일 “블러” 추가
-      - item: 넓어진 텍스트 영역
-      - item: 안정성 개선
-      - item: 작업 성능 향상
-      - item: 사소한 오류 수정
-  - versions:
-    version: 3.6.8
-    release_date: Oct 8, 2019
-    mac: https://wittenlab.com/files/superstring/Superstring3.6.8.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.6.8.exe.zip
-    updates:
-      - item: Adds a new “Gmarket Sans” font
-      - item: Adds new “Acceleration”, “Rotation” options
-      - item: Improves the editor usability
-      - item: Improves stability
-    updates_ko:
-      - item: 새로운 폰트 “지마켓 산스” 추가
-      - item: 새로운 옵션 “가속”, “회전” 추가
-      - item: 에디터 사용성 개선
-      - item: 안정성 개선
-  - versions:
-    version: 3.3.6
-    release_date: Jul 1, 2019
-    mac: https://wittenlab.com/files/superstring/Superstring3.3.6.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.3.6.exe.zip
-    updates:
-      - item: Adds a zoom feature to the editor
-      - item: Improves video quality
-      - item: Fixes minor issues
-    updates_ko:
-      - item: 에디터 줌 기능 추가
-      - item: 비디오 화질 개선
-      - item: 사소한 오류 수정
-  - versions:
-    version: 3.3.0
-    release_date: May 12, 2019
-    mac: https://wittenlab.com/files/superstring/Superstring3.3.0.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.3.0.exe.zip
-    updates:
-      - item: Adds new “Abyssinica”, “Fondamento”, “Uncial Antiqua” fonts
-      - item: Removes “Seoul Hangang”, “Seoul Namsan” fonts due to memory problems
-      - item: Improves stability
-      - item: Fixes minor issues
-    updates_ko:
-      - item: 새로운 폰트 “Abyssinica”, “Fondamento”, “Uncial Antiqua” 추가
-      - item: 메모리 문제로 인해 “Seoul Hangang”, “Seoul Namsan” 폰트 삭제
-      - item: 안정성 개선
-      - item: 사소한 오류 수정
-  - versions:
-    version: 3.2.8
-    release_date: Mar 1, 2019
-    mac: https://wittenlab.com/files/superstring/Superstring3.2.8.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.2.8.exe.zip
-    updates:
-      - item: Adds a new “GFS Neohellenic” font
-      - item: Improves stability
-      - item: Fixes minor issues
-    updates_ko:
-      - item: 새로운 폰트 “GFS Neohellenic” 추가
-      - item: 안정성 개선
-      - item: 사소한 오류 수정
-  - versions:
-    version: 3.2.4
-    release_date: Nov 8, 2018
-    mac: https://wittenlab.com/files/superstring/Superstring3.2.4.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.2.4.exe.zip
-    updates:
-      - item: Adds new “Teko”, “Rasa” fonts
-      - item: Fixes minor issues
-    updates_ko:
-      - item: 새로운 폰트 “Teko”, “Rasa” 추가
-      - item: 사소한 오류 수정
-  - versions:
-    version: 3.2.0
-    release_date: Sep 4, 2018
-    mac: https://wittenlab.com/files/superstring/Superstring3.2.0.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.2.0.exe.zip
-    updates:
-      - item: Adds a new “Direction Sign” text style
-      - item: Removes the preview when exporting to increase performance
-      - item: Removes the background color to increase performance
-      - item: Improves stability
-      - item: Fixes minor issues
-    updates_ko:
-      - item: 새로운 텍스트 스타일 “방향 표지판” 추가
-      - item: 성능 향상을 위해 내보내기 시 미리보기 제거
-      - item: 성능 향상을 위해 배경 색 제거
-      - item: 안정성 개선
-      - item: 사소한 오류 수정
-  - versions:
-    version: 3.1.6
-    release_date: Aug 4, 2018
-    mac: https://wittenlab.com/files/superstring/Superstring3.1.6.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.1.6.exe.zip
-    updates:
-      - item: Adds new “Bebas Neue” font
-      - item: Adds new “Dissolve” and “Ken Burns” text styles
-      - item: Improves performance
-      - item: Improves usability
-      - item: Fixes minor issues
-    updates_ko:
-      - item: 새로운 폰트 “Bebas Neue” 추가
-      - item: 새로운 텍스트 스타일 "디졸브", “켄 번즈” 추가
-      - item: 작업 성능 개선
-      - item: 사용성 개선
-      - item: 사소한 오류 수정
-  - versions:
-    version: 3.0.0
-    release_date: Jul 1, 2018
-    mac: https://wittenlab.com/files/superstring/Superstring3.0.0.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.0.0.exe.zip
-    updates:
-      - item: Adds beautiful, free photos
-      - item: Adds more effects
-      - item: Adds new fonts
-      - item: Supports .wav format
-      - item: Improves performance
-      - item: Improves stability
-      - item: Fixes minor issues
-    updates_ko:
-      - item: 무료 이미지 라이브러리 추가
-      - item: 새로운 효과 추가
-      - item: 새로운 글꼴 추가
-      - item: .wav 형식 지원
-      - item: 작업 성능 개선
-      - item: 안정성 개선
-      - item: 사소한 오류 수정
 
 membrane:
   title: Membrane
-  price: $59.99
+  price: $69.99
   meta_title: Membrane - Album artwork maker
   description: Membrane is a Mac & Windows app that lets you create album artworks easily.
   meta_title_ko: Membrane - 앨범 아트웍 제작 툴

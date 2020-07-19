@@ -1,15 +1,14 @@
 ---
-layout: null
 ---
 <?xml version="1.0" encoding="utf-8" ?>
 <update>
-    <versionNumber>{{site.superstring_updates[0].version}}</versionNumber>
-    <mac>{{site.superstring_updates[0].mac}}</mac>
-    <windows>{{site.superstring_updates[0].windows}}</windows>
-    <updates>{% for updates in site.superstring_updates[0].updates %}
+    <versionNumber>{{site.superstring.latest_version.version}}</versionNumber>
+    <mac>{{site.superstring.latest_version.mac}}</mac>
+    <windows>{{site.superstring.latest_version.windows}}</windows>
+    <updates>{% for updates in site.superstring.latest_version.updates %}
         <item>{{updates.item}}</item>{% endfor %}
     </updates>
-    <updates_ko>{% for updates in site.superstring_updates[0].updates_ko %}
+    <updates_ko>{% for updates in site.superstring.latest_version.updates_ko %}
         <item>{{updates.item}}</item>{% endfor %}
     </updates_ko>
 </update>

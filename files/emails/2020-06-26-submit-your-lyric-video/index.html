@@ -14,7 +14,7 @@ layout: null
                             <hr style="background:rgba(0, 0, 0, .12);border:0;min-height:1px;margin:16px 0;min-height:1px">
                             <span style="color:rgba(0, 0, 0, .87);font-size:16px">What's new</span>
                             <ul style="color:rgba(0, 0, 0, .87);font-size:16px;line-height:28px;margin:8px 0 16px 0;word-wrap:break-word">
-                                {% for updates in site.superstring_updates[0].updates %}
+                                {% for updates in site.superstring.latest_version.updates %}
                                 <li>{{ updates.item }}</li>{% endfor %}
                             </ul>
                             <hr style="background:rgba(0, 0, 0, .12);border:0;min-height:1px;margin:16px 0;min-height:1px">
@@ -24,7 +24,7 @@ layout: null
                                         <p style="color:rgba(0, 0, 0, .87);font-size:14px;line-height:20px;word-wrap:break-word">Available for Mac and Windows.</p>
                                     </td>
                                     <td style="text-align:right">
-                                        <a href="https://wittenlab.com/superstring/download" style="background:#4285f4;border-radius:4px;color:#fff!important;display:inline-block;font-size:14px;padding:12px 16px;text-decoration:none" target="_blank">Free trial</a>
+                                        <a href="https://wittenlab.com/superstring/download" style="background:#4285f4;border-radius:4px;color:#fff!important;display:inline-block;font-size:14px;padding:12px 16px;text-decoration:none" target="_blank">Download</a>
                                     </td>
                                 </tr>
                             </table>
