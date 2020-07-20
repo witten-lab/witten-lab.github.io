@@ -31,7 +31,7 @@ superstring:
       - item: The usability of the editor has been improved.
       - item: Minor issues have been fixed.
     updates_ko:
-      - item: 타임스탬프 버튼으로 클립의 타이밍을 쉽게 맞출 수 있습니다.
+      - item: 타임스탬프 버튼으로 가사의 타이밍을 쉽게 맞출 수 있습니다.
       - item: 텍스트에 테두리와 그림자를 적용할 수 있습니다.
       - item: 새로운 폰트 “Baloo”, “Jaldi”, “LAB디지털”이 추가되었습니다.
       - item: 에디터의 사용성이 개선되었습니다.
