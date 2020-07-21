@@ -27,7 +27,7 @@ ads: true
         <label>내용 *</label>
         <textarea class="form-control" rows="5" name="message" id="message" required></textarea>
     </div>
-    <div id="options">
+    <div id="options" class="row">
         <div class="col-lg-6">
             <div class="form-group">
                 <label>어떤 앱을 사용하세요?</label>
@@ -59,15 +59,14 @@ ads: true
             </div>
         </div>
     </div>
-    <div class="spacing-md"></div>
-    <div class="form-group">
+    <hr>
+    <div class="form-group float-left">
         <label class="checkbox">
-            <input type="checkbox" name="subscription" id="subscription" checked> 
+            <input type="checkbox" name="subscription" id="subscription" checked>
             <span class="checkmark"></span>뉴스와 업데이트를 받겠습니다.
         </label>
     </div>
-    <hr>
-    <button type="submit" class="btn" onclick="submitForm()" id="submitButton">제출</button>
+    <button type="submit" class="btn float-right" onclick="submitForm()" id="submitButton">제출</button>
 </form>
 <iframe name="hiddenFrame" id="hiddenFrame" style="display:none"></iframe>
 <script src="/js/contact.js"></script>

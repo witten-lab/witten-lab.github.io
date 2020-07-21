@@ -25,7 +25,7 @@ ads: true
         <label>Message *</label>
         <textarea class="form-control" rows="5" name="message" id="message" required></textarea>
     </div>
-    <div id="options">
+    <div id="options" class="row">
         <div class="col-lg-6">
             <div class="form-group">
                 <label>Which app are you using?</label>
@@ -57,15 +57,14 @@ ads: true
             </div>
         </div>
     </div>
-    <div class="spacing-md"></div>
-    <div class="form-group">
+    <hr>
+    <div class="form-group float-left">
         <label class="checkbox">
-            <input type="checkbox" name="subscription" id="subscription" checked> 
+            <input type="checkbox" name="subscription" id="subscription" checked>
             <span class="checkmark"></span>Send me news and updates.
         </label>
     </div>
-    <hr>
-    <button type="submit" class="btn" onclick="submitForm()" id="submitButton">Submit</button>
+    <button type="submit" class="btn float-right" onclick="submitForm()" id="submitButton">Submit</button>
 </form>
 <iframe name="hiddenFrame" id="hiddenFrame" style="display:none"></iframe>
 <script src="/js/contact.js"></script>
