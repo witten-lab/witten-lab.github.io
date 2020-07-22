@@ -8,7 +8,7 @@ window.onload = function () {
 
     function scrollTo(target) {
         $("html").animate({
-            scrollTop: $(target).offset().top
+            scrollTop: $(target).offset().top - 24
         }, 1000, "easeInOutExpo");
     }
 
@@ -21,7 +21,7 @@ window.onload = function () {
         gsap.to(".sidebar", {
             scrollTrigger: {
                 trigger: ".sidebar",
-                start: (-$(".navbar").outerHeight(true) - 24) + "px",
+                start: (-$(".navbar").outerHeight(true) - 32) + "px",
                 end: $(".content").height() - $(".navbar-header").height() - $(".sidebar").outerHeight(true) + "px",
                 pin: true,
             },
