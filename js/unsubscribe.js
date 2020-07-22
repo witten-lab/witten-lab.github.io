@@ -22,7 +22,7 @@ function submitForm() {
         const unsubscribe = document.createElement('input');
         unsubscribe.setAttribute('type', 'hidden');
         unsubscribe.setAttribute('name', 'subscribe');
-        unsubscribe.setAttribute('value', 'false');
+        unsubscribe.setAttribute('value', false);
         form.appendChild(unsubscribe);
 
         document.getElementById('hiddenFrame').onload = onLoad();

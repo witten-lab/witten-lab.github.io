@@ -19,9 +19,6 @@
   .navbar-collapse .nav > li > a {
     padding: 8px 16px;
   }
-  .nav > li > a {
-    padding: 16px 8px;
-  }
   .dropdown-menu .divider {
     display: none;
   }
@@ -247,7 +244,7 @@
     margin-left: 0;
   }
   .content {
-    margin-top: -24px;
+    margin-top: -8px;
     padding-left: 32px;
   }
   .pin-spacer {
@@ -259,10 +256,6 @@
   .nav {
     float: left;
     margin: 0;
-  }
-  .nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
   .navbar-left {
     float: left !important;
