@@ -187,12 +187,6 @@ a:focus {
   outline: 0;
 }
 
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-
 img {
   vertical-align: middle;
   max-width: 100% !important;
@@ -694,7 +688,18 @@ select[multiple].input-lg {
   float: right;
 }
 
+.icon {
+  margin-right: 4px;
+  transform: $translateY;
+  width: 32px;
+}
+
+.btn i{
+  margin-right: 8px;
+}
+
 .btn {
+  font-weight: bold;
   min-width: 88px;
   display: inline-block;
   padding: 0 16px;
@@ -881,9 +886,10 @@ select[multiple].input-lg {
 }
 
 .nav > li > a {
+  font-size: 13px;
+  padding: 20px 16px 16px 16px;
   position: relative;
   display: block;
-  padding: 10px 15px;
 }
 
 .nav > li > a:hover,
@@ -926,11 +932,15 @@ select[multiple].input-lg {
   max-width: none;
 }
 
+.navbar {
+  border-bottom: 1px solid $divider-color;
+}
+
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   content: "";
   border-top: 0;
-  border-bottom: 4px solid;
+  border-bottom: 4px solid $divider-color;
 }
 
 .dropup .dropdown-menu,
@@ -940,15 +950,10 @@ select[multiple].input-lg {
   margin-bottom: 1px;
 }
 
-.navbar {
-  position: relative;
-  background-color: $background-variant2-color;
-}
-
 .navbar-collapse {
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
-  border-top: 1px solid transparent;
+  border-top: 1px solid $divider-color;
   box-shadow: $box-shadow;
 }
 
@@ -972,33 +977,8 @@ select[multiple].input-lg {
   margin-left: -24px;
 }
 
-.navbar-static-top {
-  z-index: 1000;
-  border-width: 0 0 1px;
-}
-
-.navbar-fixed-top,
-.navbar-fixed-bottom {
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-
-.navbar-fixed-top {
-  top: 0;
-  border-width: 0 0 1px;
-}
-
-.navbar-fixed-bottom {
-  bottom: 0;
-  margin-bottom: 0;
-  border-width: 1px 0 0;
-}
-
 .navbar-brand {
   font-family: 'Google Sans', sans-serif;
-  color: $text-high-emphasis-color;
   float: left;
   height: 56px;
   padding: 16px 24px;
@@ -1012,15 +992,9 @@ select[multiple].input-lg {
 }
 
 .sub-header {
-  padding-top: 56px;
-}
-
-.sub-header .container {
-  border-bottom: 1px solid $divider-color;
-}
-
-.sub-header .nav > li > a {
-  font-size: 13px;
+  background-color: rgba(240, 240, 240, .6);
+  backdrop-filter: saturate(180%) blur(16px);
+  z-index: 1;
 }
 
 .sub-header .nav > .active > a {
@@ -1029,7 +1003,12 @@ select[multiple].input-lg {
 
 .sub-page-title {
   float: left;
-  margin-bottom: 8px;
+}
+
+.sub-page-title h4 {
+  font-family: 'Google Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 12px;
 }
 
 .sub-navbar-right {
@@ -1056,12 +1035,6 @@ select[multiple].input-lg {
 
 .navbar-toggle:focus {
   outline: none;
-}
-
-.nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 20px;
 }
 
 .sub-navbar-right .nav > li {
@@ -1093,15 +1066,6 @@ select[multiple].input-lg {
   margin-bottom: 15px;
 }
 
-.navbar-default {
-  box-shadow: $box-shadow-variant;
-}
-
-.nav > li > a {
-  font-size: 14px;
-  padding: 16px 20px 14px 20px;
-}
-
 .dropdown-menu > li > a:hover,
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -1113,20 +1077,6 @@ select[multiple].input-lg {
 .nav > .active > a:focus {
   font-weight: bold;
   background-color: transparent;
-}
-
-.navbar-default .nav > .disabled > a,
-.navbar-default .nav > .disabled > a:hover,
-.navbar-default .nav > .disabled > a:focus {
-  color: $text-disabled-color;
-}
-
-.navbar-default .navbar-link {
-  color: $text-medium-emphasis-color;
-}
-
-.navbar-default .navbar-link:hover {
-  color: $text-high-emphasis-color;
 }
 
 .updates h4 {
@@ -1429,7 +1379,6 @@ a.list-group-item-danger.active:focus {
 }
 
 .headerwrap {
-  padding-top: 56px;
   font-size: 20px;
 }
 
@@ -1438,7 +1387,7 @@ a.list-group-item-danger.active:focus {
   font-size: 24px;
   color: $text-medium-emphasis-color;
   margin-top: 0px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   font-weight: normal;
 }
 
@@ -1453,18 +1402,6 @@ hr {
   border: 0;
   border-top: 1px solid $divider-color;
   margin: 24px 0;
-}
-
-.hr-sm {
-  margin: 12px 0;
-}
-
-.hr-md-sm {
-  margin: 24px 0 12px 0;
-}
-
-.hr-lg {
-  margin: 40px 0;
 }
 
 .anchor {
@@ -1577,11 +1514,6 @@ hr {
 
 .card-text p {
   margin-bottom: 16px;
-}
-
-.btn i,
-li .svg-inline--fa {
-  margin-right: 8px;
 }
 
 .product {

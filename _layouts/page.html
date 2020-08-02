@@ -3,13 +3,7 @@ layout: default
 ---
 <div class="sub-header">
     <div class="container">
-        {% if page.lang %}
-        <div class="sub-page-title"><h4><a href="/{{page.lang}}/{% if page.parent %}{{page.parent | downcase}}{% else %}{{page.categories | downcase}}{% endif %}">{{page.categories}}</a></h4></div>
-            {% if page.sub-nav %}{% include {{page.lang}}/{{page.sub-nav}} %}{% endif %}
-        {% else %}
-        <div class="sub-page-title"><h4><a href="/{% if page.parent %}{{page.parent | downcase}}{% else %}{{page.categories | downcase}}{% endif %}">{{page.categories}}</a></h4></div>
-            {% if page.sub-nav %}{% include {{page.sub-nav}} %}{% endif %}
-        {% endif %}
+        {% if page.sub-nav %}{% include {{page.sub-nav}} %}{% endif %}
     </div>
 </div>
 <div class="container">

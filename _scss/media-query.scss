@@ -244,10 +244,10 @@
     margin-left: 0;
   }
   .content {
-    margin-top: -8px;
+    margin-top: -16px;
     padding-left: 32px;
   }
-  .pin-spacer {
+  .container .pin-spacer {
     float: left;
   }
   .navbar-toggle {
@@ -284,15 +284,6 @@
   }
   .navbar-collapse.in {
     overflow-y: visible;
-  }
-  .navbar-fixed-top .navbar-collapse,
-  .navbar-static-top .navbar-collapse,
-  .navbar-fixed-bottom .navbar-collapse {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .sub-navbar-right {
-    margin-top: 16px;
   }
   .container > .navbar-header,
   .container-fluid > .navbar-header,
@@ -560,7 +551,7 @@
     width: 24% !important;
   }
   .sidebar {
-    margin-top: 56px;
+    margin-top: 48px;
   }
   .video-container iframe,
   .video-container object,
