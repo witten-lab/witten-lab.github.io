@@ -5,7 +5,8 @@
     display: block;
     float: none;
     width: auto;
-    margin-top: 0;
+    margin-top: 0px;
+    margin-left: 16px;
     padding: 0;
     background-color: transparent;
     border: none;
@@ -16,6 +17,16 @@
     font-size: 14px;
     padding: 8px 0 8px 16px;
   }
+  .navbar-collapse {
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid $divider-color;
+    padding-top: 8px;
+    margin-bottom: 8px;
+  }
+  .navbar-collapse.in {
+    overflow-y: auto;
+  }
   .navbar-collapse .nav > li > a {
     padding: 8px 16px;
   }
@@ -25,11 +36,6 @@
   .nav li,
   .nav .list-group {
     margin-bottom: 0px;
-  }
-  .navbar-right .nav {
-    height: calc(100vh - 72px);
-    overflow-x: hidden;
-    margin-top: 16px;
   }
   .visible-xs {
     display: block !important;
@@ -270,11 +276,6 @@
   }
   .navbar-header {
     float: left;
-  }
-  .navbar-collapse {
-    width: auto;
-    border-top: 0;
-    box-shadow: none;
   }
   .navbar-collapse.collapse {
     display: block !important;
