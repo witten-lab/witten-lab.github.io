@@ -48,23 +48,12 @@
     })
 }(jQuery, window);
 
-window.onload = function() {
-
+window.onload = function () {
     $('#nav-icon').click(function () {
         $(this).toggleClass('open');
     });
 
     gsap.registerPlugin(ScrollTrigger);
-
-    gsap.to(".sub-header", {
-        scrollTrigger: {
-            trigger: ".sub-header",
-            start: "top",
-            end: $(".footer-area").position().top + "px",
-            pin: true,
-            pinSpacing: false,
-        },
-    });
 
     if (window.location.hash) scrollTo(window.location.hash);
 
@@ -80,6 +69,16 @@ window.onload = function() {
     }
 
     if (matchMedia("screen and (min-width: 1024px)").matches) {
+        gsap.to(".sub-header", {
+            scrollTrigger: {
+                trigger: ".sub-header",
+                start: "top",
+                end: $(".footer-area").position().top + "px",
+                pin: true,
+                pinSpacing: false,
+            },
+        });
+
         gsap.to(".sidebar", {
             scrollTrigger: {
                 trigger: ".sidebar",
