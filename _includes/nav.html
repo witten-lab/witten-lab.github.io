@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="/">Witten Lab</a>
-            <div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="navbar-toggle">
                 <div id="nav-icon">
                     <span></span>
                     <span></span>
@@ -10,11 +10,11 @@
                 </div>
             </div>
         </div>
-        <div id="nav-mobile" class="navbar-collapse collapse navbar-right">
+        <div id="nav-mobile" class="navbar-collapse">
             <ul class="nav">
                 <li {% if page.categories=="Superstring" %}class="active" {% endif %}><a href="/superstring" data-hover="dropdown"><img src="{{site.cloudinary}}/superstring/icon" alt="Superstring">Superstring</a>
                     <!--
-                    <ul class="dropdown-menu list-group">
+                    <ul class="dropdown-menu">
                         <li><a href="/superstring">Overview</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="/superstring/download">Download</a></li>
@@ -29,7 +29,7 @@
                 </li>
                 <li {% if page.categories=="Membrane" %}class="active" {% endif %}><a href="/membrane" data-hover="dropdown"><img src="{{site.cloudinary}}/membrane/icon" alt="Membrane">Membrane</a>
                     <!--
-                    <ul class="dropdown-menu list-group">
+                    <ul class="dropdown-menu">
                         <li><a href="/membrane">Overview</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="/membrane/download">Download</a></li>

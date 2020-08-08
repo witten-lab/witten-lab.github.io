@@ -20,14 +20,11 @@
     overflow-x: visible;
     -webkit-overflow-scrolling: touch;
     border-top: 1px solid $divider-color;
-    padding-top: 8px;
-    margin-bottom: 8px;
-  }
-  .navbar-collapse.in {
-    overflow-y: auto;
-  }
-  .dropdown-menu .divider {
+    padding: 8px 0;
     display: none;
+  }
+  .show {
+    display: block !important;
   }
   .visible-xs {
     display: block !important;
