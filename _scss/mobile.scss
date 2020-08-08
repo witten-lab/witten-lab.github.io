@@ -1,0 +1,80 @@
+@media (max-width: 1023px) {
+  .nav .dropdown-menu {
+    position: static;
+    display: block;
+    float: none;
+    width: auto;
+    margin-top: 0px;
+    margin-left: 16px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  .nav .dropdown-menu > li > a,
+  .nav .dropdown-menu .dropdown-header {
+    font-size: 14px;
+    padding: 8px 0 8px 16px;
+  }
+  .navbar-collapse {
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid $divider-color;
+    padding-top: 8px;
+    margin-bottom: 8px;
+  }
+  .navbar-collapse.in {
+    overflow-y: auto;
+  }
+  .navbar-collapse .nav > li > a {
+    padding: 8px 16px;
+  }
+  .dropdown-menu .divider {
+    display: none;
+  }
+  .nav li,
+  .nav .list-group {
+    margin-bottom: 0px;
+  }
+  .visible-xs {
+    display: block !important;
+  }
+  .hidden-xs {
+    display: none !important;
+  }
+  table.visible-xs {
+    display: table;
+  }
+  tr.visible-xs {
+    display: table-row !important;
+  }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+  .subscribe {
+    display: inline !important;
+    width: 50% !important;
+  }
+  .headerwrap .col-lg-6 {
+    text-align: center !important;
+    padding: 4px 0 !important;
+  }
+  .headerwrap .btn {
+    font-size: 12px;
+  }
+
+  .updates .col-lg-3 {
+    margin-left: 16px;
+    margin-bottom: 16px;
+  }
+
+  .outro .col-lg-2,
+  .outro .col-lg-5 {
+    text-align: center;
+  }
+
+  .sidebar {
+    margin-top: 24px;
+  }
+}
