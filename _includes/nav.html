@@ -10,12 +10,13 @@
                 </div>
             </div>
         </div>
-        <div class="navbar-collapse collapse navbar-right">
+        <div id="nav-mobile" class="navbar-collapse collapse navbar-right">
             <ul class="nav">
                 <li {% if page.categories=="Superstring" %}class="active" {% endif %}><a href="/superstring" data-hover="dropdown"><img src="{{site.cloudinary}}/superstring/icon" alt="Superstring">Superstring</a>
+                    <!--
                     <ul class="dropdown-menu list-group">
                         <li><a href="/superstring">Overview</a></li>
-                        <!--<li role="separator" class="divider"></li>-->
+                        <li role="separator" class="divider"></li>
                         <li><a href="/superstring/download">Download</a></li>
                         <li><a href="/superstring/pricing">Pricing</a></li>
                         <li><a href="/superstring/get-started">Get started</a></li>
@@ -24,11 +25,13 @@
                         <li><a href="/superstring/shortcuts">Shortcuts</a></li>
                         <li><a href="/superstring/updates">Updates</a></li>
                     </ul>
+                    -->
                 </li>
                 <li {% if page.categories=="Membrane" %}class="active" {% endif %}><a href="/membrane" data-hover="dropdown"><img src="{{site.cloudinary}}/membrane/icon" alt="Membrane">Membrane</a>
+                    <!--
                     <ul class="dropdown-menu list-group">
                         <li><a href="/membrane">Overview</a></li>
-                        <!--<li role="separator" class="divider"></li>-->
+                        <li role="separator" class="divider"></li>
                         <li><a href="/membrane/download">Download</a></li>
                         <li><a href="/membrane/pricing">Pricing</a></li>
                         <li><a href="/membrane/get-started">Get started</a></li>
@@ -37,14 +40,17 @@
                         <li><a href="/membrane/shortcuts">Shortcuts</a></li>
                         <li><a href="/membrane/updates">Updates</a></li>
                     </ul>
+                    -->
                 </li>
                 <li {% if page.categories=="Support" %}class="active" {% endif %}><a href="/support" data-hover="dropdown">Support</a>
+                    <!--
                     <ul class="dropdown-menu">
                         <li><a href="/support">About</a></li>
                         <li><a href="/support/contact">Contact</a></li>
                         <li><a href="/support/affiliates">Affiliates</a></li>
-                        <!--<li><a href="/support/blog">Blog</a></li>-->
+                        <li><a href="/support/blog">Blog</a></li>
                     </ul>
+                    -->
                 </li>
             </ul>
         </div>
