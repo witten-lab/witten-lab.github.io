@@ -23,6 +23,9 @@
     padding: 8px 0;
     display: none;
   }
+  .navbar-collapse .nav > li > a {
+    margin-left: 0;
+  }
   .show {
     display: block !important;
   }
@@ -46,25 +49,19 @@
     display: inline !important;
     width: 50% !important;
   }
-  .headerwrap .col-lg-6 {
-    text-align: center !important;
-    padding: 4px 0 !important;
-  }
-  .headerwrap .btn {
-    font-size: 12px;
-  }
-
   .updates .col-lg-3 {
     margin-left: 16px;
     margin-bottom: 16px;
   }
-
   .outro .col-lg-2,
   .outro .col-lg-5 {
     text-align: center;
   }
-
   .sidebar {
     margin-top: 24px;
+  }
+
+  .order-lg-2 {
+    width: 100%;
   }
 }

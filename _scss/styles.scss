@@ -946,21 +946,12 @@ select[multiple].input-lg {
   display: block;
 }
 
-.container > .navbar-header,
-.container-fluid > .navbar-header,
-.container > .navbar-collapse,
-.container-fluid > .navbar-collapse {
-  margin-right: -24px;
-  margin-left: -24px;
-}
-
 .navbar-brand {
   font-family: 'Google Sans', sans-serif;
   float: left;
   height: 56px;
-  padding: 16px 24px;
+  padding: 16px 0;
   font-size: 18px;
-  line-height: 26px;
 }
 
 .navbar-brand:hover,
@@ -1159,11 +1150,7 @@ select[multiple].input-lg {
   text-align: right;
 }
 
-.headerwrap {
-  font-size: 20px;
-}
-
-.headerwrap h2 {
+.tagline {
   font-size: 24px;
   color: $text-medium-emphasis-color;
   margin-top: 0px;
@@ -1207,7 +1194,6 @@ hr {
 .footer a,
 .footer a:active,
 .footer a:focus {
-  color: $text-medium-emphasis-color;
   font-size: 12px;
   padding: 0 0 4px 0;
   margin-left: 0;
@@ -1223,7 +1209,7 @@ hr {
 }
 
 #nav-icon {
-  margin: 22px 24px 0 0;
+  margin: 22px 0 0 0;
   width: 20px;
   height: 20px;
   position: relative;
