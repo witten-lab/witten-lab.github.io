@@ -12,7 +12,7 @@ window.onload = function () {
     sidebarItems.on("click", function (e) {
         scrollTo($(this).attr("href"));
     });
-
+0
     function scrollTo(target) {
         $("html").animate({
             scrollTop: $(target).offset().top - 32
