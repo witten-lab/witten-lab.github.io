@@ -1,25 +1,17 @@
-    <meta name="description" content="{{site.superstring.description_ko}}">
-    <meta name="keywords" content="superstring, membrane" />
-
-    <!-- Open Graph data -->
-    {% if page.post-title %}<meta property="og:title" content="{{page.post-title}}">
-    <meta property="og:site_name" content="{{site.superstring.title}}">
-    <meta property="og:url" content="{{site.url}}{{page.url}}">
-    <meta property="og:description" content="{{page.excerpt}}">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="{{site.url}}/{{page.image}}">
-    {% else %}<meta property="og:title" content="{{site.superstring.meta_title_ko}}">
-    <meta property="og:site_name" content="{{site.superstring.title}}">
-    <meta property="og:url" content="{{site.url}}{{page.url}}">
-    <meta property="og:description" content="{{site.superstring.description_ko}}">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="{{site.url}}/img/superstring/opengraph.jpg">{% endif %}
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@wittenlab">
-    <meta name="twitter:title" content="{{site.superstring.meta_title_ko}}">
-    <meta name="twitter:description" content="{{site.superstring.description_ko}}">
-    <meta name="twitter:image" content="{{site.url}}/img/superstring/opengraph.jpg">
-
-    <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
+<meta name="description" content="{{site.superstring.description_ko}}">
+<meta name="keywords" content="superstring, membrane"/>
+{% if page.post-title %}
+<meta property="og:title" content="{{page.post-title}}">
+<meta property="og:site_name" content="{{site.superstring.title}}">
+<meta property="og:url" content="{{site.url}}{{page.url}}">
+<meta property="og:description" content="{{page.excerpt}}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{site.url}}/{{page.image}}">
+{% else %}
+<meta property="og:title" content="{{site.superstring.meta_title_ko}}">
+<meta property="og:site_name" content="{{site.superstring.title}}">
+<meta property="og:url" content="{{site.url}}{{page.url}}">
+<meta property="og:description" content="{{site.superstring.description_ko}}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{site.url}}/img/superstring/opengraph.jpg">{% endif %}
+<title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
