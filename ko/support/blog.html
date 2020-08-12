@@ -10,7 +10,6 @@ ads: true
 {% if forloop.first == false %}<hr>{% endif %}
 <a href="{{post.url | prepend: site.url}}"><h4>{{post.post-title}}</h4></a>
 <small name="locale-date">{{post.date | date: "%b %-d, %Y"}}</small>
-<div class="spacing-sm"></div>
 {{post.excerpt}}
 {% endif %}{% endfor %}
 <script src="/js/locale-date.js"></script>

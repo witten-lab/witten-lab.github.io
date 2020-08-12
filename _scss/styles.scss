@@ -300,25 +300,14 @@ abbr[data-original-title] {
   margin-top: 8px;
 }
 
-.spacing-sm {
-  height: 8px;
-}
-
-.spacing-md {
-  height: 24px;
+.spacing {
+  clear: both;
+  height: 32px;
 }
 
 .spacing-padding {
   padding-top: 40px;
   padding-bottom: 24px;
-}
-
-.spacing-padding-bottom {
-  padding-bottom: 24px;
-}
-
-.spacing-padding-sm {
-  padding: 8px;
 }
 
 .col-xs-1,
