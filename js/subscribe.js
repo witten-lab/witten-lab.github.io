@@ -14,6 +14,6 @@ function submitForm() {
 }
 
 function onLoad() {
-    document.getElementById('form').setAttribute('style', 'display: none');
-    document.getElementById('thanks').setAttribute('style', 'display: block');
+    document.getElementById('form').setAttribute('style', 'display:none');
+    document.getElementById('thanks').setAttribute('style', 'display:block');
 }

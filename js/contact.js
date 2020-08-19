@@ -19,7 +19,7 @@ $(function () {
     if (query_string.message) document.getElementById('message').value = decodeURI(query_string.message);
     else if (query_string.messageplaceholder) document.getElementById('message').placeholder = decodeURI(query_string.messageplaceholder);
     if (query_string.product) document.getElementById('product').value = decodeURI(query_string.product);
-    if (query_string.options == "no") document.getElementById('options').setAttribute('style', 'display: none');
+    if (query_string.options == "no") document.getElementById('options').setAttribute('style', 'display:none');
 });
 
 $(document).on('click', '.dropdown-menu li a', function () {
@@ -31,7 +31,7 @@ function submitForm() {
     if (form.checkValidity()) {
         document.getElementById('subscription').value = document.getElementById('subscription').checked;
         document.getElementById('hiddenFrame').onload = onLoad();
-        document.getElementById('submitButton').setAttribute('style', 'opacity: .5');
+        document.getElementById('submitButton').setAttribute('style', 'opacity:.5');
         form.target = 'hiddenFrame';
         form.submit();
     }

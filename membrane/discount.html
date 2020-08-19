@@ -1,0 +1,32 @@
+---
+layout: page
+title: Renew
+categories: Membrane
+sub-nav: sub-nav-membrane.html
+---
+<div class="spacing"></div>
+<div class="col-lg-8 centered col-lg-offset-2">
+    <h2>Renew or add seats with a discount</h2>
+    <p>Enter your license key and get a discount.</p>
+</div>
+<div class="spacing"></div>
+<div class="col-lg-6 col-lg-offset-3">
+    <form id="form">
+        <div class="form-group">
+            <label>Email address *</label>
+            <input type="email" class="form-control" name="emailAddress" id="emailAddress" required>
+        </div>
+        <div class="form-group">
+            <label>License key *</label>
+            <input type="text" class="form-control" name="licenseKey" id="licenseKey" required>
+            <div id="error" style="display:none">
+                <p>Invalid license key</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn float-right" onclick="submitForm()" id="submitButton">Submit</button>
+        </div>
+    </form>
+    <iframe name="hiddenFrame" id="hiddenFrame" style="display:none"></iframe>
+    <script src="/js/discount.js"></script>
+</div>

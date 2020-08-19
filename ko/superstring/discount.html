@@ -1,0 +1,33 @@
+---
+lang: ko
+layout: page
+title: Renew
+categories: Superstring
+sub-nav: ko/sub-nav-superstring.html
+---
+<div class="spacing"></div>
+<div class="col-lg-8 centered col-lg-offset-2">
+    <h2>재구매 또는 추가 구매 할인</h2>
+    <p>라이센스 키를 입력하고 할인된 가격으로 구매하세요.</p>
+</div>
+<div class="spacing"></div>
+<div class="col-lg-6 col-lg-offset-3">
+    <form id="form">
+        <div class="form-group">
+            <label>이메일 주소 *</label>
+            <input type="email" class="form-control" name="emailAddress" id="emailAddress" required>
+        </div>
+        <div class="form-group">
+            <label>라이센스 키 *</label>
+            <input type="text" class="form-control" name="licenseKey" id="licenseKey" required>
+            <div id="error" style="display:none">
+                <p>잘못된 라이센스 키입니다.</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn float-right" onclick="submitForm()" id="submitButton">제출</button>
+        </div>
+    </form>
+    <iframe name="hiddenFrame" id="hiddenFrame" style="display:none"></iframe>
+    <script src="/js/discount.js"></script>
+</div>
