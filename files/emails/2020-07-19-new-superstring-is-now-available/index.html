@@ -14,7 +14,7 @@ layout: null
                             <hr style="background:rgba(0, 0, 0, .12);border:0;min-height:1px;margin:16px 0;min-height:1px">
                             <span style="color:rgba(0, 0, 0, .87);font-size:16px">What's new</span>
                             <ul style="color:rgba(0, 0, 0, .87);font-size:16px;line-height:28px;margin:8px 0 16px 0;word-wrap:break-word">
-                                {% for updates in site.superstring.latest_version.updates %}
+                                {% for updates in site.superstring.versions[0].updates %}
                                 <li>{{ updates.item }}</li>{% endfor %}
                             </ul>
                             <hr style="background:rgba(0, 0, 0, .12);border:0;min-height:1px;margin:16px 0;min-height:1px">

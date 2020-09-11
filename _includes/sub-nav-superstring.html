@@ -4,7 +4,7 @@
 <div class="sub-navbar-right">
     <ul class="nav">
         <li {% if page.title=="Overview" %}class="active" {% endif %}><a href="/superstring">Overview</a></li>
-        <!--<li {% if page.title=="Download" %}class="active" {% endif %}><a href="/superstring/download">Download</a></li>-->
+        <li class="hidden-mobile{% if page.title=="Download" %}active {% endif %}"><a href="/superstring/download">Download</a></li>
         <li {% if page.title=="Get started" %}class="active" {% endif %}><a href="/superstring/get-started">Get started</a></li>
         <li {% if page.title=="Pricing" %}class="active" {% endif %}><a href="/superstring/pricing">Pricing</a></li>
         <li {% if page.title=="FAQ" %}class="active" {% endif %}><a href="/superstring/faq">FAQ</a></li>

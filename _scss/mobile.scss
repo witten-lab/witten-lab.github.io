@@ -26,24 +26,11 @@
   .navbar-collapse .nav > li > a {
     margin-left: 0;
   }
-  .show {
+  .visible-mobile {
     display: block !important;
   }
-  .visible-xs {
-    display: block !important;
-  }
-  .hidden-xs {
+  .hidden-mobile {
     display: none !important;
-  }
-  table.visible-xs {
-    display: table;
-  }
-  tr.visible-xs {
-    display: table-row !important;
-  }
-  th.visible-xs,
-  td.visible-xs {
-    display: table-cell !important;
   }
   .subscribe {
     display: inline !important;
@@ -53,14 +40,9 @@
     margin-left: 16px;
     margin-bottom: 16px;
   }
-  .outro .col-lg-2,
-  .outro .col-lg-5 {
-    text-align: center;
-  }
   .sidebar {
     margin-top: 24px;
   }
-
   .order-lg-2 {
     width: 100%;
   }

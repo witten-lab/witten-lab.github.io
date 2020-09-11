@@ -1,7 +1,7 @@
 window.onload = function () {
     $('#nav-icon').click(function () {
         $(this).toggleClass('open');
-        $('#nav-mobile').toggleClass('show');
+        $('#nav-mobile').toggleClass('visible-mobile');
     });
 
     gsap.registerPlugin(ScrollTrigger);

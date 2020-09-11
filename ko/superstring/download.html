@@ -14,13 +14,13 @@ ads: true
     </div>-->
     <div class="spacing"></div>
     <img src="{{site.cloudinary}}/superstring/icon" width="128px" alt="Superstring">
-    <div class="visible-lg">
+    <div class="visible-desktop">
         <h2>다운로드 중…</h2>
         <div class="spacing"></div>
-        <p>다운로드가 자동으로 시작되지 않으면,<br><a href="{{site.superstring.latest_version.mac}}"><i class="ri-apple-fill"></i> Mac</a> 또는 <a href="{{site.superstring.latest_version.windows}}"><i class="ri-windows-fill"></i> Windows</a>를 위한 Superstring을 직접 다운로드 하세요.</p>
+        <p>다운로드가 자동으로 시작되지 않으면,<br><a href="{{site.superstring.versions[0].mac}}"><i class="ri-apple-fill"></i> Mac</a> 또는 <a href="{{site.superstring.versions[0].windows}}"><i class="ri-windows-fill"></i> Windows</a>를 위한 Superstring을 직접 다운로드 하세요.</p>
         <div class="spacing"></div>
     </div>
-    <div class="hidden-lg">
+    <div class="hidden-desktop">
         <div class="spacing"></div>
         <p><i class="ri-information-line"></i> Superstring은 Mac과 Windows를 지원하는 앱입니다.<br>Superstring을 다운로드하려면 Mac이나 Windows에서 이 URL을 방문하세요.</p>
     </div>
@@ -28,7 +28,7 @@ ads: true
 <script>
     fbq('track', 'Lead');
     $(document).ready(function() {
-        if (0 === navigator.platform.toUpperCase().indexOf("MAC")) document.getElementById('download').src = "{{site.superstring.latest_version.mac}}"
-        else if (0 === navigator.platform.toUpperCase().indexOf("WIN")) document.getElementById('download').src = "{{site.superstring.latest_version.windows}}";
+        if (0 === navigator.platform.toUpperCase().indexOf("MAC")) document.getElementById('download').src = "{{site.superstring.versions[0].mac}}"
+        else if (0 === navigator.platform.toUpperCase().indexOf("WIN")) document.getElementById('download').src = "{{site.superstring.versions[0].windows}}";
     });
 </script>

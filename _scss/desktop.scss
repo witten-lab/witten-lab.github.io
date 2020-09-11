@@ -398,21 +398,11 @@
   .col-lg-offset-0 {
     margin-left: 0;
   }
-  .visible-lg {
+  .visible-desktop {
     display: inline !important;
   }
-  .hidden-lg {
+  .hidden-desktop {
     display: none !important;
-  }
-  table.visible-lg {
-    display: table;
-  }
-  tr.visible-lg {
-    display: table-row !important;
-  }
-  th.visible-lg,
-  td.visible-lg {
-    display: table-cell !important;
   }
   .container {
     max-width: 960px;

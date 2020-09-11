@@ -133,10 +133,6 @@ input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-li {
-  margin-bottom: 8px;
-}
-
 textarea {
   overflow: auto;
 }
@@ -307,11 +303,16 @@ abbr[data-original-title] {
 
 .spacing {
   clear: both;
-  height: 32px;
+  height: 48px;
+}
+
+.spacing-large {
+  clear: both;
+  height: 64px;
 }
 
 .spacing-padding {
-  padding-top: 40px;
+  padding-top: 48px;
   padding-bottom: 24px;
 }
 
@@ -852,6 +853,10 @@ select[multiple].input-lg {
   left: auto;
 }
 
+.sidebar li {
+  margin-bottom: 8px;
+}
+
 .sidebar li .active {
   color: $primary-color;
 }
@@ -1113,10 +1118,8 @@ select[multiple].input-lg {
   clear: both;
 }
 
-.visible-xs,
-.visible-sm,
-.visible-md,
-.visible-lg {
+.visible-mobile,
+.visible-desktop {
   display: none !important;
 }
 
@@ -1130,11 +1133,6 @@ select[multiple].input-lg {
   color: $text-high-emphasis-variant-color;
   text-shadow: none;
   background: $text-medium-emphasis-color;
-}
-
-.height-96 {
-  height: 96px;
-  line-height: 96px;
 }
 
 .lefted {
@@ -1157,17 +1155,14 @@ select[multiple].input-lg {
   font-weight: normal;
 }
 
-.outro h1 {
-  font-size: 36px;
-  letter-spacing: -1px;
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-
 hr {
   border: 0;
   border-top: 1px solid $divider-color;
   margin: 24px 0;
+}
+
+#expired hr {
+  margin: 40px 0 -24px 0;
 }
 
 .anchor {
@@ -1197,14 +1192,6 @@ hr {
   padding: 0 0 4px 0;
   margin-left: 0;
   background-color: transparent;
-}
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  margin-bottom: 16px;
 }
 
 #nav-icon {
@@ -1281,6 +1268,10 @@ hr {
   margin-right: 8px;
 }
 
+.version {
+  margin-bottom: 2px;
+}
+
 #error {
   color: $error-color;
   font-size: 12px;
@@ -1288,7 +1279,11 @@ hr {
 }
 
 .video-container {
-  margin-bottom: 48px;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 16px;
 }
 
 .video-container iframe,
@@ -1299,4 +1294,9 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.tutorial {
+  padding-bottom: 63.4%;
+  margin-bottom: 48px;
 }

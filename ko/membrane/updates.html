@@ -6,33 +6,31 @@ categories: Membrane
 sub-nav: ko/sub-nav-membrane.html
 ads: true
 ---
-<div class="spacing"></div>
-<div id="expired" style="display:none">
-    <div class="row">
-        <div class="col-lg-9">
-            <p><strong id="date"></strong>에 라이센스가 만료되어 <strong id="version"></strong> 이후 업데이트를 받을 수 없습니다. 다시 1년 동안 업데이트를 받으려면 라이센스를 재구매하세요.</p>
-        </div>
-        <div class="col-lg-3 righted">
-            <a href="/ko/membrane/discount" class="btn"><i class="ri-bank-card-2-line"></i>할인 재구매</a>
-        </div>
-    </div>
-    <hr>
+<div class="col-lg-3 sidebar">
+    <ul>
+        {% for version in site.membrane.versions %}
+        <li><a href="#{{version.versionNumber | replace:'.','_'}}">Version {{version.versionNumber}}</a></li>
+        {% endfor %}
+    </ul>
 </div>
-{% for versions in site.membrane_updates %}
-{% if forloop.first == false %}<hr>{% endif %}
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">버전 {{versions.version}}</h4>
-        <small name="locale-date">{{versions.release_date}}</small>
-        <br>
-        <small><a href="{{versions.mac}}">Mac</a>, <a href="{{versions.windows}}">Windows</a></small>
+<div class="col-lg-9 content">
+    <div id="expired" style="display:none">
+        <div class="spacing-large"></div>
+        <p><strong id="date"></strong>에 라이센스가 만료되어 <strong id="version"></strong> 이후 업데이트를 받을 수 없습니다. 다시 1년 동안 업데이트를 받으려면 라이센스를 재구매하세요.</p>
+        <a href="/ko/membrane/discount" class="btn"><i class="ri-bank-card-2-line"></i>재구매 할인</a>
+        <hr>
     </div>
-    <div class="col-lg-8">
-        <ul>{% for updates in versions.updates_ko %}
-            <li>{{updates.item}}</li>{% endfor %}
+    {% for version in site.membrane.versions %}
+    <div class="anchor" id="{{version.versionNumber | replace:'.','_'}}">
+        <h4 class="version">Membrane {{version.versionNumber}}</h4>
+        <p><small><a href="{{version.mac}}">Mac</a>, <a href="{{version.windows}}">Windows</a>&nbsp | &nbsp<span name="locale-date">{{version.release_date}}</span> 출시</small></p>
+        <ul>
+            {% for updates in version.updates_ko %}
+            <li>{{updates.update}}</li>
+            {% endfor %}
         </ul>
     </div>
+    {% endfor %}
 </div>
-{% endfor %}
-<script src="/js/locale-date.js"></script>
 <script src="/js/updates.js"></script>
+<script src="/js/locale-date.js"></script>

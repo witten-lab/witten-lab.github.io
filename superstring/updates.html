@@ -5,224 +5,30 @@ categories: Superstring
 sub-nav: sub-nav-superstring.html
 ads: true
 ---
-<div class="spacing"></div>
-<div id="expired" style="display:none">
-    <div class="row">
-        <div class="col-lg-9">
-            <p>Your license has expired on <strong id="date"></strong>, so you won't receive updates after <strong id="version"></strong>. Renew your license to receive updates for another 1 year.</p>
-        </div>
-        <div class="col-lg-3 righted">
-            <a href="/superstring/discount" class="btn"><i class="ri-bank-card-2-line"></i>Renew with a discount</a>
-        </div>
-    </div>
-    <hr>
+<div class="col-lg-3 sidebar">
+    <ul>
+        {% for version in site.superstring.versions %}
+        <li><a href="#{{version.versionNumber | replace:'.','_'}}">Version {{version.versionNumber}}</a></li>
+        {% endfor %}
+    </ul>
 </div>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version {{site.superstring.latest_version.version}}</h4>
-        <small name="locale-date">{{site.superstring.latest_version.release_date}}</small>
-        <br>
-        <small><a href="{{site.superstring.latest_version.mac}}">Mac</a>, <a href="{{site.superstring.latest_version.windows}}">Windows</a></small>
+<div class="col-lg-9 content">
+    <div id="expired" style="display:none">
+        <div class="spacing-large"></div>
+        <p>Your license has expired on <strong id="date"></strong>, so you won't receive updates after <strong id="version"></strong>. Renew your license to receive updates for another 1 year.</p>
+        <a href="/superstring/discount" class="btn"><i class="ri-bank-card-2-line"></i>Renew with a discount</a>
+        <hr>
     </div>
-    <div class="col-lg-8">
-        <ul>{% for updates in site.superstring.latest_version.updates %}
-            <li>{{updates.item}}</li>{% endfor %}
-        </ul>
-    </div>
-</div>
-<hr>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version 2020.6.21</h4>
-        <small name="locale-date">Jun 21, 2020</small>
-        <br>
-        <small><a href="https://wittenlab.com/files/superstring/Superstring2020.6.21.app.zip">Mac</a>, <a href="https://wittenlab.com/files/superstring/Superstring2020.6.21.exe.zip">Windows</a></small>
-    </div>
-    <div class="col-lg-8">
+    {% for version in site.superstring.versions %}
+    <div class="anchor" id="{{version.versionNumber | replace:'.','_'}}">
+        <h4 class="version">Superstring {{version.versionNumber}}</h4>
+        <p><small><a href="{{version.mac}}">Mac</a>, <a href="{{version.windows}}">Windows</a>&nbsp | &nbspReleased on <span name="locale-date">{{version.release_date}}</span></small></p>
         <ul>
-            <li>You can add background videos.</li>
-            <li>You can apply “3D rotation” to the text.</li>
-            <li>New text styles “Cover”, “Cube”, “Stamp”, “Uncover” have been added.</li>
-            <li>New fonts have been added.</li>
-            <li>The rendering quality has been improved.</li>
-            <li>The usability of the editor has been improved.</li>
-            <li>Minor issues have been fixed.</li>
+            {% for updates in version.updates %}
+            <li>{{updates.update}}</li>
+            {% endfor %}
         </ul>
     </div>
-</div>
-<hr>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version 3.9.3</h4>
-        <small name="locale-date">Mar 1, 2020</small>
-        <br>
-        <small><a href="https://wittenlab.com/files/superstring/Superstring3.9.3.app.zip">Mac</a>, <a href="https://wittenlab.com/files/superstring/Superstring3.9.3.exe.zip">Windows</a></small>
-    </div>
-    <div class="col-lg-8">
-        <ul>
-            <li>Adds a new “Canvas” feature</li>
-            <li>Adds a new “Frame” background style</li>
-            <li>Adds new “Blur”, “Pulse” background options</li>
-            <li>Adds a new “Damion” font</li>
-            <li>Improves the editor usability</li>
-            <li>Fixes minor issues</li>
-        </ul>
-    </div>
-</div>
-<hr>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version 3.8.5</h4>
-        <small name="locale-date">Jan 15, 2020</small>
-        <br>
-        <small><a href="https://wittenlab.com/files/superstring/Superstring3.8.5.app.zip">Mac</a>, <a href="https://wittenlab.com/files/superstring/Superstring3.8.5.exe.zip">Windows</a></small>
-    </div>
-    <div class="col-lg-8">
-        <ul>
-            <li>Adds new “Girassol”, “Righteous”, “Underwood Champion” fonts</li>
-            <li>Adds a “Pin sidebar” option in the settings</li>
-            <li>Improves the menu bar</li>
-            <li>Improves stability</li>
-            <li>Performance increase</li>
-        </ul>
-    </div>
-</div>
-<hr>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version 3.7.4</h4>
-        <small name="locale-date">Dec 20, 2019</small>
-        <br>
-        <small><a href="https://wittenlab.com/files/superstring/Superstring3.7.4.app.zip">Mac</a>, <a href="https://wittenlab.com/files/superstring/Superstring3.7.4.exe.zip">Windows</a></small>
-    </div>
-    <div class="col-lg-8">
-        <ul>
-            <li>Adds a new “Blur” text & background style</li>
-            <li>Wide text area</li>
-            <li>Improves stability</li>
-            <li>Performance increase</li>
-            <li>Fixes minor issues</li>
-        </ul>
-    </div>
-</div>
-<hr>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version 3.6.8</h4>
-        <small name="locale-date">Oct 8, 2019</small>
-        <br>
-        <small><a href="https://wittenlab.com/files/superstring/Superstring3.6.8.app.zip">Mac</a>, <a href="https://wittenlab.com/files/superstring/Superstring3.6.8.exe.zip">Windows</a></small>
-    </div>
-    <div class="col-lg-8">
-        <ul>
-            <li>Adds a new “Gmarket Sans” font</li>
-            <li>Adds new “Acceleration”, “Rotation” options</li>
-            <li>Improves the editor usability</li>
-            <li>Improves stability</li>
-        </ul>
-    </div>
-</div>
-<hr>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version 3.3.6</h4>
-        <small name="locale-date">Jul 1, 2019</small>
-        <br>
-        <small><a href="https://wittenlab.com/files/superstring/Superstring3.3.6.app.zip">Mac</a>, <a href="https://wittenlab.com/files/superstring/Superstring3.3.6.exe.zip">Windows</a></small>
-    </div>
-    <div class="col-lg-8">
-        <ul>
-            <li>Adds a zoom feature to the editor</li>
-            <li>Improves video quality</li>
-            <li>Fixes minor issues</li>
-        </ul>
-    </div>
-</div>
-<hr>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version 3.2.8</h4>
-        <small name="locale-date">Mar 1, 2019</small>
-        <br>
-        <small><a href="https://wittenlab.com/files/superstring/Superstring3.2.8.app.zip">Mac</a>, <a href="https://wittenlab.com/files/superstring/Superstring3.2.8.exe.zip">Windows</a></small>
-    </div>
-    <div class="col-lg-8">
-        <ul>
-            <li>Adds a new “GFS Neohellenic” font</li>
-            <li>Improves stability</li>
-            <li>Fixes minor issues</li>
-        </ul>
-    </div>
-</div>
-<hr>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version 3.2.4</h4>
-        <small name="locale-date">Nov 8, 2018</small>
-        <br>
-        <small><a href="https://wittenlab.com/files/superstring/Superstring3.2.4.app.zip">Mac</a>, <a href="https://wittenlab.com/files/superstring/Superstring3.2.4.exe.zip">Windows</a></small>
-    </div>
-    <div class="col-lg-8">
-        <ul>
-            <li>Adds new “Teko”, “Rasa” fonts</li>
-            <li>Fixes minor issues</li>
-        </ul>
-    </div>
-</div>
-<hr>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version 3.2.0</h4>
-        <small name="locale-date">Sep 4, 2018</small>
-        <br>
-        <small><a href="https://wittenlab.com/files/superstring/Superstring3.2.0.app.zip">Mac</a>, <a href="https://wittenlab.com/files/superstring/Superstring3.2.0.exe.zip">Windows</a></small>
-    </div>
-    <div class="col-lg-8">
-        <ul>
-            <li>Adds a new “Direction Sign” text style</li>
-            <li>Removes the preview when exporting to increase performance</li>
-            <li>Removes the background color to increase performance</li>
-            <li>Improves stability</li>
-            <li>Fixes minor issues</li>
-        </ul>
-    </div>
-</div>
-<hr>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version 3.1.6</h4>
-        <small name="locale-date">Aug 4, 2018</small>
-        <br>
-        <small><a href="https://wittenlab.com/files/superstring/Superstring3.1.6.app.zip">Mac</a>, <a href="https://wittenlab.com/files/superstring/Superstring3.1.6.exe.zip">Windows</a></small>
-    </div>
-    <div class="col-lg-8">
-        <ul>
-            <li>Adds new “Bebas Neue” font</li>
-            <li>Adds new “Dissolve” and “Ken Burns” text styles</li>
-            <li>Improves performance</li>
-            <li>Improves usability</li>
-            <li>Fixes minor issues</li>
-        </ul>
-    </div>
-</div>
-<hr>
-<div class="row updates">
-    <div class="col-lg-4">
-        <h4 name="version">Version 3.0.0</h4>
-        <small name="locale-date">Jul 1, 2018</small>
-        <br>
-        <small><a href="https://wittenlab.com/files/superstring/Superstring3.0.0.app.zip">Mac</a>, <a href="https://wittenlab.com/files/superstring/Superstring3.0.0.exe.zip">Windows</a></small>
-    </div>
-    <div class="col-lg-8">
-        <ul>
-            <li>Adds beautiful, free photos</li>
-            <li>Adds more effects</li>
-            <li>Adds new fonts</li>
-            <li>Supports .wav format</li>
-            <li>Improves performance</li>
-            <li>Improves stability</li>
-            <li>Fixes minor issues</li>
-        </ul>
-    </div>
+    {% endfor %}
 </div>
 <script src="/js/updates.js"></script>
