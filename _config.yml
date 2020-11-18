@@ -44,14 +44,20 @@ superstring:
     windows: https://wittenlab.com/files/superstring/Superstring2020.6.21.exe.zip
     updates:
     - update: You can add background videos.
-    - update: You can add a border and a shadow to the text.
-    - update: New font “Baloo”, “Jaldi” and “Lab Digital” has been added.
+    - update: You can apply “3D rotation” to the text.
+    - update: New text styles “Cover”, “Cube”, “Stamp”, “Uncover” have been added.
+    - update: New font group “Rounded” has been added.
+    - update: New fonts have been added.
+    - update: The rendering quality has been improved.
     - update: The usability of the editor has been improved.
     - update: Minor issues have been fixed.
     updates_ko:
-    - update: 타임스탬프 버튼으로 가사의 타이밍을 쉽게 맞출 수 있습니다.
-    - update: 텍스트에 테두리와 그림자를 적용할 수 있습니다.
-    - update: 새로운 폰트 “Baloo”, “Jaldi”, “LAB디지털”이 추가되었습니다.
+    - update: 배경에 비디오를 추가할 수 있습니다.
+    - update: 텍스트에 “3D 회전”을 적용할 수 있습니다.
+    - update: ”덮기”, “큐브”, “스탬프”, “당기기” 텍스트 스타일이 추가되었습니다.
+    - update: “라운드“ 폰트 그룹이 추가되었습니다.
+    - update: 새로운 폰트들이 추가되었습니다.
+    - update: 랜더링 품질이 향상되었습니다.
     - update: 에디터의 사용성이 개선되었습니다.
     - update: 사소한 오류들이 수정되었습니다.
   - versions:
