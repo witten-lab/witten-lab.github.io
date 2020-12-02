@@ -21,10 +21,10 @@ superstring:
   description_ko: Superstring은 멋진 리릭 비디오를 쉽게 만들 수 있는 Mac, Windows 앱입니다.
   versions:
   - version:
-    versionNumber: 2020.11.28
-    release_date: Nov 28, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring2020.11.28.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring2020.11.28.exe.zip
+    versionNumber: 2020.11.29
+    release_date: Nov 29, 2020
+    mac: https://wittenlab.com/files/superstring/Superstring2020.11.29.app.zip
+    windows: https://wittenlab.com/files/superstring/Superstring2020.11.29.exe.zip
     updates:
       - update: You can use Pexels video library.
       - update: New text styles “Chromatic Aberration”, “Pop” have been added.
