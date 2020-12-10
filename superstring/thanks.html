@@ -25,8 +25,24 @@ ads: true
     </div>
 </div>
 <script>
+    let time = new Date().getTime();
+
+    gtag('event', 'purchase', {
+        "transaction_id": time,
+        "value": 69.99,
+        "currency": "USD",
+        "items": [
+            {
+                "id": "wgfgE",
+                "name": "Superstring",
+                "quantity": 1,
+                "price": '69.99'
+            }
+        ]
+    });
+
     gtag('event', 'conversion', {
         'send_to': 'AW-979998714/Pt-0CL3jhesBEPqvptMD',
-        'transaction_id': 'wgfgE'
+        'transaction_id': time
     });
 </script>

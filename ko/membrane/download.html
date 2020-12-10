@@ -23,8 +23,11 @@ ads: true
     </div>
 </div>
 <script>
+    gtag('event', 'conversion', {
+        'send_to': 'AW-979998714/ADHaCNnxmO0BEPqvptMD'
+    });
     fbq('track', 'Lead');
-    $(document).ready(function() {
+    $(document).ready(function () {
         if (0 === navigator.platform.toUpperCase().indexOf("MAC")) document.getElementById('download').src = "{{site.membrane.versions[0].mac}}"
         else if (0 === navigator.platform.toUpperCase().indexOf("WIN")) document.getElementById('download').src = "{{site.membrane.versions[0].windows}}";
     });

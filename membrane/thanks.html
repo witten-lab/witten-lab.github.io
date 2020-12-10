@@ -2,7 +2,7 @@
 layout: page
 title: Thanks
 categories: Membrane
-sub-nav: sub-nav-superstring.html
+sub-nav: sub-nav-membrane.html
 ads: true
 ---
 <iframe id="download" src="" height="0" width="0" style="display:none"></iframe>
@@ -23,3 +23,25 @@ ads: true
     <div class="spacing"></div>
   </div>
 </div>
+<script>
+    let time = new Date().getTime();
+
+    gtag('event', 'purchase', {
+        "transaction_id": time,
+        "value": 69.99,
+        "currency": "USD",
+        "items": [
+            {
+                "id": "PmzHb",
+                "name": "Membrane",
+                "quantity": 1,
+                "price": '69.99'
+            }
+        ]
+    });
+
+    gtag('event', 'conversion', {
+        'send_to': 'AW-979998714/u4APCNH1mO0BEPqvptMD',
+        'transaction_id': time
+    });
+</script>
