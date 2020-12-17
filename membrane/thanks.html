@@ -24,10 +24,10 @@ ads: true
   </div>
 </div>
 <script>
-    let time = new Date().getTime();
+    const parameters = getParameters();
 
     gtag('event', 'purchase', {
-        "transaction_id": time,
+        "transaction_id": parameters.sale_id,
         "value": 69.99,
         "currency": "USD",
         "items": [
@@ -42,6 +42,6 @@ ads: true
 
     gtag('event', 'conversion', {
         'send_to': 'AW-979998714/u4APCNH1mO0BEPqvptMD',
-        'transaction_id': time
+        'transaction_id': parameters.sale_id
     });
 </script>
