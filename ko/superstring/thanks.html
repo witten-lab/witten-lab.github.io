@@ -26,24 +26,8 @@ ads: true
     </div>
 </div>
 <script>
-    const parameters = getParameters();
-
-    gtag('event', 'purchase', {
-        "transaction_id": parameters.sale_id,
-        "value": 69.99,
-        "currency": "USD",
-        "items": [
-            {
-                "id": "wgfgE",
-                "name": "Superstring",
-                "quantity": 1,
-                "price": '69.99'
-            }
-        ]
-    });
-
     gtag('event', 'conversion', {
         'send_to': 'AW-979998714/Pt-0CL3jhesBEPqvptMD',
-        'transaction_id': parameters.sale_id
+        'transaction_id': getParameters().sale_id
     });
 </script>
