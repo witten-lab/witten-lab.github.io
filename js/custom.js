@@ -32,6 +32,7 @@ window.onload = function () {
         }, 1000, "easeInOutExpo");
     }
 
+    //Desktop
     if (matchMedia("screen and (min-width: 1024px)").matches) {
         gsap.to(".sub-header", {
             scrollTrigger: {
