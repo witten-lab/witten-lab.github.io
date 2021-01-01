@@ -21,15 +21,17 @@ window.onload = function () {
 
     if (window.location.hash) scrollTo(window.location.hash);
 
-    const sidebarItems = $(".sidebar a");
-    sidebarItems.on("click", function (e) {
-        scrollTo($(this).attr("href"));
-    });
-0
     function scrollTo(target) {
         $("html").animate({
             scrollTop: $(target).offset().top - 32
         }, 1000, "easeInOutExpo");
+    }
+
+    const sidebarItems = $(".sidebar a");
+    if (sidebarItems.length) {
+        sidebarItems.on("click", function (e) {
+            scrollTo($(this).attr("href"));
+        });
     }
 
     //Desktop
@@ -44,32 +46,34 @@ window.onload = function () {
             },
         });
 
-        gsap.to(".sidebar", {
-            scrollTrigger: {
-                trigger: ".sidebar",
-                start: (-$(".navbar").outerHeight(true) - 32) + "px",
-                end: $(".content").height() - $(".navbar-header").height() - $(".sidebar").outerHeight(true) + "px",
-                pin: true,
-                pinSpacing: false,
-            },
-        });
-
-        const anchors = gsap.utils.toArray(".anchor");
-        let currentAnchor;
-
-        anchors.forEach((anchor, i) => {
-            ScrollTrigger.create({
-                trigger: anchor,
-                start: (-$(".navbar").outerHeight(true) - 32) + "px",
-                onToggle: self => self.isActive && setAnchor(anchor),
+        if (sidebarItems.length) {
+            gsap.to(".sidebar", {
+                scrollTrigger: {
+                    trigger: ".sidebar",
+                    start: (-$(".navbar").outerHeight(true) - 32) + "px",
+                    end: $(".content").height() - $(".navbar-header").height() - $(".sidebar").outerHeight(true) + "px",
+                    pin: true,
+                    pinSpacing: false,
+                }
             });
-        });
 
-        function setAnchor(newAnchor) {
-            if (newAnchor !== currentAnchor) {
-                $(sidebarItems[anchors.indexOf(currentAnchor)]).removeClass('active');
-                $(sidebarItems[anchors.indexOf(newAnchor)]).addClass('active');
-                currentAnchor = newAnchor;
+            const anchors = gsap.utils.toArray(".anchor");
+            let currentAnchor;
+
+            anchors.forEach((anchor, i) => {
+                ScrollTrigger.create({
+                    trigger: anchor,
+                    start: (-$(".navbar").outerHeight(true) - 32) + "px",
+                    onToggle: self => self.isActive && setAnchor(anchor),
+                });
+            });
+
+            function setAnchor(newAnchor) {
+                if (newAnchor !== currentAnchor) {
+                    $(sidebarItems[anchors.indexOf(currentAnchor)]).removeClass('active');
+                    $(sidebarItems[anchors.indexOf(newAnchor)]).addClass('active');
+                    currentAnchor = newAnchor;
+                }
             }
         }
     }
