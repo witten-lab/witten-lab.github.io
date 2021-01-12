@@ -21,21 +21,6 @@ superstring:
   description_ko: Superstring은 멋진 리릭 비디오를 쉽게 만들 수 있는 Mac, Windows 앱입니다.
   versions:
   - version:
-    versionNumber: 2021.1.18
-    release_date: Jan 18, 2021
-    mac: https://wittenlab.com/files/superstring/Superstring2021.1.18.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring2021.1.18.exe.zip
-    updates:
-      - update: You can apply “Skew” to the text.
-      - update: New font “Lacquer“, “Sedgwick Ave” has been added.
-      - update: The usability of the editor has been improved.
-      - update: Minor issues have been fixed.
-    updates_ko:
-      - update: 텍스트에 “기울리기”를 적용할 수 있습니다.
-      - update: 새로운 폰트 “Lacquer“, “Sedgwick Ave”이 추가되었습니다.
-      - update: 에디터의 사용성이 개선되었습니다.
-      - update: 사소한 오류들이 수정되었습니다.
-  - version:
     versionNumber: 2020.11.29
     release_date: Nov 29, 2020
     mac: https://wittenlab.com/files/superstring/Superstring2020.11.29.app.zip
