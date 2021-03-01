@@ -23,7 +23,7 @@ window.onload = function () {
 
     function scrollTo(target) {
         $("html").animate({
-            scrollTop: $(target).offset().top - 32
+            scrollTop: $(target).offset().top - 24
         }, 1000, "easeInOutExpo");
     }
 
@@ -36,9 +36,9 @@ window.onload = function () {
 
     //Desktop
     if (matchMedia("screen and (min-width: 1024px)").matches) {
-        gsap.to(".sub-header", {
+        gsap.to(".navbar", {
             scrollTrigger: {
-                trigger: ".sub-header",
+                trigger: ".navbar",
                 start: "top",
                 end: $(".footer-area").position().top + "px",
                 pin: true,
@@ -63,7 +63,7 @@ window.onload = function () {
             anchors.forEach((anchor, i) => {
                 ScrollTrigger.create({
                     trigger: anchor,
-                    start: (-$(".navbar").outerHeight(true) - 32) + "px",
+                    start: (-$(".navbar").outerHeight(true) - 24) + "px",
                     onToggle: self => self.isActive && setAnchor(anchor),
                 });
             });

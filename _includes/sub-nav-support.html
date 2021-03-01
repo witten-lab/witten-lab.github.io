@@ -1,10 +1,18 @@
+<!--
 <div class="sub-page-title" style="margin-left:0">
-    <h4><a href="/support">Support</a></h4>
+  <h4>{{page.title}}</h4>
 </div>
+-->
 <div class="sub-navbar-right">
-    <ul class="nav navbar-nav">
-        <li {% if page.title == "About" %}class="active" {% endif %}><a href="/support">About</a></li>
-        <li {% if page.title == "Contact" %}class="active" {% endif %}><a href="/support/contact">Contact</a></li>
-        <li {% if page.title == "Affiliates" %}class="active" {% endif %}><a href="/support/affiliates">Affiliates</a></li>
-    </ul>
+  <ul class="nav navbar-nav">
+    <li {% if page.title=="Contact" %}class="active" {% endif %}>
+      <a href="/support/contact">Contact</a>
+    </li>
+    <li {% if page.title=="Showcase" %}class="active" {% endif %}>
+      <a href="/superstring/showcase">Showcase</a>
+    </li>
+    <li {% if page.title=="Affiliates" %}class="active" {% endif %}>
+      <a href="/support/affiliates">Affiliates</a>
+    </li>
+  </ul>
 </div>

@@ -1,55 +1,33 @@
 <div class="navbar" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="/ko/superstring">Witten Lab</a>
-            <div class="navbar-toggle">
-                <div id="nav-icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/ko/superstring"><img src="{{site.cloudinary}}/superstring/icon" alt="Superstring" class="icon">Superstring</a>
+      <div class="navbar-toggle">
+        <div id="nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <div id="nav-mobile" class="navbar-collapse">
-            <ul class="nav">
-                <li {% if page.categories=="Superstring" %}class="active" {% endif %}><a href="/ko/superstring" data-hover="dropdown"><img src="{{site.cloudinary}}/superstring/icon" alt="Superstring">Superstring</a>
-                    <!--
-                    <ul class="dropdown-menu">
-                        <li><a href="/ko/superstring">개요</a></li>
-                        <li><a href="/ko/superstring/download">다운로드</a></li>
-                        <li><a href="/ko/superstring/pricing">가격</a></li>
-                        <li><a href="/ko/superstring/get-started">시작하기</a></li>
-                        <li><a href="/ko/superstring/faq">자주하는 질문</a></li>
-                        <li><a href="/ko/superstring/showcase">쇼케이스</a></li>
-                        <li><a href="/ko/superstring/shortcuts">단축키</a></li>
-                        <li><a href="/ko/superstring/updates">업데이트</a></li>
-                    </ul>
-                    -->
-                </li>
-                <li {% if page.categories=="Membrane" %}class="active" {% endif %}><a href="/ko/membrane" data-hover="dropdown"><img src="{{site.cloudinary}}/membrane/icon" alt="Membrane">Membrane</a>
-                    <!--
-                    <ul class="dropdown-menu">
-                        <li><a href="/ko/membrane">개요</a></li>
-                        <li><a href="/ko/membrane/download">다운로드</a></li>
-                        <li><a href="/ko/membrane/pricing">가격</a></li>
-                        <li><a href="/ko/membrane/get-started">시작하기</a></li>
-                        <li><a href="/ko/membrane/faq">자주하는 질문</a></li>
-                        <li><a href="/ko/membrane/showcase">쇼케이스</a></li>
-                        <li><a href="/ko/membrane/shortcuts">단축키</a></li>
-                        <li><a href="/ko/membrane/updates">업데이트</a></li>
-                    </ul>
-                    -->
-                </li>
-                <li {% if page.categories=="지원" %}class="active" {% endif %}><a href="/ko/support" data-hover="dropdown">지원</a>
-                    <!--
-                    <ul class="dropdown-menu">
-                        <li><a href="/ko/support">소개</a></li>
-                        <li><a href="/ko/support/contact">문의</a></li>
-                        <li><a href="/ko/support/affiliates">제휴 프로그램</a></li>
-                    </ul>
-                    -->
-                </li>
-            </ul>
-        </div>
+      </div>
     </div>
+    <div id="nav-mobile" class="navbar-collapse">
+      <ul class="nav">
+        <li {% if page.title=="개요" %}class="active" {% endif %}>
+          <a href="/ko/superstring" data-hover="dropdown">개요</a>
+        </li>
+        <li {% if page.title=="다운로드" %}class="active" {% endif %}>
+          <a href="/ko/superstring/download" data-hover="dropdown">다운로드</a>
+        </li>
+        <li {% if page.title=="가격" %}class="active" {% endif %}>
+          <a href="/ko/superstring/pricing" data-hover="dropdown">가격</a>
+        </li>
+        <li {% if page.categories=="학습" %}class="active" {% endif %}>
+          <a href="/ko/superstring/get-started" data-hover="dropdown">학습</a>
+        </li>
+        <li {% if page.categories=="지원" %}class="active" {% endif %}>
+          <a href="/ko/support/contact" data-hover="dropdown">지원</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>

@@ -41,10 +41,6 @@ i {
   vertical-align: middle;
 }
 
-h4 i {
-  font-size: 32px;
-}
-
 b,
 strong {
   font-weight: normal;
@@ -142,27 +138,19 @@ table {
   border-spacing: 0;
   background-color: transparent;
   margin-bottom: 20px;
-  border: 1px solid $divider-color;
 }
 
 th {
   font-size: 18px;
-  padding: 16px 12px;
+  padding: 8px 0;
   color: $text-high-emphasis-color;
   text-align: left;
 }
 
 td {
-  padding: 8px 12px;
+  padding: 8px 0;
   text-align: left;
-}
-
-td:first-child {
-  color: $text-high-emphasis-color;
-}
-
-tr:nth-child(even) {
-  background: $background-variant-color
+  border-bottom: 1px solid $divider-color;
 }
 
 input,
@@ -308,11 +296,6 @@ abbr[data-original-title] {
 .spacing-large {
   clear: both;
   height: 64px;
-}
-
-.spacing-padding {
-  padding-top: 48px;
-  padding-bottom: 24px;
 }
 
 .col-xs-1,
@@ -685,7 +668,7 @@ select[multiple].input-lg {
 }
 
 .icon {
-  margin-right: 4px;
+  margin-right: 6px;
   transform: $translateY;
   width: 32px;
 }
@@ -874,10 +857,15 @@ select[multiple].input-lg {
 .nav > li > a {
   font-size: 13px;
   line-height: 24px;
-  padding: 20px 2px 16px 2px;
-  margin-left: 20px;
+  padding: 16px 2px;
+  margin-left: 24px;
   position: relative;
   display: block;
+}
+
+.sub-header .nav > li > a {
+  font-size: 12px;
+  padding: 12px 2px;
 }
 
 .nav > li:first-child > a {
@@ -925,7 +913,10 @@ select[multiple].input-lg {
 }
 
 .navbar {
+  background-color: rgba(255, 255, 255, .87);
+  backdrop-filter: saturate(180%) blur(16px);
   border-bottom: 1px solid $divider-color;
+  z-index: 1;
 }
 
 .dropup .caret,
@@ -954,7 +945,7 @@ select[multiple].input-lg {
   font-family: 'Google Sans', sans-serif;
   float: left;
   height: 56px;
-  padding: 16px 0;
+  padding: 12px 0;
   font-size: 18px;
 }
 
@@ -965,8 +956,6 @@ select[multiple].input-lg {
 
 .sub-header {
   background-color: rgba(240, 240, 240, .6);
-  backdrop-filter: saturate(180%) blur(16px);
-  z-index: 1;
 }
 
 .sub-header .nav > .active > a {
@@ -975,14 +964,13 @@ select[multiple].input-lg {
 
 .sub-page-title {
   float: left;
-  margin-left: -8px;
 }
 
 .sub-page-title h4 {
-  font-family: 'Google Sans', sans-serif;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: normal;
   margin: 0;
-  line-height: 56px;
+  line-height: 48px;
 }
 
 .bottom-area {
