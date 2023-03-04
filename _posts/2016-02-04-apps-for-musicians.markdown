@@ -1,5 +1,7 @@
 ---
 layout: post
+title: Blog
+categories: support
 post-title: 6 Essential apps for musicians.
 image: img/superstring/facebook-thumb.png
 date: 2016-02-04 09:19:12

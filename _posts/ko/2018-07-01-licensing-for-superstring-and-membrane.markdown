@@ -4,7 +4,9 @@ layout: post
 title: 블로그
 categories: ko/support/
 post-title: Superstring 및 Membrane에 대한 라이센스
+image: img/superstring/facebook-thumb.png
 date: 2018-07-01 01:00:00
+published: false
 ---
 
 Witten Lab은 최근에 Superstring 3과 Membrane 2를 발표했습니다. 그리고 이제 업데이트 정책에 관한 더 나은 생각을 공유하고자 합니다.

@@ -3,7 +3,9 @@ layout: post
 title: Blog
 categories: support
 post-title: Sways is becoming Witten Lab
+image: img/superstring/facebook-thumb.png
 date: 2018-07-01 00:00:00
+published: false
 ---
 
 We started Sways(Simplest Ways) more than 4 years ago as the small team who built apps for Mac and Windows. Early in 2014, we launched our first app Superstring - Lyric video maker. in 2016, we launched our second app Membrane - cover image maker.

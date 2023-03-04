@@ -14,373 +14,175 @@ cloudinary: https://res.cloudinary.com/wittenlab/image/upload/q_auto,f_auto,dpr_
 
 superstring:
   title: Superstring
-  price: $69.99
+  price: $99.99
   meta_title: Superstring - Lyric video maker
   description: Superstring is a Mac & Windows app that lets you create lyric videos easily.
   meta_title_ko: Superstring - 리릭 비디오 제작 툴
   description_ko: Superstring은 멋진 리릭 비디오를 쉽게 만들 수 있는 Mac, Windows 앱입니다.
   versions:
-  - version:
-    versionNumber: 2021.2.8
-    release_date: FEb 8, 2021
-    mac: https://wittenlab.com/files/superstring/Superstring2021.2.8.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring2021.2.8.exe.zip
-    updates:
-      - update: You can export your Superstring data as .lrc or .srt.
-      - update: You can apply “Skew” to the text.
-      - update: New font “Lacquer“, “Sedgwick Ave” has been added.
-      - update: The usability of the editor has been improved.
-      - update: Minor issues have been fixed.
-    updates_ko:
-      - update: Superstring 데이터를 .lrc 또는 .srt 파일로 내보낼 수 있습니다.
-      - update: 텍스트에 “기울리기”를 적용할 수 있습니다.
-      - update: 새로운 폰트 “Lacquer“, “Sedgwick Ave”이 추가되었습니다.
-      - update: 에디터의 사용성이 개선되었습니다.
-      - update: 사소한 오류들이 수정되었습니다.
-  - version:
-    versionNumber: 2020.11.29
-    release_date: Nov 29, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring2020.11.29.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring2020.11.29.exe.zip
-    updates:
-      - update: You can use Pexels video library.
-      - update: New text styles “Chromatic Aberration”, “Pop” have been added.
-      - update: The rendering quality has been improved.
-      - update: Minor issues have been fixed.
-    updates_ko:
-      - update: Pexels 비디오 라이브러리를 사용할 수 있습니다.
-      - update: “색수차”, “팝” 텍스트 스타일이 추가되었습니다.
-      - update: 랜더링 품질이 향상되었습니다.
-      - update: 사소한 오류들이 수정되었습니다.
-  - version:
-    versionNumber: 2020.7.19
-    release_date: Jul 19, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring2020.7.19.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring2020.7.19.exe.zip
-    updates:
-    - update: You can align the timing of clips easily with the timestamp button.
-    - update: You can add a border and a shadow to the text.
-    - update: New font “Baloo”, “Jaldi” and “Lab Digital” has been added.
-    - update: The usability of the editor has been improved.
-    - update: Minor issues have been fixed.
-    updates_ko:
-    - update: 타임스탬프 버튼으로 가사의 타이밍을 쉽게 맞출 수 있습니다.
-    - update: 텍스트에 테두리와 그림자를 적용할 수 있습니다.
-    - update: 새로운 폰트 “Baloo”, “Jaldi”, “LAB디지털”이 추가되었습니다.
-    - update: 에디터의 사용성이 개선되었습니다.
-    - update: 사소한 오류들이 수정되었습니다.
-  - version:
-    versionNumber: 2020.6.21
-    release_date: Jun 21, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring2020.6.21.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring2020.6.21.exe.zip
-    updates:
-    - update: You can add background videos.
-    - update: You can apply “3D rotation” to the text.
-    - update: New text styles “Cover”, “Cube”, “Stamp”, “Uncover” have been added.
-    - update: New font group “Rounded” has been added.
-    - update: New fonts have been added.
-    - update: The rendering quality has been improved.
-    - update: The usability of the editor has been improved.
-    - update: Minor issues have been fixed.
-    updates_ko:
-    - update: 배경에 비디오를 추가할 수 있습니다.
-    - update: 텍스트에 “3D 회전”을 적용할 수 있습니다.
-    - update: ”덮기”, “큐브”, “스탬프”, “당기기” 텍스트 스타일이 추가되었습니다.
-    - update: “라운드“ 폰트 그룹이 추가되었습니다.
-    - update: 새로운 폰트들이 추가되었습니다.
-    - update: 랜더링 품질이 향상되었습니다.
-    - update: 에디터의 사용성이 개선되었습니다.
-    - update: 사소한 오류들이 수정되었습니다.
-  - versions:
-    versionNumber: 3.9.3
-    release_date: Mar 1, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring3.9.3.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.9.3.exe.zip
-    updates:
-    - update: Adds a new “Canvas” feature
-    - update: Adds a new “Frame” background style
-    - update: Adds new “Blur”, “Pulse” background options
-    - update: Adds a new “Damion” font
-    - update: Improves the editor usability
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 새로운 기능 “캔버스” 추가
-    - update: 새로운 백그라운드 스타일 “프레임” 추가
-    - update: 새로운 백그라운드 옵션 “블러”, “펄스” 추가
-    - update: 새로운 폰트 “Damion” 추가
-    - update: 에디터 사용성 개선
-    - update: 사소한 오류 수정
-  - versions:
-    versionNumber: 3.8.5
-    release_date: Jan 15, 2020
-    mac: https://wittenlab.com/files/superstring/Superstring3.8.5.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.8.5.exe.zip
-    updates:
-    - update: Adds new “Girassol”, “Righteous”, “Underwood Champion” fonts
-    - update: Adds a “Pin sidebar” option in the settings
-    - update: Improves the menu bar
-    - update: Improves stability
-    - update: Performance increase
-    updates_ko:
-    - update: 새로운 폰트 “Girassol”, “Righteous”, “Underwood Champion” 추가
-    - update: 셋팅에 “사이드바 고정” 옵션 추가
-    - update: 메뉴 바 사용성 개선
-    - update: 안정성 개선
-    - update: 작업 성능 향상
-  - versions:
-    versionNumber: 3.7.4
-    release_date: Dec 20, 2019
-    mac: https://wittenlab.com/files/superstring/Superstring3.7.4.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.7.4.exe.zip
-    updates:
-    - update: Adds a new “Blur” text & background style
-    - update: Wide text area
-    - update: Improves stability
-    - update: Performance increase
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 새로운 텍스트 & 백그라운드 스타일 “블러” 추가
-    - update: 넓어진 텍스트 영역
-    - update: 안정성 개선
-    - update: 작업 성능 향상
-    - update: 사소한 오류 수정
-  - versions:
-    versionNumber: 3.6.8
-    release_date: Oct 8, 2019
-    mac: https://wittenlab.com/files/superstring/Superstring3.6.8.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.6.8.exe.zip
-    updates:
-    - update: Adds a new “Gmarket Sans” font
-    - update: Adds new “Acceleration”, “Rotation” options
-    - update: Improves the editor usability
-    - update: Improves stability
-    updates_ko:
-    - update: 새로운 폰트 “지마켓 산스” 추가
-    - update: 새로운 옵션 “가속”, “회전” 추가
-    - update: 에디터 사용성 개선
-    - update: 안정성 개선
-  - versions:
-    versionNumber: 3.3.6
-    release_date: Jul 1, 2019
-    mac: https://wittenlab.com/files/superstring/Superstring3.3.6.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.3.6.exe.zip
-    updates:
-    - update: Adds a zoom feature to the editor
-    - update: Improves video quality
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 에디터 줌 기능 추가
-    - update: 비디오 화질 개선
-    - update: 사소한 오류 수정
-  - versions:
-    versionNumber: 3.3.0
-    release_date: May 12, 2019
-    mac: https://wittenlab.com/files/superstring/Superstring3.3.0.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.3.0.exe.zip
-    updates:
-    - update: Adds new “Abyssinica”, “Fondamento”, “Uncial Antiqua” fonts
-    - update: Removes “Seoul Hangang”, “Seoul Namsan” fonts due to memory problems
-    - update: Improves stability
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 새로운 폰트 “Abyssinica”, “Fondamento”, “Uncial Antiqua” 추가
-    - update: 메모리 문제로 인해 “Seoul Hangang”, “Seoul Namsan” 폰트 삭제
-    - update: 안정성 개선
-    - update: 사소한 오류 수정
-  - versions:
-    versionNumber: 3.2.8
-    release_date: Mar 1, 2019
-    mac: https://wittenlab.com/files/superstring/Superstring3.2.8.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.2.8.exe.zip
-    updates:
-    - update: Adds a new “GFS Neohellenic” font
-    - update: Improves stability
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 새로운 폰트 “GFS Neohellenic” 추가
-    - update: 안정성 개선
-    - update: 사소한 오류 수정
-  - versions:
-    versionNumber: 3.2.4
-    release_date: Nov 8, 2018
-    mac: https://wittenlab.com/files/superstring/Superstring3.2.4.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.2.4.exe.zip
-    updates:
-    - update: Adds new “Teko”, “Rasa” fonts
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 새로운 폰트 “Teko”, “Rasa” 추가
-    - update: 사소한 오류 수정
-  - versions:
-    versionNumber: 3.2.0
-    release_date: Sep 4, 2018
-    mac: https://wittenlab.com/files/superstring/Superstring3.2.0.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.2.0.exe.zip
-    updates:
-    - update: Adds a new “Direction Sign” text style
-    - update: Removes the preview when exporting to increase performance
-    - update: Removes the background color to increase performance
-    - update: Improves stability
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 새로운 텍스트 스타일 “방향 표지판” 추가
-    - update: 성능 향상을 위해 내보내기 시 미리보기 제거
-    - update: 성능 향상을 위해 배경 색 제거
-    - update: 안정성 개선
-    - update: 사소한 오류 수정
-  - versions:
-    versionNumber: 3.1.6
-    release_date: Aug 4, 2018
-    mac: https://wittenlab.com/files/superstring/Superstring3.1.6.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.1.6.exe.zip
-    updates:
-    - update: Adds new “Bebas Neue” font
-    - update: Adds new “Dissolve” and “Ken Burns” text styles
-    - update: Improves performance
-    - update: Improves usability
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 새로운 폰트 “Bebas Neue” 추가
-    - update: 새로운 텍스트 스타일 "디졸브", “켄 번즈” 추가
-    - update: 작업 성능 개선
-    - update: 사용성 개선
-    - update: 사소한 오류 수정
-  - versions:
-    versionNumber: 3.0.0
-    release_date: Jul 1, 2018
-    mac: https://wittenlab.com/files/superstring/Superstring3.0.0.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring3.0.0.exe.zip
-    updates:
-    - update: Adds beautiful, free photos
-    - update: Adds more effects
-    - update: Adds new fonts
-    - update: Supports .wav format
-    - update: Improves performance
-    - update: Improves stability
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 무료 이미지 라이브러리 추가
-    - update: 새로운 효과 추가
-    - update: 새로운 글꼴 추가
-    - update: .wav 형식 지원
-    - update: 작업 성능 개선
-    - update: 안정성 개선
-    - update: 사소한 오류 수정
-  - versions:
-    versionNumber: 2.9.91
-    release_date: Mar 28, 2018
-    mac: https://wittenlab.com/files/superstring/Superstring2.9.91.app.zip
-    windows: https://wittenlab.com/files/superstring/Superstring2.9.91.exe.zip
-    updates:
-      - update: Improves stability
-      - update: Fixes minor issues
-    updates_ko:
-      - update: 안정성 개선
-      - update: 사소한 오류 수정
-
-membrane:
-  title: Membrane
-  price: $69.99
-  meta_title: Membrane - Album artwork maker
-  description: Membrane is a Mac & Windows app that lets you create album artworks easily.
-  meta_title_ko: Membrane - 앨범 아트웍 제작 툴
-  description_ko: Membrane은 앨범 아트웍을 쉽게 만들 수 있는 Mac, Windows 앱입니다.
-  versions:
-  - version:
-    versionNumber: 2020.9.12
-    release_date: Sep 12, 2020
-    mac: https://wittenlab.com/files/membrane/Membrane2020.9.12.app.zip
-    windows: https://wittenlab.com/files/membrane/Membrane2020.9.12.exe.zip
-    updates:
-    - update: You can use Pexels image library.
-    - update: New font “Baloo”, “Jaldi” and “Lab Digital” has been added.
-    - update: The usability of the editor has been improved.
-    - update: Minor issues have been fixed.
-    updates_ko:
-    - update: Pexels 이미지 라이브러리를 사용할 수 있습니다.
-    - update: 새로운 폰트 “Baloo”, “Jaldi”, “LAB디지털”이 추가되었습니다.
-    - update: 에디터의 사용성이 개선되었습니다.
-    - update: 사소한 오류들이 수정되었습니다.
-  - version:
-    versionNumber: 2020.6.21
-    release_date: Jun 21, 2020
-    mac: https://wittenlab.com/files/membrane/Membrane2020.6.21.app.zip
-    windows: https://wittenlab.com/files/membrane/Membrane2020.6.21.exe.zip
-    updates:
-    - update: New fonts have been added.
-    - update: The usability of the editor has been improved.
-    - update: Minor issues have been fixed.
-    updates_ko:
-    - update: 새로운 폰트들이 추가되었습니다.
-    - update: 에디터의 사용성이 개선되었습니다.
-    - update: 사소한 오류들이 수정되었습니다.
-  - version:
-    versionNumber: 2.3.0
-    release_date: May 12, 2019
-    mac: https://wittenlab.com/files/membrane/Membrane2.3.0.app.zip
-    windows: https://wittenlab.com/files/membrane/Membrane2.3.0.exe.zip
-    updates:
-    - update: Adds new “Abyssinica”, “Fondamento”, “Uncial Antiqua” fonts
-    - update: Removes “Seoul Hangang”, “Seoul Namsan” fonts due to memory problems
-    - update: Improves stability
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 새로운 폰트 “Abyssinica”, “Fondamento”, “Uncial Antiqua” 추가
-    - update: 메모리 문제로 인해 “Seoul Hangang”, “Seoul Namsan” 폰트 삭제
-    - update: 안정성 개선
-    - update: 사소한 오류 수정
-  - version:
-    versionNumber: 2.2.0
-    release_date: Nov 8, 2018
-    mac: https://wittenlab.com/files/membrane/Membrane2.2.0.app.zip
-    windows: https://wittenlab.com/files/membrane/Membrane2.2.0.exe.zip
-    updates:
-    - update: Adds new “Teko”, “Rasa” fonts
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 새로운 폰트 “Teko”, “Rasa” 추가
-    - update: 사소한 오류 수정
-  - version:
-    versionNumber: 2.1.5
-    release_date: Aug 4, 2018
-    mac: https://wittenlab.com/files/membrane/Membrane2.1.5.app.zip
-    windows: https://wittenlab.com/files/membrane/Membrane2.1.5.exe.zip
-    updates:
-    - update: Adds new “Bebas Neue” font
-    - update: Improves usability
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 새로운 폰트 “Bebas Neue” 추가
-    - update: 사용성 개선
-    - update: 사소한 오류 수정
-  - version:
-    versionNumber: 2.0.0
-    release_date: Jul 1, 2018
-    mac: https://wittenlab.com/files/membrane/Membrane2.0.0.app.zip
-    windows: https://wittenlab.com/files/membrane/Membrane2.0.0.exe.zip
-    updates:
-    - update: Adds beautiful, free photos
-    - update: Adds more templates
-    - update: Adds new fonts
-    - update: Improves performance
-    - update: Improves stability
-    - update: Fixes minor issues
-    updates_ko:
-    - update: 무료 이미지 라이브러리 추가
-    - update: 새로운 템플릿 추가
-    - update: 새로운 글꼴 추가
-    - update: 작업 성능 개선
-    - update: 안정성 개선
-    - update: 사소한 오류 수정
-  - version:
-    versionNumber: 1.3.0
-    release_date: Mar 28, 2018
-    mac: https://wittenlab.com/files/membrane/Membrane1.3.0.app.zip
-    windows: https://wittenlab.com/files/membrane/Membrane1.3.0.exe.zip
-    updates:
-      - update: Improves stability
-      - update: Fixes minor issues
-    updates_ko:
-      - update: 안정성 개선
-      - update: 사소한 오류 수정
+    - version:
+      versionNumber: 2023.2.25
+      release_date: Feb 25, 2023
+      mac: https://wittenlab.com/files/superstring/Superstring2023.2.25.app.zip
+      windows: https://wittenlab.com/files/superstring/Superstring2023.2.25.exe.zip
+      updates:
+        - update: New effect styles “Black Hole”, “Fire“, “Spangles” have been added.
+        - update: You can change an audio file easily.
+        - update: Overall stability has been improved.
+        - update: The usability of the editor has been improved.
+        - update: Minor issues have been fixed.
+      updates_ko:
+        - update: 새로운 효과 스타일 “블랙홀“, “불“, “스팽글”이 추가되었습니다.
+        - update: 오디오 파일을 쉽게 변경할 수 있습니다.
+        - update: 전반적인 안정성이 향상되었습니다.
+        - update: 에디터의 사용성이 개선되었습니다.
+        - update: 사소한 오류들이 수정되었습니다.
+    - version:
+      versionNumber: 2022.12.16
+      release_date: Dec 16, 2022
+      mac: https://drive.google.com/uc?export=download&id=1BWhfimgOLwkrJWiY7TpRXGIUDeJkLTMD
+      windows: https://drive.google.com/uc?export=download&id=1BWd3igIk6dmpryxtuA7AR0stg7E15zLn
+      updates:
+        - update: You can use your device fonts.
+        - update: New Acceleration styles “Bounce”, “Elastic” have been added.
+        - update: The usability of the editor has been improved.
+        - update: Minor issues have been fixed.
+      updates_ko:
+        - update: 컴퓨터에 설치된 폰트를 사용할 수 있습니다.
+        - update: 새로운 가속 스타일 “Bounce”, “Elastic”이 추가되었습니다.
+        - update: 에디터의 사용성이 개선되었습니다.
+        - update: 사소한 오류들이 수정되었습니다.
+    - version:
+      versionNumber: 2022.9.12
+      release_date: Sep 12, 2022
+      mac: https://drive.google.com/uc?export=download&id=1BY8sNPj3_J1XI1EvDJpLbPttB7Rc04FK
+      windows: https://drive.google.com/uc?export=download&id=1BXT3gVNrgoFYzEARjtQxOL5uYrh4tEH2
+      updates:
+        - update: New effect styles “Camera Flash”, “Dust”, “Embers”, ”Glitter” have been added.
+        - update: The usability of the editor has been improved.
+        - update: Minor issues have been fixed.
+      updates_ko:
+        - update: 새로운 효과 스타일 “카메라 플래시”, “먼지”, “불씨”, "반짝반짝"이 추가되었습니다.
+        - update: 에디터의 사용성이 개선되었습니다.
+        - update: 사소한 오류들이 수정되었습니다.
+    - version:
+      versionNumber: 2022.3.30
+      release_date: Mar 30, 2022
+      mac: https://drive.google.com/uc?export=download&id=1BWlQ-3kTHQgPzVaTCvPK6Rx10c9J5hOD
+      windows: https://drive.google.com/uc?export=download&id=1BY7Wc_mXfyZ4PaAQqw_vMMwc-3T_2n8B
+      updates:
+        - update: You can adjust the video length.
+        - update: You can move an audio clip.
+        - update: Implemented support for Apple silicon (M1) Mac computers.
+        - update: The usability of the editor has been improved.
+        - update: Minor issues have been fixed.
+      updates_ko:
+        - update: 영상의 길이를 조절할 수 있습니다.
+        - update: 오디오 클립을 이동할 수 있습니다.
+        - update: Apple 실리콘(M1) Mac 컴퓨터를 지원합니다.
+        - update: 에디터의 사용성이 개선되었습니다.
+        - update: 사소한 오류들이 수정되었습니다.
+    - version:
+      versionNumber: 2021.10.21
+      release_date: Oct 21, 2021
+      mac: https://drive.google.com/uc?export=download&id=1jKyrIw_lATmcKM3W_B-6P0XR27kHouWC
+      windows: https://drive.google.com/uc?export=download&id=1jDJ7hnW2BCWR-xwnk2LGteAbY8PSX-Wx
+      updates:
+        - update: New font “Padauk“, “Rampart One“ has been added.
+        - update: Overall stability has been improved.
+        - update: The usability of the editor has been improved.
+        - update: Minor issues have been fixed.
+      updates_ko:
+        - update: 새로운 폰트 “Padauk“, “Rampart One“이 추가되었습니다.
+        - update: 전반적인 안정성이 향상되었습니다.
+        - update: 에디터의 사용성이 개선되었습니다.
+        - update: 사소한 오류들이 수정되었습니다.
+    - version:
+      versionNumber: 2021.5.30
+      release_date: May 30, 2021
+      mac: https://drive.google.com/uc?export=download&id=1j7inSXivchnMsa-qbL0TwxX09wkY3_fc
+      windows: https://drive.google.com/uc?export=download&id=1jIfL3yxW-MsV3atFC5FfhcvijCeO2ToU
+      updates:
+        - update: New effect styles “Rain”, “Snow”, “Starfield” have been added.
+        - update: New font “Bungee“, “Londrina“, “Rajdhani“ has been added.
+        - update: You can apply “Background Color” to the text.
+        - update: The usability of the editor has been improved.
+        - update: Minor issues have been fixed.
+      updates_ko:
+        - update: 새로운 효과 스타일 “비”, “눈”, “우주”이 추가되었습니다.
+        - update: 새로운 폰트 “Bungee“, “Londrina“, “Rajdhani“가 추가되었습니다.
+        - update: 텍스트에 “배경 색상”을 적용할 수 있습니다.
+        - update: 에디터의 사용성이 개선되었습니다.
+        - update: 사소한 오류들이 수정되었습니다.
+    - version:
+      versionNumber: 2021.2.8
+      release_date: FEb 8, 2021
+      mac: https://drive.google.com/uc?export=download&id=1jAH-M5AOrc7Ar4W8WnOW4Rpj5oRAMtIv
+      windows: https://drive.google.com/uc?export=download&id=1jL0Im-N2KyZXJ_vUpYhO1CteqTtC6iek
+      updates:
+        - update: You can export your Superstring data as .lrc or .srt.
+        - update: You can apply “Skew” to the text.
+        - update: New font “Lacquer“, “Sedgwick Ave” has been added.
+        - update: The usability of the editor has been improved.
+        - update: Minor issues have been fixed.
+      updates_ko:
+        - update: Superstring 데이터를 .lrc 또는 .srt 파일로 내보낼 수 있습니다.
+        - update: 텍스트에 “기울리기”를 적용할 수 있습니다.
+        - update: 새로운 폰트 “Lacquer“, “Sedgwick Ave”이 추가되었습니다.
+        - update: 에디터의 사용성이 개선되었습니다.
+        - update: 사소한 오류들이 수정되었습니다.
+    - version:
+      versionNumber: 2020.11.29
+      release_date: Nov 29, 2020
+      mac: https://drive.google.com/uc?export=download&id=1jFZVnnTTYIouIEz-cfE5iRnENPSisrn_
+      windows: https://drive.google.com/uc?export=download&id=1jIuawUkYIZKEtzO-T8-gIeZ15RCldEVz
+      updates:
+        - update: You can use Pexels video library.
+        - update: New text styles “Chromatic Aberration”, “Pop” have been added.
+        - update: The rendering quality has been improved.
+        - update: Minor issues have been fixed.
+      updates_ko:
+        - update: Pexels 비디오 라이브러리를 사용할 수 있습니다.
+        - update: “색수차”, “팝” 텍스트 스타일이 추가되었습니다.
+        - update: 랜더링 품질이 향상되었습니다.
+        - update: 사소한 오류들이 수정되었습니다.
+    - version:
+      versionNumber: 2020.7.19
+      release_date: Jul 19, 2020
+      mac: https://drive.google.com/uc?export=download&id=1jIa3_lWni7Ufg5ahtaPTygGlyUwxHYWZ
+      windows: https://drive.google.com/uc?export=download&id=1jEukDkUx2yqgJestcfQLCRH1zYASfM6_
+      updates:
+        - update: You can align the timing of clips easily with the timestamp button.
+        - update: You can add a border and a shadow to the text.
+        - update: New font “Baloo”, “Jaldi” and “Lab Digital” has been added.
+        - update: The usability of the editor has been improved.
+        - update: Minor issues have been fixed.
+      updates_ko:
+        - update: 타임스탬프 버튼으로 가사의 타이밍을 쉽게 맞출 수 있습니다.
+        - update: 텍스트에 테두리와 그림자를 적용할 수 있습니다.
+        - update: 새로운 폰트 “Baloo”, “Jaldi”, “LAB디지털”이 추가되었습니다.
+        - update: 에디터의 사용성이 개선되었습니다.
+        - update: 사소한 오류들이 수정되었습니다.
+    - version:
+      versionNumber: 2020.6.21
+      release_date: Jun 21, 2020
+      mac: https://drive.google.com/uc?export=download&id=1j7YpqAuX8VxPI9gdibWMkWsmD6_U9Kh4
+      windows: https://drive.google.com/uc?export=download&id=1j9qVBu8AkqXqoThhxCRh1OvQHnfecUr-
+      updates:
+        - update: You can add background videos.
+        - update: You can apply “3D rotation” to the text.
+        - update: New text styles “Cover”, “Cube”, “Stamp”, “Uncover” have been added.
+        - update: New font group “Rounded” has been added.
+        - update: New fonts have been added.
+        - update: The rendering quality has been improved.
+        - update: The usability of the editor has been improved.
+        - update: Minor issues have been fixed.
+      updates_ko:
+        - update: 배경에 비디오를 추가할 수 있습니다.
+        - update: 텍스트에 “3D 회전”을 적용할 수 있습니다.
+        - update: ”덮기”, “큐브”, “스탬프”, “당기기” 텍스트 스타일이 추가되었습니다.
+        - update: “라운드“ 폰트 그룹이 추가되었습니다.
+        - update: 새로운 폰트들이 추가되었습니다.
+        - update: 랜더링 품질이 향상되었습니다.
+        - update: 에디터의 사용성이 개선되었습니다.
+        - update: 사소한 오류들이 수정되었습니다.

@@ -8,6 +8,6 @@ ads: true
 {% for post in site.posts %}{% if post.lang == null %}
 <a href="{{post.url | prepend: site.url}}"><h4>{{post.post-title}}</h4></a>
 <small>{{post.date | date: "%b %-d, %Y"}}</small>
-{{post.excerpt}}
+<p>{{post.excerpt | strip_html | truncatewords: 24, '...'}}</p>
 {% if forloop.last == false %}<hr>{% endif %}
 {% endif %}{% endfor %}

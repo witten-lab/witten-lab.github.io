@@ -4,7 +4,9 @@ layout: post
 title: 블로그
 categories: ko/support/
 post-title: Sways가 이제 Witten Lab이 됩니다.
+image: img/superstring/facebook-thumb.png
 date: 2018-07-01 00:00:00
+published: false
 ---
 
 Mac, Windows 앱을 개발하는 소규모 팀으로 4년 전 Sways(Simplest Ways)가 시작되었습니다. 2014년 초 Sways는 첫 번째 앱 Superstring - 리릭 비디오 에디터를 출시했습니다. 그리고 2016년에 두 번째 앱인 Membrane - 커버 이미지 에디터를 출시했습니다.

@@ -1,10 +1,10 @@
 <meta name="description" content="{{site.superstring.description_ko}}">
-<meta name="keywords" content="superstring, membrane"/>
+<meta name="keywords" content="리릭 비디오, 리릭 비디오 제작, 리릭 비디오 에디터, 리릭 비디오 메이커, 리릭 비디오 앱, 수퍼스트링, 슈퍼스트링, Superstring"/>
 {% if page.post-title %}
 <meta property="og:title" content="{{page.post-title}}">
 <meta property="og:site_name" content="{{site.superstring.title}}">
 <meta property="og:url" content="{{site.url}}{{page.url}}">
-<meta property="og:description" content="{{page.excerpt}}">
+<meta property="og:description" content="{{page.excerpt | strip_html | truncatewords: 24, '...'}}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{site.url}}/{{page.image}}">
 {% else %}

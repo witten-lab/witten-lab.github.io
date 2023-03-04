@@ -3,7 +3,9 @@ layout: post
 title: Blog
 categories: support
 post-title: Licensing for Superstring and Membrane
+image: img/superstring/facebook-thumb.png
 date: 2018-07-01 01:00:00
+published: false
 ---
 
 We've recently released Superstring 3 and Membrane 2.
