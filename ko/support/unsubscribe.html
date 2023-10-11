@@ -15,7 +15,7 @@ ads: true
     <p>Witten Lab 뉴스레터에서 수신 거부할 이메일을 입력하세요.</p>
 </div>
 <div class="spacing"></div>
-<form id="form" action="https://script.google.com/macros/s/AKfycbyVYXJOQbqH3qk1DF_pI4T020pN8DJFAWTWhiKaHcdJ14ZhuBgz719COZQjLcrUjh1c7w/exec" method="GET">
+<form id="form" action="{{site.subscription}}" method="GET">
     <input type="email" class="form-control subscribe" name="emailAddress" id="emailAddress" placeholder="이메일 주소" required>
     <button type="submit" class="btn" onclick="submitForm()">수신 거부</button>
 </form>
