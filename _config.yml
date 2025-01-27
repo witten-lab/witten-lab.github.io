@@ -84,8 +84,8 @@ superstring:
     - version:
       versionNumber: 2022.12.16
       release_date: Dec 16, 2022
-      mac: https://drive.google.com/uc?export=download&id=1BWhfimgOLwkrJWiY7TpRXGIUDeJkLTMD
-      windows: https://drive.google.com/uc?export=download&id=1BWd3igIk6dmpryxtuA7AR0stg7E15zLn
+      mac: https://drive.google.com/file/d/1BWhfimgOLwkrJWiY7TpRXGIUDeJkLTMD
+      windows: https://drive.google.com/file/d/1BWd3igIk6dmpryxtuA7AR0stg7E15zLn
       updates:
         - update: You can use your device fonts.
         - update: New Acceleration styles “Bounce”, “Elastic” have been added.
@@ -99,8 +99,8 @@ superstring:
     - version:
       versionNumber: 2022.9.12
       release_date: Sep 12, 2022
-      mac: https://drive.google.com/uc?export=download&id=1BY8sNPj3_J1XI1EvDJpLbPttB7Rc04FK
-      windows: https://drive.google.com/uc?export=download&id=1BXT3gVNrgoFYzEARjtQxOL5uYrh4tEH2
+      mac: https://drive.google.com/file/d/1BY8sNPj3_J1XI1EvDJpLbPttB7Rc04FK
+      windows: https://drive.google.com/file/d/1BXT3gVNrgoFYzEARjtQxOL5uYrh4tEH2
       updates:
         - update: New effect styles “Camera Flash”, “Dust”, “Embers”, ”Glitter” have been added.
         - update: The usability of the editor has been improved.
@@ -112,8 +112,8 @@ superstring:
     - version:
       versionNumber: 2022.3.30
       release_date: Mar 30, 2022
-      mac: https://drive.google.com/uc?export=download&id=1BWlQ-3kTHQgPzVaTCvPK6Rx10c9J5hOD
-      windows: https://drive.google.com/uc?export=download&id=1BY7Wc_mXfyZ4PaAQqw_vMMwc-3T_2n8B
+      mac: https://drive.google.com/file/d/1BWlQ-3kTHQgPzVaTCvPK6Rx10c9J5hOD
+      windows: https://drive.google.com/file/d/1BY7Wc_mXfyZ4PaAQqw_vMMwc-3T_2n8B
       updates:
         - update: You can adjust the video length.
         - update: You can move an audio clip.
@@ -129,8 +129,8 @@ superstring:
     - version:
       versionNumber: 2021.10.21
       release_date: Oct 21, 2021
-      mac: https://drive.google.com/uc?export=download&id=1jKyrIw_lATmcKM3W_B-6P0XR27kHouWC
-      windows: https://drive.google.com/uc?export=download&id=1jDJ7hnW2BCWR-xwnk2LGteAbY8PSX-Wx
+      mac: https://drive.google.com/file/d/1jKyrIw_lATmcKM3W_B-6P0XR27kHouWC
+      windows: https://drive.google.com/file/d/1jDJ7hnW2BCWR-xwnk2LGteAbY8PSX-Wx
       updates:
         - update: New font “Padauk“, “Rampart One“ has been added.
         - update: Overall stability has been improved.
@@ -144,8 +144,8 @@ superstring:
     - version:
       versionNumber: 2021.5.30
       release_date: May 30, 2021
-      mac: https://drive.google.com/uc?export=download&id=1j7inSXivchnMsa-qbL0TwxX09wkY3_fc
-      windows: https://drive.google.com/uc?export=download&id=1jIfL3yxW-MsV3atFC5FfhcvijCeO2ToU
+      mac: https://drive.google.com/file/d/1j7inSXivchnMsa-qbL0TwxX09wkY3_fc
+      windows: https://drive.google.com/file/d/1jIfL3yxW-MsV3atFC5FfhcvijCeO2ToU
       updates:
         - update: New effect styles “Rain”, “Snow”, “Starfield” have been added.
         - update: New font “Bungee“, “Londrina“, “Rajdhani“ has been added.
@@ -161,8 +161,8 @@ superstring:
     - version:
       versionNumber: 2021.2.8
       release_date: FEb 8, 2021
-      mac: https://drive.google.com/uc?export=download&id=1jAH-M5AOrc7Ar4W8WnOW4Rpj5oRAMtIv
-      windows: https://drive.google.com/uc?export=download&id=1jL0Im-N2KyZXJ_vUpYhO1CteqTtC6iek
+      mac: https://drive.google.com/file/d/1jAH-M5AOrc7Ar4W8WnOW4Rpj5oRAMtIv
+      windows: https://drive.google.com/file/d/1jL0Im-N2KyZXJ_vUpYhO1CteqTtC6iek
       updates:
         - update: You can export your Superstring data as .lrc or .srt.
         - update: You can apply “Skew” to the text.
@@ -178,8 +178,8 @@ superstring:
     - version:
       versionNumber: 2020.11.29
       release_date: Nov 29, 2020
-      mac: https://drive.google.com/uc?export=download&id=1jFZVnnTTYIouIEz-cfE5iRnENPSisrn_
-      windows: https://drive.google.com/uc?export=download&id=1jIuawUkYIZKEtzO-T8-gIeZ15RCldEVz
+      mac: https://drive.google.com/file/d/1jFZVnnTTYIouIEz-cfE5iRnENPSisrn_
+      windows: https://drive.google.com/file/d/1jIuawUkYIZKEtzO-T8-gIeZ15RCldEVz
       updates:
         - update: You can use Pexels video library.
         - update: New text styles “Chromatic Aberration”, “Pop” have been added.
@@ -193,8 +193,8 @@ superstring:
     - version:
       versionNumber: 2020.7.19
       release_date: Jul 19, 2020
-      mac: https://drive.google.com/uc?export=download&id=1jIa3_lWni7Ufg5ahtaPTygGlyUwxHYWZ
-      windows: https://drive.google.com/uc?export=download&id=1jEukDkUx2yqgJestcfQLCRH1zYASfM6_
+      mac: https://drive.google.com/file/d/1jIa3_lWni7Ufg5ahtaPTygGlyUwxHYWZ
+      windows: https://drive.google.com/file/d/1jEukDkUx2yqgJestcfQLCRH1zYASfM6_
       updates:
         - update: You can align the timing of clips easily with the timestamp button.
         - update: You can add a border and a shadow to the text.
@@ -210,8 +210,8 @@ superstring:
     - version:
       versionNumber: 2020.6.21
       release_date: Jun 21, 2020
-      mac: https://drive.google.com/uc?export=download&id=1j7YpqAuX8VxPI9gdibWMkWsmD6_U9Kh4
-      windows: https://drive.google.com/uc?export=download&id=1j9qVBu8AkqXqoThhxCRh1OvQHnfecUr-
+      mac: https://drive.usercontent.google.com/download?id=1j7YpqAuX8VxPI9gdibWMkWsmD6_U9Kh4
+      windows: https://drive.usercontent.google.com/download?id=1j9qVBu8AkqXqoThhxCRh1OvQHnfecUr-
       updates:
         - update: You can add background videos.
         - update: You can apply “3D rotation” to the text.
