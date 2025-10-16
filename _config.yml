@@ -1,5 +1,5 @@
-url: https://wittenlab.com
-enforce_ssl: wittenlab.com
+url: https://witten-lab.github.io
+enforce_ssl: witten-lab.github.io
 permalink: /:categories/:title
 sass:
   sass_dir: _scss
@@ -8,7 +8,7 @@ sass:
 title: Witten Lab
 description: We make things as simple as possible.
 
-subscription: https://script.google.com/a/macros/wittenlab.com/s/AKfycby1ECiw2eMp9hsbAhWOxxCedo0vCDY1OL4rubzxAE5c_8T_vB7QydLKZhNEnoM6NEL_ig/exec
+subscription: https://script.google.com/a/macros/witten-lab.github.io/s/AKfycby1ECiw2eMp9hsbAhWOxxCedo0vCDY1OL4rubzxAE5c_8T_vB7QydLKZhNEnoM6NEL_ig/exec
 
 superstring:
   title: Superstring
@@ -21,8 +21,8 @@ superstring:
     - version:
       versionNumber: 2023.8.1
       release_date: Aug 1, 2023
-      mac: https://wittenlab.com/files/superstring/Superstring2023.8.1.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring2023.8.1.exe.zip
+      mac: https://witten-lab.github.io/files/superstring/Superstring2023.8.1.app.zip
+      windows: https://witten-lab.github.io/files/superstring/Superstring2023.8.1.exe.zip
       updates:
         - update: The usability of the user interface has been improved.
         - update: Overall stability has been improved.
@@ -34,8 +34,8 @@ superstring:
     - version:
       versionNumber: 2023.7.2
       release_date: Jul 2, 2023
-      mac: https://wittenlab.com/files/superstring/Superstring2023.7.2.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring2023.7.2.exe.zip
+      mac: https://witten-lab.github.io/files/superstring/Superstring2023.7.2.app.zip
+      windows: https://witten-lab.github.io/files/superstring/Superstring2023.7.2.exe.zip
       updates:
         - update: New effect option “Pulse” has been added.
         - update: New Background option “Color” has been added.
@@ -49,8 +49,8 @@ superstring:
     - version:
       versionNumber: 2023.5.1
       release_date: May 1, 2023
-      mac: https://wittenlab.com/files/superstring/Superstring2023.5.1.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring2023.5.1.exe.zip
+      mac: https://witten-lab.github.io/files/superstring/Superstring2023.5.1.app.zip
+      windows: https://witten-lab.github.io/files/superstring/Superstring2023.5.1.exe.zip
       updates:
         - update: New effect options “Color”, “Capacity“ have been added.
         - update: Overall performance has been improved.
@@ -64,8 +64,8 @@ superstring:
     - version:
       versionNumber: 2023.2.25
       release_date: Feb 25, 2023
-      mac: https://wittenlab.com/files/superstring/Superstring2023.2.25.app.zip
-      windows: https://wittenlab.com/files/superstring/Superstring2023.2.25.exe.zip
+      mac: https://witten-lab.github.io/files/superstring/Superstring2023.2.25.app.zip
+      windows: https://witten-lab.github.io/files/superstring/Superstring2023.2.25.exe.zip
       updates:
         - update: New effect styles “Black Hole”, “Fire“, “Spangles” have been added.
         - update: You can change an audio file easily.
